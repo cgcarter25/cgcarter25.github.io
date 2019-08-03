@@ -1,0 +1,36 @@
+
+h1 {
+   font: 50px Raleway, sans-serif;
+   color: #5bb363;
+   letter-spacing: 5px;
+   text-align: center;
+}
+
+h2 {
+   font: 700 20px Raleway, sans-serif;
+   text-align: center;
+   letter-spacing: 2px;
+}
+
+h3 {
+   font: 700 16px Raleway, sans-serif;
+   background-color: #ffefdfaa;
+   text-align: center;
+   letter-spacing: 5px;
+}
+
+.slider {
+   font-family: sans-serif;
+   scroll-snap-type: x mandatory;
+   display: flex;
+   -webkit-overflow-scrolling: touch;
+   overflow-x: scroll;
+}
+
+section {
+   min-width: 100vw;
+   height: 100vh;
+   scroll-snap-align: start;
+   text-align: center;
+   position: relative;
+}
