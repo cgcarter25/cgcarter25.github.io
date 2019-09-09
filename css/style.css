@@ -9,3 +9,7 @@
    margin: auto;
    bottom: 15vh;
 }
+
+.first-nav {
+   transform: rotate(-90deg);
+}
