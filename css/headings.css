@@ -1,17 +1,1 @@
 
-h1 {
-   font: 50px Raleway, sans-serif;
-   text-align: center;
-}
-
-h2 {
-   font: 500 20px Raleway, sans-serif;
-   text-align: center;
-   transform: rotate(90deg);
-}
-
-h3 {
-   font: 700 16px Raleway, sans-serif;
-   text-align: center;
-   letter-spacing: 5px;
-}
