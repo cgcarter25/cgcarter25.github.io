@@ -1,14 +1,9 @@
-#caroline-carter {
-   font: 700 25px Raleway, sans-serif;
+#caroline {
+   font: 700 25px Roboto, sans-serif;
 }
 
 #home-page {
    background-color: white;
-}
-
-#caroline {
-   position: relative;
-   top: 0;
 }
 
 #home-container {
@@ -21,7 +16,7 @@
 }
 
 .first-nav {
-   font-size: 32px;
+   font-size: 300px;
    color: white;
    position: relative;
    margin: 20px;
