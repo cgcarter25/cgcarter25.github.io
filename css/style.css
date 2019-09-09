@@ -21,12 +21,13 @@
 }
 
 .first-nav {
-   font-size: 12px;
+   font-size: 32px;
    color: white;
    position: relative;
    margin: 20px;
    top: 246px;
-   transform: rotate(90deg);
+   transform: rotate(-90deg);
+   transform-origin: center;
 }
 
 .carousel-heading {
