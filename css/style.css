@@ -3,21 +3,12 @@
    color: #5bb363;
 }
 
-.studio-art {
-   background-color: #ffefdf;
+#home-page {
+   background-color: white;
 }
 
 .design {
    background-color: #ffefdf;
-}
-
-#home-background {
-   background-image: linear-gradient(#ffefdf, #ffefdf);
-   background-repeat: no-repeat;
-   background-attachment: fixed;
-   background-position: center;
-   width: 100vw;
-   height: 100vh;
 }
 
 #home-image {
