@@ -6,8 +6,7 @@
    display: flex;
    position: relative;
    justify-content: space-between;
-   margin: auto;
-   bottom: 15vh;
+   bottom: 5vh;
 }
 
 .first-nav {
