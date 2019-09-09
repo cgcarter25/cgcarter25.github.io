@@ -1,28 +1,6 @@
-:root {
-   --grid-column: 60px;                                        /* 60px */
-   --grid-gutter: calc(var(--grid-column) / 3);                /* 20px */
-   --grid-unit: calc(var(--grid-column) + var(--grid-gutter)); /* 80px */
+/* :root {
+   --grid-column: 60px;
+   --grid-gutter: calc(var(--grid-column) / 3);
+   --grid-unit: calc(var(--grid-column) + var(--grid-gutter));
    --leading: 22px;
-}
-
-body {
-   font: 16px Raleway, sans-serif;
-   line-height: 1.5;
-}
-
-a:link {
-   text-decoration: none;
-   color: #111;
-}
-
-a:visited {
-   color: #111;
-}
-
-a:hover {
-   color: #8b008b;
-}
-
-a:active {
-   color: #5b4dB3;
-}
+} */

@@ -1,20 +1,9 @@
 #caroline-carter {
    font: 700 25px Raleway, sans-serif;
-   color: #5bb363;
 }
 
 #home-page {
    background-color: white;
-}
-
-.design {
-   background-color: #ffefdf;
-}
-
-#home-image {
-   position: relative;
-   top: 10vh;
-   left: 13.5vw;
 }
 
 #caroline {
@@ -32,261 +21,12 @@
 }
 
 .first-nav {
-   font-size: 22px;
-   color: #5bb363;
+   font-size: 12px;
+   color: white;
    position: relative;
    margin: 20px;
    top: 246px;
-}
-
-#portrait-lc-container {
-   display: flex;
-   justify-content: center;
-   top: -40px;
-}
-
-#invasion-haunted-container {
-   display: flex;
-   justify-content: center;
-   top: 200px;
-}
-
-#portrait-nav {
-   border-radius: 20px;
-   position: relative;
-   background: #ffefdfaa;
-   z-index: 10;
-   top: 330px;
-   left: 96px;
-   padding: 10px;
-   width: 188px;
-}
-
-#portrait-box {
-   width: 300px;
-   right: 50px;
-}
-
-#loose-change-box {
-   width: 300px;
-   top: 80px;
-   left: 80px;
-}
-
-#loose-change-nav {
-   border-radius: 20px;
-   position: relative;
-   background: #ffefdfaa;
-   z-index: 10;
-   top: 114px;
-   left: 17px;
-   padding: 10px;
-   width: 150px;
-}
-
-#invasion-box {
-   position: relative;
-   width: 300px;
-   top: 140px;
-   left: 40px;
-}
-
-#invasion-nav {
-   border-radius: 20px;
-   position: relative;
-   background: #ffefdfaa;
-   z-index: 10;
-   top: 110px;
-   left: 35px;
-   padding: 10px;
-   width: 88px;
-}
-
-#haunted-box {
-   position: relative;
-   width: 400px;
-   height: 400px;
-   left: 30px;
-}
-
-#haunted-nav {
-   border-radius: 20px;
-   position: relative;
-   background: #ffefdfaa;
-   z-index: 10;
-   top: 237px;
-   left: 114px;
-   padding: 10px;
-   width: 80px;
-}
-
-#bc-post-fb-yoga-container {
-   display: flex;
-   justify-content: center;
-   top: -30px;
-}
-
-#id-white-px-extra-container {
-   display: flex;
-   justify-content: center;
-   top: 50px;
-}
-
-#bc-nav {
-   border-radius: 20px;
-   position: relative;
-   background: #ffefdfaa;
-   z-index: 10;
-   top: 115px;
-   left: 25px;
-   padding: 10px;
-   width: 130px;
-}
-
-#bc-box {
-   width: 300px;
-   left: 250px;
-}
-
-#post-box {
-   width: 300px;
-   top: -38px;
-   left: 180px;
-}
-
-#post-nav {
-   border-radius: 20px;
-   position: relative;
-   background: #ffefdfaa;
-   z-index: 10;
-   top: 80px;
-   left: -32px;
-   padding: 10px;
-   width: 150px;
-}
-
-#fb-nav {
-   border-radius: 20px;
-   position: relative;
-   background: #ffefdfaa;
-   z-index: 10;
-   top: 120px;
-   left: 18px;
-   padding: 10px;
-   width: 138px;
-}
-
-#fb-box {
-   width: 300px;
-   top: 50px;
-   right: 20px;
-}
-
-#yoga-nav {
-   border-radius: 20px;
-   position: relative;
-   background: #ffefdfaa;
-   z-index: 10;
-   top: 80px;
-   left: 12px;
-   padding: 10px;
-   width: 60px;
-}
-
-#yoga-box {
-   width: 300px;
-   top: 8px;
-   left: -58px;
-}
-
-#id-box {
-   position: relative;
-   width: 300px;
-   top: 180px;
-   left: 340px;
-}
-
-#id-nav {
-   border-radius: 20px;
-   position: relative;
-   background: #ffefdfaa;
-   z-index: 10;
-   top: 80px;
-   left: -5px;
-   padding: 10px;
-   width: 88px;
-}
-
-#white-box {
-   position: relative;
-   width: 400px;
-   top: 20px;
-   left: 180px;
-}
-
-#white-nav {
-   border-radius: 20px;
-   position: relative;
-   background: #ffefdfaa;
-   z-index: 10;
-   top: 112px;
-   left: 44px;
-   padding: 10px;
-   width: 80px;
-}
-
-#px-box {
-   position: relative;
-   width: 300px;
-   top: 100px;
-   left: 40px;
-}
-
-#px-nav {
-   border-radius: 20px;
-   position: relative;
-   background: #ffefdfaa;
-   z-index: 10;
-   top: 130px;
-   left: 45px;
-   padding: 10px;
-   width: 88px;
-}
-
-#extra-box {
-   position: relative;
-   width: 400px;
-   height: 400px;
-   left: -70px;
-}
-
-#extra-nav {
-   border-radius: 20px;
-   text-align: center;
-   position: relative;
-   background: #ffefdfaa;
-   z-index: 10;
-   top: 95px;
-   left: -1px;
-   padding: 10px;
-   width: 120px;
-}
-
-div {
-   position: relative;
-}
-
-footer > img {
-   transition: 500ms;
-   opacity: 1;
-}
-
-footer:hover > img:last-of-type {
-   opacity: 0;
-}
-
-img {
-   position: absolute;
+   transform: rotate(90deg);
 }
 
 .carousel-heading {
@@ -310,7 +50,6 @@ img {
 .phone-gallery {
    position: relative;
 }
-
 
 input[type=text], select, textarea {
   width: 100%; /* Full width */
