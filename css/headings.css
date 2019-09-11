@@ -1,9 +1,13 @@
 h1 {
    font-family: Roboto, sans-serif;
-   font-size: 50px;
+   font-size: 100px;
 }
 
 h2 {
    font-family: Roboto, sans-serif;
    font-size: 50px;
+}
+
+body {
+   display: block;
 }
