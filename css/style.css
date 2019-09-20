@@ -4,19 +4,28 @@
    width: 100vw;
 }
 
+#home-nav {
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+   flex-direction: column;
+   -webkit-box-pack: justify;
+   height: 100%;
+   width: 100%;
+}
+
 #home-container {
+   height: 80vh;
+   width: 100vw;
    position: relative;
 }
 
 #home-box {
    position: absolute;
-   bottom: -80vh;
-   right: -15vw;
-   display: flex;
-   justify-content: space-around;
+   transform: rotate(-90deg);
+   bottom: 0;
+   right: 0;
 }
 
 .first-nav {
-   transform: rotate(-90deg);
-   transform-origin: left;
+   vertical-align: baseline;
 }
