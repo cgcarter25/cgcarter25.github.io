@@ -1,11 +1,22 @@
 h1 {
-   font-family: Roboto, sans-serif;
+   font-family: Montserrat, sans-serif;
    font-size: 100px;
+   text-align: center;
+   margin-top: 5%;
+   margin-bottom: 1%;
 }
 
 h2 {
-   font-family: Roboto, sans-serif;
-   font-size: 70px;
+   font-family: 700 Montserrat, sans-serif;
+   font-size: 30px;
+   text-align: center;
+   margin-bottom: 3%;
+}
+
+h3 {
+   font-family: Montserrat, sans-serif;
+   font-size: 16px;
+   color: white;
 }
 
 body {

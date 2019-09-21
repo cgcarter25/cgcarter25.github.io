@@ -1,19 +1,74 @@
-#home-page {
-   background-color: white;
-   display: flex 1 100%;
-   height: 100vh;
-   width: 100vw;
-   flex-flow: row wrap;
-}
-
-#home-page > * {
-   padding: 10px;
-   flex: 1 100%;
-}
-
 #home-box {
-   transform: rotate(-90deg);
-   /* transform-origin: left; */
+   display: flex;
+   /* justify-content: space-around; */
+   flex-wrap: wrap;
+   align-content: flex-start;
+   margin: auto;
+}
+
+.home-image {
+   z-index: 1;
+   width: 300px;
+   height: 300px;
+   position: relative;
+}
+
+.hide-image {
+   z-index: 10;
+   width: 300px;
+   height: 300px;
+   background: #444444aa;
+   position: absolute;
+}
+
+.home-container {
+   position: relative;
+   display: flex;
+   justify-content: space-around;
+   margin: 15px;
+}
+
+.home-container:hover .hide-image {
+   opacity: 0;
+   transition: .5s ease;
+}
+
+.home-caption {
+   z-index: 20;
+   text-align: center;
+   position: absolute;
    align-self: flex-end;
-   margin-bottom: 70px;
+   padding-bottom: 10px;
+   padding-top: 5px;
+   width: 300px;
+   background: #444444;
+}
+
+.home-design {
+   font-family: 'Montserrat', sans-serif;
+   color: white;
+}
+
+#annual-report-hide {
+   background: #224444aa;
+}
+
+#annual-report-caption {
+   background: #224444;
+}
+
+#book-cover-hide {
+   background: #8b4e00aa;
+}
+
+#book-cover-caption {
+   background: #8b4e00;
+}
+
+#be-an-advocate-hide {
+   background: #8b4e00aa;
+}
+
+#be-an-advocate-caption {
+   background: #8b4e00;
 }

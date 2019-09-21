@@ -1,0 +1,4 @@
+html {
+   width: calc(9 * var(--grid-unit));
+   margin: 0 auto;
+}
