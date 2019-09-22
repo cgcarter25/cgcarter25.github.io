@@ -40,17 +40,18 @@ a:active {
 
 footer {
    text-align: center;
-   background-color: #00b98f;
+   background-color: #00b98faa;
    margin-top: 3%;
 }
 
 .footer-container {
-   display: block;
+   display: flex;
+   justify-content: center;
    padding-bottom: 20px;
 }
 
 .footer {
-   font: 30px Montserrat, sans serif;
+   font: 20px Montserrat, sans serif;
    color: #ffebdf;
    padding: 0 15px;
 }

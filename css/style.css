@@ -51,7 +51,7 @@ html {
 .home-design {
    font-family: 'Montserrat', sans-serif;
    margin-top: 4px;
-   color: white;
+   color: #ffebdf;
 }
 
 #annual-report-hide {
@@ -101,5 +101,18 @@ html {
    margin-bottom: 5%;
    text-align: center;
    font: 20px Montserrat, 'sans serif';
-   color: #8b4e00;
+   color: #a28200;
+}
+
+.blurb {
+   font: 16px Montserrat, 'sans serif';
+   color: #ffebdf;
+   padding: 2% 0;
+}
+
+.blurb-guy {
+   font: 16px Montserrat, 'sans serif';
+   text-align: right;
+   color: #ffebdf;
+   padding: 2% 0;
 }
