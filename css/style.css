@@ -120,5 +120,15 @@ html {
 iframe {
    margin-left: auto;
    margin-right: auto;
-   padding-top: 4%;
+   padding: 4% 0;
+}
+
+#white-process {
+   display: flex;
+   justify-content: space-around;
+}
+
+.white-images {
+   width: 400px;
+   height: 300px;
 }
