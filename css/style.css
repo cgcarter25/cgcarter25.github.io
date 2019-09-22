@@ -107,7 +107,7 @@ html {
 .blurb {
    font: 16px Montserrat, 'sans serif';
    color: #ffebdf;
-   padding: 2% 0;
+   padding: 2% 10%;
 }
 
 .blurb-guy {
@@ -115,4 +115,10 @@ html {
    text-align: right;
    color: #ffebdf;
    padding: 2% 0;
+}
+
+iframe {
+   margin-left: auto;
+   margin-right: auto;
+   padding-top: 4%;
 }
