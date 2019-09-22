@@ -80,18 +80,20 @@ html {
 
 .caroline-nav {
    font: 30px Montserrat, 'sans serif';
-   margin-top: 5%;
-   margin-bottom: 1%;
-   display: flex;
-   align-self: center;
+   padding-top: 1%;
+   padding-bottom: 1%;
+   text-align: center;
+   background-color: #00b98f;
 }
 
 .title {
-   margin: 3%;
+   font-size: 40px;
+   margin-top: 5%;
+   margin-bottom: 2%;
 }
 
 .caption {
-   margin: 3%;
+   margin-bottom: 5%;
    text-align: center;
    font: 20px Montserrat, 'sans serif';
    color: #8b4e00;
