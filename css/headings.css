@@ -61,3 +61,10 @@ footer {
    color: #ffebdf;
    padding: 15px 60px;
 }
+
+#back-to-home {
+   font: 20px Montserrat, sans serif;
+   color: #ffebdf;
+   padding: 15px;
+   border: 10px #ffebdf;
+}
