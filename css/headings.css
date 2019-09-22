@@ -4,43 +4,62 @@ h1 {
    text-align: center;
    margin-top: 5%;
    margin-bottom: 1%;
+   color: #ffebdf;
 }
 
 h2 {
-   font-family: 700 Montserrat, sans-serif;
+   font-family: Montserrat, sans-serif;
    font-size: 30px;
    text-align: center;
    margin-bottom: 3%;
+   color: #ffebdf;
 }
 
 h3 {
    font-family: Montserrat, sans-serif;
    font-size: 16px;
-   color: white;
-}
-
-body {
-   /* display: block; */
-   /* height: 100vh;
-   width: 100vw; */
+   color: #ffebdf;
 }
 
 a:link {
    text-decoration: none;
-   color: black;
+   color: #ffebdf;
 }
 
 a:visited {
    text-decoration: none;
-   color: black;
+   color: #ffebdf;
 }
 
 a:hover {
    text-decoration: none;
-   color: black;
+   color: grey;
 }
 
 a:active {
    text-decoration: none;
-   color: black;
+   color: #ffebdf;
+}
+
+footer {
+   text-align: center;
+   background-color: #00b98f;
+   margin-top: 3%;
+}
+
+.footer-container {
+   display: block;
+   padding-bottom: 20px;
+}
+
+.footer {
+   font: 30px Montserrat, sans serif;
+   color: #ffebdf;
+   padding: 0 15px;
+}
+
+.footer-message {
+   font: 19px Montserrat, san serif;
+   color: #ffebdf;
+   padding: 15px 60px;
 }

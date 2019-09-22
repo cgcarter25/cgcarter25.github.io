@@ -12,6 +12,12 @@
  * Date: 2014-05-01T17:42Z
  */
 
+ $("#flipbook").turn({
+     width: 400,
+     height: 300,
+     autoCenter: true
+ });
+
 (function( global, factory ) {
 
     if ( typeof module === "object" && typeof module.exports === "object" ) {

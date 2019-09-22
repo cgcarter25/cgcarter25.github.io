@@ -1,4 +1,4 @@
-html {
+main {
    width: calc(5 * var(--grid-unit));
    margin: 0 auto;
 }
