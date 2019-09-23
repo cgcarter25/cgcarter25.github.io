@@ -123,13 +123,13 @@ html {
 }
 
 .blurb {
-   font: 16px Raleway, sans-serif;
+   font: 16px/1.5 Raleway, sans-serif;
    color: #05386b;
    padding: 2% 10%;
 }
 
 .blurb-guy {
-   font: 16px Raleway, sans-serif;
+   font: 16px/1.5 Raleway, sans-serif;
    text-align: right;
    color: #05386b;
    padding: 2% 0;
@@ -169,7 +169,7 @@ iframe {
 }
 
 .book-blurb {
-   font: 16px Raleway, sans-serif;
+   font: 16px/1.5 Raleway, sans-serif;
    color: #05386b;
    width: 300px;
    height: 450px;
@@ -189,4 +189,5 @@ hr {
 
 #caro-about {
    margin: 5%;
+   font-size: 80px;
 }

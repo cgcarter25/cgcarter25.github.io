@@ -13,8 +13,7 @@ h2 {
 }
 
 h3 {
-   font-family: 'Raleway', sans-serif;
-   font-size: 16px;
+   font: 16px / 1.5 'Raleway', sans-serif;
    color: #edf5e1;
 }
 
