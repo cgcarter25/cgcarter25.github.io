@@ -1,46 +1,50 @@
 h1 {
-   font-family: Montserrat, sans-serif;
+   font-family: 'Kanit', sans-serif;
    font-size: 100px;
    text-align: center;
-   color: #ffebdf;
+   color: #edf5e1;
 }
 
 h2 {
-   font-family: Montserrat, sans-serif;
+   font-family: 'Kanit', sans-serif;
    font-size: 30px;
    text-align: center;
-   color: #ffebdf;
+   color: #379683;
 }
 
 h3 {
-   font-family: Montserrat, sans-serif;
+   font-family: 'Raleway', sans-serif;
    font-size: 16px;
-   color: #ffebdf;
+   color: #edf5e1;
 }
 
 a:link {
+   font: 20px Raleway, 'sans serif';
    text-decoration: none;
-   color: #ffebdf;
+   color: #edf5e1;
 }
 
 a:visited {
+   font: 20px Raleway, 'sans serif';
    text-decoration: none;
-   color: #ffebdf;
+   color: #edf5e1;
 }
 
 a:hover {
+   font: 20px Raleway, 'sans serif';
    text-decoration: none;
-   color: grey;
+   color: #379683;
 }
 
 a:active {
+   font: 20px Raleway, 'sans serif';
    text-decoration: none;
-   color: #ffebdf;
+   color: #edf5e1;
 }
 
 footer {
    text-align: center;
-   background-color: #00b98faa;
+   background-color: #05386b;
    margin-top: 3%;
 }
 
@@ -51,20 +55,31 @@ footer {
 }
 
 .footer {
-   font: 20px Montserrat, sans serif;
-   color: #ffebdf;
-   padding: 0 15px;
+   color: #edf5e1;
+   padding: 15px;
 }
 
 .footer-message {
-   font: 19px Montserrat, san serif;
-   color: #ffebdf;
+   font: 20px Raleway, 'sans serif';
+   color: #edf5e1;
    padding: 15px 60px;
 }
 
 #back-to-home {
-   font: 20px Montserrat, sans serif;
-   color: #ffebdf;
-   padding: 15px;
-   border: 10px #ffebdf;
+   color: #edf5e1;
+   padding: 30px;
+}
+
+#back-to-home:hover {
+   color: #379683;
+}
+
+.link-to-top {
+   width: 40px;
+   height: 40px;
+   background-color: #05386b;
+   border-radius: 50%;
+   line-height: 20px;
+   margin-top: -5px;
+   text-align: center;
 }

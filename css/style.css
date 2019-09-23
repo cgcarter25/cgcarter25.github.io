@@ -1,5 +1,13 @@
 html {
-   background-color: #004a5c;
+   background-color: #5cdb95;
+}
+
+#caroline-intro {
+   margin-top: 5%;
+}
+
+#title-intro {
+   margin-bottom: 5%;
 }
 
 #home-box {
@@ -21,7 +29,7 @@ html {
    z-index: 10;
    width: 300px;
    height: 300px;
-   background: #444444aa;
+   background: #05386baa;
    position: absolute;
 }
 
@@ -45,53 +53,63 @@ html {
    padding-bottom: 10px;
    padding-top: 10px;
    width: 300px;
-   background: #444444;
+   background: #05386b;
 }
 
 .home-design {
-   font-family: 'Montserrat', sans-serif;
+   font: 16px Raleway, sans-serif;
    margin-top: 4px;
-   color: #ffebdf;
+   color: #edf5e1;
 }
 
 #annual-report-hide {
-   background: #224444aa;
+   background: #05386baa;
 }
 
 #annual-report-caption {
-   background: #224444;
+   background: #05386b;
 }
 
 #book-cover-hide {
-   background: #8b4e00aa;
+   background: #05386baa;
 }
 
 #book-cover-caption {
-   background: #8b4e00;
+   background: #05386b;
+}
+
+#risd-hide {
+   background: #05386baa;
+}
+
+#risd-caption {
+   background: #05386b;
 }
 
 #be-an-advocate-hide {
-   background: #8b4e00aa;
+   background: #05386baa;
 }
 
 #be-an-advocate-caption {
-   background: #8b4e00;
+   background: #05386b;
 }
 
 .caroline-nav {
-   font: 30px Montserrat, 'sans serif';
+   font: 30px Kanit, 'sans serif';
    padding-top: 1%;
    padding-bottom: 1%;
    text-align: center;
-   background-color: #00b98faa;
+   background-color: #05386b;
+   color: #edf5e1;
 }
 
 .caroline-nav:hover {
-   background-color: #00b98f;
+   background-color: #05386baa;
    transition: .5s ease;
 }
 
 .title {
+   color: #edf5e1;
    font-size: 40px;
    margin-top: 5%;
    margin-bottom: 2%;
@@ -100,20 +118,20 @@ html {
 .caption {
    margin-bottom: 2%;
    text-align: center;
-   font: 25px Montserrat, 'sans serif';
-   color: #a28200;
+   font: 25px Raleway, sans-serif;
+   color: #05386b;
 }
 
 .blurb {
-   font: 16px Montserrat, 'sans serif';
-   color: #ffebdf;
+   font: 16px Raleway, sans-serif;
+   color: #05386b;
    padding: 2% 10%;
 }
 
 .blurb-guy {
-   font: 16px Montserrat, 'sans serif';
+   font: 16px Raleway, sans-serif;
    text-align: right;
-   color: #ffebdf;
+   color: #05386b;
    padding: 2% 0;
 }
 
@@ -134,5 +152,31 @@ iframe {
 }
 
 .book {
-   width: 400px;
+   width: 300px;
+}
+
+.book-intro {
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   align-items: center;
+   padding: 10% 0;
+}
+
+.book-process {
+   width: 300px;
+   height: 450px;
+}
+
+.book-blurb {
+   font: 16px Raleway, sans-serif;
+   color: #05386b;
+   width: 300px;
+   height: 450px;
+}
+
+hr {
+   border-top-color: #edf5e1;
+   border-color: #edf5e1;
+   margin: 10% 0;
 }
