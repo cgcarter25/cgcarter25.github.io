@@ -180,3 +180,13 @@ hr {
    border-color: #edf5e1;
    margin: 10% 0;
 }
+
+#about-pic {
+   display: block;
+   width: 400px;
+   margin: 5% auto;
+}
+
+#caro-about {
+   margin: 5%;
+}
