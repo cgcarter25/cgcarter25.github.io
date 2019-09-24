@@ -191,3 +191,11 @@ hr {
    margin: 5%;
    font-size: 80px;
 }
+
+#drawing-container {
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   align-items: center;
+   padding: 10% 0;
+}
