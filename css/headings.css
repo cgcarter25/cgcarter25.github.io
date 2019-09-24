@@ -44,18 +44,17 @@ a:active {
 footer {
    text-align: center;
    background-color: #05386b;
-   margin-top: 3%;
+   padding: 2%;
 }
 
 .footer-container {
    display: flex;
    justify-content: center;
-   padding-bottom: 20px;
 }
 
 .footer {
    color: #edf5e1;
-   padding: 15px;
+   padding: 15px 2% 0 2%;
 }
 
 .footer-message {
