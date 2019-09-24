@@ -199,3 +199,13 @@ hr {
    align-items: center;
    padding: 10% 0;
 }
+
+.slick-img {
+   margin: auto;
+}
+
+.img-caption {
+   text-align: center;
+   font: 16px Raleway, 'sans serif';
+   color: #edf5e1;
+}
