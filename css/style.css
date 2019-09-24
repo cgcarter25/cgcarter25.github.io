@@ -204,6 +204,12 @@ hr {
    margin: auto;
 }
 
+.img-title {
+   text-align: center;
+   font: 20px Raleway, 'sans serif';
+   color: #edf5e1;
+}
+
 .img-caption {
    text-align: center;
    font: 16px Raleway, 'sans serif';
