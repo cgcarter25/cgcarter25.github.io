@@ -193,11 +193,20 @@ hr {
 }
 
 #drawing-container {
-   display: flex;
-   justify-content: space-around;
-   flex-wrap: wrap;
-   align-items: center;
-   padding: 10% 0;
+   padding: 9% 0;
+}
+
+.drawing-nav {
+   font: 50px Kanit, 'sans serif';
+   text-align: center;
+   padding: 1% 0;
+}
+
+.drawing-section {
+   font: 50px Kanit, 'sans serif';
+   color: #05386b;
+   text-align: center;
+   padding: 3% 0;
 }
 
 .slick-img {
@@ -208,10 +217,12 @@ hr {
    text-align: center;
    font: 20px Raleway, 'sans serif';
    color: #edf5e1;
+   margin: 1% 0;
 }
 
 .img-caption {
    text-align: center;
    font: 16px Raleway, 'sans serif';
    color: #edf5e1;
+   margin: 1% 0 5%;
 }
