@@ -6,7 +6,7 @@ html {
    margin-top: 5%;
 }
 
-#title-intro {
+.title-intro {
    margin-bottom: 5%;
 }
 
@@ -225,4 +225,17 @@ hr {
    font: 16px Raleway, 'sans serif';
    color: #edf5e1;
    margin: 1% 0 5%;
+}
+
+.post-intro {
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   align-items: center;
+   padding: 5% 0;
+}
+
+.post {
+   width: 600px;
+   margin: 5% auto;
 }
