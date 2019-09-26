@@ -103,6 +103,7 @@ html {
    background-color: #05386b;
    color: #edf5e1;
    width: 100vw;
+   top: 0;
 }
 
 .caroline-nav:hover {
@@ -113,7 +114,7 @@ html {
 .title {
    color: #edf5e1;
    font-size: 40px;
-   margin-top: 5%;
+   margin-top: 9%;
    margin-bottom: 2%;
 }
 
