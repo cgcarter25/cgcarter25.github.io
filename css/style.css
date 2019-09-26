@@ -149,6 +149,7 @@ iframe {
 .white-images {
    width: 400px;
    height: 300px;
+   padding: 3%;
 }
 
 .book {
@@ -176,8 +177,7 @@ iframe {
 }
 
 hr {
-   border-top-color: #edf5e1;
-   border-color: #edf5e1;
+   border: 5px dashed #379683;
    margin: 5% 0;
 }
 
@@ -209,10 +209,6 @@ hr {
    padding: 3% 0;
 }
 
-.slick-img {
-   margin: auto;
-}
-
 .img-title {
    text-align: center;
    font: 20px Raleway, 'sans serif';
@@ -238,4 +234,8 @@ hr {
 .post {
    width: 600px;
    margin: 5% auto;
+}
+
+#website {
+   padding: 30%;
 }

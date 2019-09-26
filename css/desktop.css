@@ -2,3 +2,75 @@ main {
    width: calc(13 * var(--grid-unit));
    margin: 0 auto;
 }
+
+.slick-img {
+   margin: auto;
+   width: 750px;
+   height: 500px;
+}
+
+#anne-img {
+   margin: auto;
+   width: 325px;
+   height: 500px;
+}
+
+#self-portrait {
+   margin: auto;
+   width: 545px;
+   height: 500px;
+}
+
+#big-anne-img {
+   margin: auto;
+   width: 750px;
+   height: 417px;
+}
+
+#narrative-img {
+   margin: auto;
+   width: 750px;
+   height: 450px;
+}
+
+#bw-img {
+   margin: auto;
+   width: 375px;
+   height: 500px;
+}
+
+#chester-img {
+   margin: auto;
+   width: 375px;
+   height: 500px;
+}
+
+#ripley-img {
+   margin: auto;
+   width: 625px;
+   height: 500px;
+}
+
+#claire-img {
+   margin: auto;
+   width: 625px;
+   height: 500px;
+}
+
+#corgi-img {
+   margin: auto;
+   width: 400px;
+   height: 500px;
+}
+
+.watercolor-9-12-img {
+   margin: auto;
+   width: 750px;
+   height: 563px;
+}
+
+#tree-img {
+   margin: auto;
+   width: 272px;
+   height: 500px;
+}
