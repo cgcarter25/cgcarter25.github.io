@@ -95,12 +95,14 @@ html {
 }
 
 .caroline-nav {
+   position: fixed;
    font: 30px Kanit, 'sans serif';
    padding-top: 1%;
    padding-bottom: 1%;
    text-align: center;
    background-color: #05386b;
    color: #edf5e1;
+   width: 100vw;
 }
 
 .caroline-nav:hover {
