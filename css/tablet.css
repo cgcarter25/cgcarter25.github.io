@@ -80,3 +80,38 @@ main {
    width: 662px;
    height: 700px;
 }
+
+.book-big {
+   width: 400px;
+   height: 600px;
+}
+
+.post {
+   width: 600px;
+   margin: 5% auto;
+}
+
+.post-design {
+   width: 400px;
+   margin: 5% auto;
+}
+
+.drawing-nav {
+   font: 40px Kanit, sans-serif;
+   text-align: center;
+   padding: 1% 0;
+}
+
+.drawing-section {
+   font: 40px Kanit, sans-serif;
+   color: #05386b;
+   text-align: center;
+   padding: 7% 0 1%;
+}
+
+.img-title {
+   text-align: center;
+   font: 20px Raleway, sans-serif;
+   color: #05386b;
+   margin: 1% 0;
+}

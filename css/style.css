@@ -3,11 +3,14 @@ html {
 }
 
 #caroline-intro {
+   color: #05386b;
    margin-top: 5%;
 }
 
 .title-intro {
+   color: #379683;
    margin-bottom: 5%;
+   font-size: 25px;
 }
 
 #home-box {
@@ -96,9 +99,10 @@ html {
 
 .caroline-nav {
    position: fixed;
-   font: 30px Kanit, 'sans serif';
-   padding-top: 1%;
-   padding-bottom: 1%;
+   z-index: 50;
+   font: 30px Kanit, sans-serif;
+   padding-top: .5%;
+   padding-bottom: .5%;
    text-align: center;
    background-color: #05386b;
    color: #edf5e1;
@@ -112,9 +116,9 @@ html {
 }
 
 .title {
-   color: #edf5e1;
+   color: #05386b;
    font-size: 40px;
-   margin-top: 9%;
+   padding-top: 100px;
    margin-bottom: 2%;
 }
 
@@ -122,13 +126,13 @@ html {
    margin-bottom: 2%;
    text-align: center;
    font: 25px Raleway, sans-serif;
-   color: #05386b;
+   color: #379683;
 }
 
 .blurb {
    font: 16px/1.5 Raleway, sans-serif;
    color: #05386b;
-   padding: 2% 10%;
+   margin: 5% 0;
 }
 
 .blurb-guy {
@@ -141,7 +145,7 @@ html {
 iframe {
    margin-left: auto;
    margin-right: auto;
-   padding: 4% 0;
+   margin-bottom: 1%;
 }
 
 #white-process {
@@ -149,10 +153,16 @@ iframe {
    justify-content: space-around;
 }
 
+.white-process {
+   width: 400px;
+   height: 500px;
+   margin: 3%;
+}
+
 .white-images {
    width: 400px;
    height: 300px;
-   padding: 3%;
+   margin: 3%;
 }
 
 .book {
@@ -164,23 +174,23 @@ iframe {
    justify-content: space-around;
    flex-wrap: wrap;
    align-items: center;
-   padding: 10% 0;
+   /* padding: 10% 0; */
 }
 
 .book-process {
    width: 300px;
    height: 450px;
+   margin: 2%;
 }
 
 .book-blurb {
    font: 16px/1.5 Raleway, sans-serif;
    color: #05386b;
-   width: 300px;
-   height: 450px;
+   margin: 2%;
 }
 
 hr {
-   border: 5px dashed #379683;
+   border: 1px dashed #379683;
    margin: 5% 0;
 }
 
@@ -196,33 +206,17 @@ hr {
 }
 
 #drawing-container {
-   padding: 9% 0;
+   margin: 15% 0;
 }
 
-.drawing-nav {
-   font: 50px Kanit, 'sans serif';
-   text-align: center;
-   padding: 1% 0;
-}
-
-.drawing-section {
-   font: 50px Kanit, 'sans serif';
-   color: #05386b;
-   text-align: center;
-   padding: 3% 0;
-}
-
-.img-title {
-   text-align: center;
-   font: 20px Raleway, 'sans serif';
-   color: #edf5e1;
-   margin: 1% 0;
+#aw-container {
+   margin: 10% 0;
 }
 
 .img-caption {
    text-align: center;
-   font: 16px Raleway, 'sans serif';
-   color: #edf5e1;
+   font: 16px Raleway, sans-serif;
+   color: #05386b;
    margin: 1% 0 5%;
 }
 
@@ -231,14 +225,16 @@ hr {
    justify-content: space-around;
    flex-wrap: wrap;
    align-items: center;
-   padding: 5% 0;
-}
-
-.post {
-   width: 600px;
-   margin: 5% auto;
+   margin: 1% 0;
 }
 
 #website {
    padding: 30%;
+}
+
+.post-blurb {
+   width: 400px;
+   font: 16px/1.5 Raleway, sans-serif;
+   color: #05386b;
+   margin: 2% 0;
 }
