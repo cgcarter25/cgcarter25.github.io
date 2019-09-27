@@ -32,7 +32,7 @@ html {
    z-index: 10;
    width: 300px;
    height: 300px;
-   background: #05386baa;
+   background: #379683aa;
    position: absolute;
 }
 
@@ -63,38 +63,6 @@ html {
    font: 16px Raleway, sans-serif;
    margin-top: 4px;
    color: #edf5e1;
-}
-
-#annual-report-hide {
-   background: #05386baa;
-}
-
-#annual-report-caption {
-   background: #05386b;
-}
-
-#book-cover-hide {
-   background: #05386baa;
-}
-
-#book-cover-caption {
-   background: #05386b;
-}
-
-#risd-hide {
-   background: #05386baa;
-}
-
-#risd-caption {
-   background: #05386b;
-}
-
-#be-an-advocate-hide {
-   background: #05386baa;
-}
-
-#be-an-advocate-caption {
-   background: #05386b;
 }
 
 .caroline-nav {
