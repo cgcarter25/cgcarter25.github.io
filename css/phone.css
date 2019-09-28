@@ -104,7 +104,8 @@ main {
 
 .drawing-section {
    font: 30px Kanit, sans-serif;
-   color: #05386b;
+   color: #faf1cf;
+   text-shadow: 6px 6px #3f6844;
    text-align: center;
    padding: 11% 0 1%;
 }
@@ -112,6 +113,6 @@ main {
 .img-title {
    text-align: center;
    font: 16px Raleway, sans-serif;
-   color: #05386b;
+   color: #faf1cf;
    margin: 1% 0;
 }

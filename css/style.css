@@ -1,14 +1,15 @@
 html {
-   background-color: #5cdb95;
+   background: #5daa68;
 }
 
 #caroline-intro {
-   color: #05386b;
+   color: #faf1cf;
+   text-shadow: 6px 6px #3f6844;
    margin-top: 5%;
 }
 
 .title-intro {
-   color: #379683;
+   color: #3f6844;
    margin-bottom: 5%;
    font-size: 25px;
 }
@@ -32,7 +33,7 @@ html {
    z-index: 10;
    width: 300px;
    height: 300px;
-   background: #379683aa;
+   background: #3f6844aa;
    position: absolute;
 }
 
@@ -56,13 +57,13 @@ html {
    padding-bottom: 10px;
    padding-top: 10px;
    width: 300px;
-   background: #05386b;
+   background: #3f6844;
 }
 
 .home-design {
    font: 16px Raleway, sans-serif;
    margin-top: 4px;
-   color: #edf5e1;
+   color: #faf1cf;
 }
 
 .caroline-nav {
@@ -72,19 +73,20 @@ html {
    padding-top: .5%;
    padding-bottom: .5%;
    text-align: center;
-   background-color: #05386b;
-   color: #edf5e1;
+   background-color: #3f6844;
+   color: #faf1cf;
    width: 100vw;
    top: 0;
 }
 
 .caroline-nav:hover {
-   background-color: #05386baa;
+   background-color: #faf1cf55;
    transition: .5s ease;
 }
 
 .title {
-   color: #05386b;
+   color: #faf1cf;
+   text-shadow: 3px 3px #3f6844;
    font-size: 40px;
    padding-top: 100px;
    margin-bottom: 2%;
@@ -94,19 +96,19 @@ html {
    margin-bottom: 2%;
    text-align: center;
    font: 25px Raleway, sans-serif;
-   color: #379683;
+   color: #3f6844;
 }
 
 .blurb {
    font: 16px/1.5 Raleway, sans-serif;
-   color: #05386b;
+   color: #faf1cf;
    margin: 5% 0;
 }
 
 .blurb-guy {
    font: 16px/1.5 Raleway, sans-serif;
    text-align: right;
-   color: #05386b;
+   color: #faf1cf;
    padding: 2% 0;
 }
 
@@ -153,12 +155,12 @@ iframe {
 
 .book-blurb {
    font: 16px/1.5 Raleway, sans-serif;
-   color: #05386b;
+   color: #faf1cf;
    margin: 2%;
 }
 
 hr {
-   border: 1px dashed #379683;
+   border: 1px dashed #3f6844;
    margin: 5% 0;
 }
 
@@ -184,7 +186,7 @@ hr {
 .img-caption {
    text-align: center;
    font: 16px Raleway, sans-serif;
-   color: #05386b;
+   color: #faf1cf;
    margin: 1% 0 5%;
 }
 
@@ -203,6 +205,6 @@ hr {
 .post-blurb {
    width: 400px;
    font: 16px/1.5 Raleway, sans-serif;
-   color: #05386b;
+   color: #faf1cf;
    margin: 2% 0;
 }

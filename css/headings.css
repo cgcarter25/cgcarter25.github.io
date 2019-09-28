@@ -2,7 +2,7 @@ h1 {
    font-family: 'Kanit', sans-serif;
    font-size: 100px;
    text-align: center;
-   color: #379683;
+   color: #3f6844;
 }
 
 h2 {
@@ -14,36 +14,38 @@ h2 {
 
 h3 {
    font: 16px / 1.5 'Raleway', sans-serif;
-   color: #edf5e1;
+   color: #faf1cf;
 }
 
 a:link {
    font: 20px Raleway, sans-serif;
    text-decoration: none;
-   color: #edf5e1;
+   color: #faf1cf;
 }
 
 a:visited {
    font: 20px Raleway, sans-serif;
    text-decoration: none;
-   color: #edf5e1;
+   color: #faf1cf;
 }
 
 a:hover {
    font: 20px Raleway, sans-serif;
    text-decoration: none;
-   color: #379683;
+   transition: .3s ease-in;
+   text-shadow: 5px 5px #3f6844;
+   color: #faf1cf;
 }
 
 a:active {
    font: 20px Raleway, sans-serif;
    text-decoration: none;
-   color: #edf5e1;
+   color: #faf1cf;
 }
 
 footer {
    text-align: center;
-   background-color: #05386b;
+   background-color: #3f6844;
    padding: 2%;
    margin-top: 5%;
 }
@@ -54,7 +56,7 @@ footer {
 }
 
 .footer {
-   color: #edf5e1;
+   color: #faf1cf;
    font-size: 16px;
    padding: 1%;
    width: 170px;
@@ -62,7 +64,7 @@ footer {
 
 .footer-message {
    font: 20px Raleway, sans-serif;
-   color: #379683;
+   color: #faf1cf;
    padding: 15px 60px;
 }
 
