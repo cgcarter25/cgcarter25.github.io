@@ -80,7 +80,7 @@ html {
 }
 
 .caroline-nav:hover {
-   background-color: #faf1cf55;
+   background-color: #5daa68;
    transition: .5s ease;
 }
 
@@ -171,7 +171,7 @@ hr {
 }
 
 #caro-about {
-   margin: 5%;
+   margin: 10% 0 5%;
    font-size: 80px;
 }
 
