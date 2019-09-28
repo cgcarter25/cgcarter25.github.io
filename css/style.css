@@ -81,7 +81,7 @@ html {
 
 .caroline-nav:hover {
    background-color: #5daa68;
-   transition: .5s ease;
+   transition: .3s ease;
 }
 
 .title {
@@ -203,6 +203,13 @@ hr {
 }
 
 .post-blurb {
+   width: 400px;
+   font: 16px/1.5 Raleway, sans-serif;
+   color: #faf1cf;
+   margin: 2% 0;
+}
+
+.blurb-chimp {
    width: 400px;
    font: 16px/1.5 Raleway, sans-serif;
    color: #faf1cf;

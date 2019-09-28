@@ -96,6 +96,11 @@ main {
    margin: 5% auto;
 }
 
+.cot-design {
+   width: 600px;
+   margin: 5% auto;
+}
+
 .drawing-nav {
    font: 50px Kanit, sans-serif;
    text-align: center;
