@@ -105,7 +105,7 @@ main {
 .drawing-section {
    font: 30px Kanit, sans-serif;
    color: #faf1cf;
-   text-shadow: 6px 6px #3f6844;
+   text-shadow: 3px 3px #3f6844;
    text-align: center;
    padding: 11% 0 1%;
 }
