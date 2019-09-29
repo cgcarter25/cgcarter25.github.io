@@ -57,6 +57,7 @@ html {
    padding-bottom: 10px;
    padding-top: 10px;
    width: 300px;
+   height: 44px;
    background: #3f6844;
 }
 
@@ -229,5 +230,5 @@ hr {
 }
 
 #container-contact {
-   margin: 16% auto;
+   margin: 27vh 0;
 }
