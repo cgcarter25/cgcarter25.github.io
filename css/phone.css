@@ -121,3 +121,9 @@ main {
    color: #faf1cf;
    margin: 1% 0;
 }
+
+.px-img {
+   margin: auto;
+   width: 300px;
+   height: 300px;
+}

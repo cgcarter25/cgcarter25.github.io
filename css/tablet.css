@@ -122,3 +122,9 @@ main {
    color: #faf1cf;
    margin: 1% 0;
 }
+
+.px-img {
+   margin: auto;
+   width: 400px;
+   height: 400px;
+}
