@@ -2,18 +2,6 @@ html {
    background: #5daa68;
 }
 
-#caroline-intro {
-   color: #faf1cf;
-   text-shadow: 6px 6px #3f6844;
-   margin-top: 5%;
-}
-
-.title-intro {
-   color: #3f6844;
-   margin-bottom: 5%;
-   font-size: 25px;
-}
-
 #home-box {
    display: flex;
    justify-content: space-around;

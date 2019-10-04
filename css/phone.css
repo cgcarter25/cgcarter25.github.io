@@ -127,3 +127,16 @@ main {
    width: 300px;
    height: 300px;
 }
+
+#caroline-intro {
+   color: #faf1cf;
+   text-shadow: 3px 3px #3f6844;
+   margin-top: 5%;
+   font-size: 40px;
+}
+
+.title-intro {
+   color: #3f6844;
+   margin-bottom: 5%;
+   font-size: 16px;
+}
