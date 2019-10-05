@@ -228,3 +228,21 @@ hr {
 #additional-work-caption {
    margin-top: 10px;
 }
+
+#writing-container {
+   margin: auto;
+}
+
+#doc {
+   font-family: Kanit, sans-serif;
+   font-size: 30px;
+   text-align: center;
+   color: #3f6844;
+   margin-bottom: 1%;
+}
+
+.doc-link {
+   font-size: 20px;
+   text-align: center;
+   margin-bottom: 1%;
+}
