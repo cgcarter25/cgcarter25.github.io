@@ -70,6 +70,7 @@ footer {
    /* transition: .5s; */
    padding: 1%;
    margin: 0 2%;
+   text-shadow: 2px 2px #3f6844;
 }
 
 .footer-message {

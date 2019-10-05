@@ -70,7 +70,7 @@ html {
 
 .caroline-nav:hover {
    background-color: #5daa68;
-   /* transition: .3s ease; */
+   text-shadow: 3px 3px #3f6844;
 }
 
 .title {
@@ -242,8 +242,16 @@ hr {
    margin-bottom: 1%;
 }
 
+.doc-link:hover {
+   text-shadow: 2.2px 2.2px #3f6844;
+}
+
+li {
+   text-align: center;
+}
+
 .doc-link {
-   font-size: 20px;
+   font-size: 16px;
    text-align: center;
    margin-bottom: 1%;
 }
