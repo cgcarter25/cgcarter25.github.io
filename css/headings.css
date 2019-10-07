@@ -14,38 +14,33 @@ h2 {
 
 h3 {
    font: 16px / 1.5 'Raleway', sans-serif;
-   color: #faf1cf;
+   color: #333;
 }
 
 a:link {
    font: 20px Raleway, sans-serif;
    text-decoration: none;
-   color: #faf1cf;
 }
 
 a:visited {
    font: 20px Raleway, sans-serif;
    text-decoration: none;
-   color: #faf1cf;
 }
 
 a:hover {
    font: 20px Raleway, sans-serif;
    text-decoration: none;
    /* transition: .3s ease-in; */
-   text-shadow: 4px 4px #3f6844;
-   color: #faf1cf;
 }
 
 a:active {
    font: 20px Raleway, sans-serif;
    text-decoration: none;
-   color: #faf1cf;
 }
 
 footer {
    text-align: center;
-   background-color: #3f6844;
+   background-color: #f47500;
    padding: 2%;
    margin-top: 5%;
 }
@@ -56,26 +51,25 @@ footer {
 }
 
 .footer {
-   color: #faf1cf;
+   color: #f4fdff;
    font-size: 20px;
-   background-color: #3f6845;
+   background-color: #f47500;
    padding: 1%;
    margin: 0 2%;
 }
 
 .footer:hover {
-   color: #faf1cf;
+   color: #f4fdff;
    font-size: 20px;
-   background-color: #5daa68;
    /* transition: .5s; */
    padding: 1%;
    margin: 0 2%;
-   text-shadow: 2px 2px #3f6844;
+   text-shadow: 2px 2px #b3b3b3;
 }
 
 .footer-message {
    font: 20px Raleway, sans-serif;
-   color: #faf1cf;
+   color: #f4fdff;
    padding: 15px 60px;
 }
 

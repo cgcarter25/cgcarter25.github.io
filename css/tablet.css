@@ -103,15 +103,20 @@ main {
 }
 
 .drawing-nav {
+   color: #f47500;
    font: 40px Kanit, sans-serif;
    text-align: center;
    padding: 1% 0;
 }
 
+.drawing-nav:hover {
+   text-shadow: 3px 3px #b3b3b3;
+}
+
 .drawing-section {
    font: 40px Kanit, sans-serif;
-   color: #faf1cf;
-   text-shadow: 4px 4px #3f6844;
+   color: #f47500;
+   text-shadow: 3px 3px #b3b3b3;
    text-align: center;
    padding: 7% 0 1%;
 }
@@ -119,7 +124,7 @@ main {
 .img-title {
    text-align: center;
    font: 20px Raleway, sans-serif;
-   color: #faf1cf;
+   color: #333;
    margin: 1% 0;
 }
 
@@ -130,8 +135,14 @@ main {
 }
 
 #caroline-intro {
-   color: #faf1cf;
-   text-shadow: 5px 5px #3f6844;
+   color: #f47500;
+   text-shadow: 5px 5px #b3b3b3;
    margin-top: 5%;
    font-size: 70px;
+}
+
+.title-intro {
+   color: #B3B3B3;
+   margin-bottom: 5%;
+   font-size: 16px;
 }

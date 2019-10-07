@@ -1,5 +1,6 @@
 html {
-   background: #5daa68;
+   /* background: #5daa68; */
+   background: #f4fdff;
 }
 
 #home-box {
@@ -21,7 +22,7 @@ html {
    z-index: 10;
    width: 300px;
    height: 300px;
-   background: #3f6844aa;
+   background: #b3b3b3aa;
    position: absolute;
 }
 
@@ -46,13 +47,13 @@ html {
    padding-top: 10px;
    width: 300px;
    height: 44px;
-   background: #3f6844;
+   background: #f47500;
 }
 
 .home-design {
    font: 16px Raleway, sans-serif;
    margin-top: 4px;
-   color: #faf1cf;
+   color: #333;
 }
 
 .caroline-nav {
@@ -62,20 +63,19 @@ html {
    padding-top: .5%;
    padding-bottom: .5%;
    text-align: center;
-   background-color: #3f6844;
-   color: #faf1cf;
+   background-color: #f47500;
+   color: #f4fdff;
    width: 100vw;
    top: 0;
 }
 
 .caroline-nav:hover {
-   background-color: #5daa68;
-   text-shadow: 3px 3px #3f6844;
+   text-shadow: 3px 3px #b3b3b3;
 }
 
 .title {
-   color: #faf1cf;
-   text-shadow: 3px 3px #3f6844;
+   color: #f47500;
+   text-shadow: 3px 3px #b3b3b3;
    font-size: 40px;
    padding-top: 100px;
    margin-bottom: 2%;
@@ -85,19 +85,19 @@ html {
    margin-bottom: 2%;
    text-align: center;
    font: 25px Raleway, sans-serif;
-   color: #3f6844;
+   color: #b3b3b3;
 }
 
 .blurb {
    font: 16px/1.5 Raleway, sans-serif;
-   color: #faf1cf;
+   color: #333;
    margin: 5% 0;
 }
 
 .blurb-guy {
    font: 16px/1.5 Raleway, sans-serif;
    text-align: right;
-   color: #faf1cf;
+   color: #333;
    padding: 2% 0;
 }
 
@@ -144,12 +144,12 @@ iframe {
 
 .book-blurb {
    font: 16px/1.5 Raleway, sans-serif;
-   color: #faf1cf;
+   color: #333;
    margin: 2%;
 }
 
 hr {
-   border: 1px dashed #3f6844;
+   border: 1px dashed #f47500;
    margin: 5% 0;
 }
 
@@ -160,6 +160,7 @@ hr {
 }
 
 #caro-about {
+   color: #b3b3b3;
    margin: 10% 0 5%;
    font-size: 80px;
 }
@@ -175,7 +176,7 @@ hr {
 .img-caption {
    text-align: center;
    font: 16px Raleway, sans-serif;
-   color: #faf1cf;
+   color: #333;
    margin: 1% 0 5%;
 }
 
@@ -194,26 +195,27 @@ hr {
 .post-blurb {
    width: 400px;
    font: 16px/1.5 Raleway, sans-serif;
-   color: #faf1cf;
+   color: #333;
    margin: 2% 0;
 }
 
 .blurb-chimp {
    width: 400px;
    font: 16px/1.5 Raleway, sans-serif;
-   color: #faf1cf;
+   color: #333;
    margin: 2% 0;
 }
 
 #caro-contact {
-   margin: 10% 0 5%;
-   font-size: 80px;
+   margin: 28% 0 2%;
+   font-size: 50px;
+   color: #b3b3b3;
 }
 
 #blurb-contact {
    font: 16px/1.5 Raleway, sans-serif;
-   color: #faf1cf;
-   margin: 5%;
+   color: #333;
+   margin-bottom: 25%;
    text-align: center;
 }
 
@@ -238,12 +240,17 @@ hr {
    font-family: Kanit, sans-serif;
    font-size: 30px;
    text-align: center;
-   color: #3f6844;
+   color: #b3b3b3;
    margin-bottom: 1%;
 }
 
+.doc-link {
+   color: #f47500;
+   font-size: 16px;
+}
+
 .doc-link:hover {
-   text-shadow: 2.2px 2.2px #3f6844;
+   text-shadow: 2.2px 2.2px #b3b3b3;
 }
 
 li {
@@ -258,6 +265,6 @@ li {
 
 .about-blurb {
    font: 16px/1.5 Raleway, sans-serif;
-   color: #faf1cf;
+   color: #333;
    margin: 20px 0;
 }
