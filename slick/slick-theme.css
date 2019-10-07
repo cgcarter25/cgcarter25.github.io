@@ -202,3 +202,8 @@
     opacity: .75;
     color: black;
 }
+
+.slick-prev:before,
+.slick-next:before {
+  color: #f47500;
+}
