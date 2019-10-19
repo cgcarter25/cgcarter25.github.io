@@ -91,3 +91,9 @@ footer {
    margin-top: -5px;
    text-align: center;
 }
+
+.before-text {
+   text-align: center;
+   font: 20px / 1.5 Raleway, sans-serif;
+   color: #333;
+}
