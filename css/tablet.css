@@ -146,3 +146,10 @@ main {
    margin-bottom: 5%;
    font-size: 16px;
 }
+
+#before-logo-text {
+   text-align: center;
+   font: 20px / 1.5 'Raleway', sans-serif;
+   color: #333;
+   padding-bottom: 67px;
+}

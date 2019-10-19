@@ -268,3 +268,14 @@ li {
    color: #333;
    margin: 20px 0;
 }
+
+.cot-pic {
+   width: 375px;
+   margin: 5% auto;
+}
+
+.before-text {
+   text-align: center;
+   font: 20px / 1.5 'Raleway', sans-serif;
+   color: #333;
+}

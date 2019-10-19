@@ -97,7 +97,7 @@ main {
 }
 
 .cot-design {
-   width: 600px;
+   width: 700px;
    margin: 5% auto;
 }
 
@@ -144,4 +144,11 @@ main {
    color: #B3B3B3;
    margin-bottom: 5%;
    font-size: 30px;
+}
+
+#before-logo-text {
+   text-align: center;
+   font: 20px / 1.5 'Raleway', sans-serif;
+   color: #333;
+   padding-bottom: 67px;
 }
