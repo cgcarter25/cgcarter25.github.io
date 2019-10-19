@@ -1,6 +1,6 @@
 html {
    /* background: #5daa68; */
-   background: #f4fdff;
+   background: #fcfffd;
 }
 
 #home-box {
@@ -47,13 +47,13 @@ html {
    padding-top: 10px;
    width: 300px;
    height: 44px;
-   background: #f47500;
+   background: #f7931e;
 }
 
 .home-design {
    font: 16px Raleway, sans-serif;
-   margin-top: 4px;
-   color: #333;
+   margin-top: 1px;
+   color: #f4fdff;
 }
 
 .caroline-nav {
@@ -63,20 +63,20 @@ html {
    padding-top: .5%;
    padding-bottom: .5%;
    text-align: center;
-   background-color: #f47500;
+   background-color: #00a99d;
    color: #f4fdff;
    width: 100vw;
    top: 0;
 }
 
 .caroline-nav:hover {
-   text-shadow: 3px 3px #b3b3b3;
+   text-shadow: 2px 2px #b3b3b3;
 }
 
 .title {
    color: #f47500;
    text-shadow: 3px 3px #b3b3b3;
-   font-size: 40px;
+   font-size: 50px;
    padding-top: 100px;
    margin-bottom: 2%;
 }
