@@ -109,13 +109,13 @@ main {
 }
 
 .drawing-nav:hover {
-   text-shadow: 4px 4px #b3b3b3;
+   text-shadow: 3px 3px #b3b3b3;
 }
 
 .drawing-section {
    font: 50px Kanit, sans-serif;
    color: #f47500;
-   text-shadow: 4px 4px #b3b3b3;
+   text-shadow: 3px 3px #b3b3b3;
    text-align: center;
    padding: 5% 0 1%;
 }
