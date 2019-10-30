@@ -24,6 +24,7 @@ html {
    height: 300px;
    background: #b3b3b3aa;
    position: absolute;
+   opacity: 0;
 }
 
 .home-container {
@@ -34,7 +35,7 @@ html {
 }
 
 .home-container:hover .hide-image {
-   opacity: 0;
+   opacity: 1;
    /* transition: .5s ease; */
 }
 
@@ -42,18 +43,23 @@ html {
    z-index: 20;
    text-align: center;
    position: absolute;
-   align-self: flex-end;
    padding-bottom: 10px;
    padding-top: 10px;
+   margin-top: 120px;
    width: 300px;
    height: 44px;
-   background: #f7931e;
+   opacity: 0;
+}
+
+.home-container:hover .home-caption {
+   opacity: 1;
+   /* transition: .5s ease; */
 }
 
 .home-design {
    font: 16px Raleway, sans-serif;
    margin-top: 1px;
-   color: #f4fdff;
+   color: #3f6844;
 }
 
 .caroline-nav {
