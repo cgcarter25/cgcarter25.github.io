@@ -30,7 +30,7 @@ html {
    z-index: 10;
    width: 300px;
    height: 300px;
-   background: #4fb9ffaa;
+   background: #4fb9ffbb;
    position: absolute;
    opacity: 0;
 }
@@ -39,7 +39,7 @@ html {
    z-index: 10;
    width: 300px;
    height: 300px;
-   background: #1b76b3aa;
+   background: #1b76b3bb;
    position: absolute;
    opacity: 0;
 }
@@ -48,7 +48,7 @@ html {
    z-index: 10;
    width: 300px;
    height: 300px;
-   background: #36afffaa;
+   background: #36afffbb;
    position: absolute;
    opacity: 0;
 }
@@ -57,7 +57,7 @@ html {
    z-index: 10;
    width: 300px;
    height: 300px;
-   background: #b36a02aa;
+   background: #b36a02bb;
    position: absolute;
    opacity: 0;
 }
@@ -66,7 +66,7 @@ html {
    z-index: 10;
    width: 300px;
    height: 300px;
-   background: #ffac36aa;
+   background: #ffac36bb;
    position: absolute;
    opacity: 0;
 }
