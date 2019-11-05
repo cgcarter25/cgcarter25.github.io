@@ -53,17 +53,14 @@ footer {
 .footer {
    color: #f4fdff;
    font-size: 20px;
-   padding: 1%;
    margin: 0 2%;
 }
 
 .footer:hover {
-   color: #f4fdff;
+   color: #ffac36;
    font-size: 20px;
-   /* transition: .5s; */
-   padding: 1%;
+   transition: .5s ease-in-out;
    margin: 0 2%;
-   text-shadow: 1.5px 1.5px #b3b3b3;
 }
 
 .footer-message {
