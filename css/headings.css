@@ -40,7 +40,7 @@ a:active {
 
 footer {
    text-align: center;
-   background-color: #00a99d;
+   background-color: #1b76b3;
    padding: 2%;
    margin-top: 5%;
 }
@@ -63,7 +63,7 @@ footer {
    /* transition: .5s; */
    padding: 1%;
    margin: 0 2%;
-   text-shadow: 2px 2px #b3b3b3;
+   text-shadow: 1.5px 1.5px #b3b3b3;
 }
 
 .footer-message {

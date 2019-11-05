@@ -133,15 +133,15 @@ html {
    padding-top: .5%;
    padding-bottom: .5%;
    text-align: center;
-   background-color: #00a99d;
+   background-color: #1b76b3;
    color: #f4fdff;
    width: 100vw;
    top: 0;
 }
 
 .caroline-nav:hover {
-   text-shadow: 2px 2px #b3b3b3;
-   background-color: #00a99daa;
+   /* text-shadow: 2px 2px #b3b3b3; */
+   background-color: #4fb9ff;
 }
 
 .title {
@@ -232,7 +232,7 @@ hr {
 
 #caro-about {
    color: #b3b3b3;
-   margin: 10% 0 5%;
+   margin: 5% 0;
    font-size: 80px;
 }
 
@@ -316,12 +316,12 @@ hr {
 }
 
 .doc-link {
-   color: #f7931e;
+   color: #b36a02;
    font-size: 16px;
 }
 
 .doc-link:hover {
-   text-shadow: 1px 1px #b3b3b3;
+   color: #ffac36;
 }
 
 li {
@@ -359,5 +359,6 @@ li {
 }
 
 #about-video {
-   margin-top: 100px;
+   /* margin-top: 100px; */
+   height: 100vh;
 }
