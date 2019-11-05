@@ -59,7 +59,7 @@ footer {
 .footer:hover {
    color: #ffac36;
    font-size: 20px;
-   transition: .5s ease-in-out;
+   transition: .25s ease-in-out;
    margin: 0 2%;
 }
 
@@ -67,15 +67,6 @@ footer {
    font: 20px Raleway, sans-serif;
    color: #f4fdff;
    padding: 15px 60px;
-}
-
-#back-to-home {
-   color: #edf5e1;
-   padding: 30px;
-}
-
-#back-to-home:hover {
-   color: #379683;
 }
 
 .link-to-top {
