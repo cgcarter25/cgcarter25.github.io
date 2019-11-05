@@ -101,23 +101,18 @@ main {
    margin: 5% auto;
 }
 
-.drawing-nav {
-   color: #f7931e;
-   font: 40px Kanit, sans-serif;
-   text-align: center;
-   padding: 1% 0;
-}
-
-.drawing-nav:hover {
-   text-shadow: 2px 2px #b3b3b3;
-}
-
 .drawing-section {
    font: 40px Kanit, sans-serif;
    color: #f7931e;
    text-shadow: 2px 2px #b3b3b3;
    text-align: center;
    padding: 7% 0 1%;
+}
+
+#drawing-container {
+   margin: 100px 0 15px;
+   display: flex;
+   flex-direction: column;
 }
 
 .img-title {

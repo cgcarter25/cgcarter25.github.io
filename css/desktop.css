@@ -101,17 +101,6 @@ main {
    margin: 5% auto;
 }
 
-.drawing-nav {
-   color: #f7931e;
-   font: 50px Kanit, sans-serif;
-   text-align: center;
-   padding: 1% 0;
-}
-
-.drawing-nav:hover {
-   text-shadow: 3px 3px #b3b3b3;
-}
-
 .drawing-section {
    font: 50px Kanit, sans-serif;
    color: #f7931e;

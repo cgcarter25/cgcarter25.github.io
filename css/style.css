@@ -238,6 +238,19 @@ hr {
 
 #drawing-container {
    margin: 15% 0;
+   display: flex;
+   justify-content: space-between;
+}
+
+.drawing-nav {
+   color: #f7931e;
+   font: 50px Kanit, sans-serif;
+   text-align: center;
+   padding: 1% 0;
+}
+
+.drawing-nav:hover {
+   color: #4fb9ff;
 }
 
 #aw-container {
@@ -321,7 +334,7 @@ hr {
 }
 
 .doc-link:hover {
-   color: #ffac36;
+   color: #4fb9ff;
 }
 
 li {
