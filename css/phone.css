@@ -1,5 +1,5 @@
 main {
-   width: calc(5 * var(--grid-unit));
+   width: 375px;
    margin: 0 auto;
 }
 
@@ -149,4 +149,46 @@ main {
    color: #1b76b3;
    margin: 5% 0;
    font-size: 50px;
+}
+
+.empty-container {
+   display: none;
+}
+
+.apiary-icon {
+   margin: auto;
+   width: 300px;
+   height: 200px;
+}
+
+.apiary-design {
+   width: 300px;
+   height: 200px;
+   display: block;
+   margin: 5% auto;
+}
+
+#apiary-text {
+   width: 300px;
+   height: 69px;
+   display: block;
+   margin:auto;
+}
+
+.map-img {
+   width: 375px;
+   display: block;
+   margin: auto;
+}
+
+.map-before {
+   width: 330px;
+   display: block;
+   margin: 5% auto;
+}
+
+.map-after {
+   width: 375px;
+   display: block;
+   margin: auto;
 }

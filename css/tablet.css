@@ -151,3 +151,50 @@ main {
    margin: 5% 0;
    font-size: 80px;
 }
+
+.empty-container {
+   position: relative;
+   display: flex;
+   justify-content: space-around;
+   margin: 15px;
+   width: 300px;
+   height: 300px;
+}
+
+.apiary-icon {
+   margin: auto;
+   width: 600px;
+   height: 400px;
+}
+
+.apiary-design {
+   width: 600px;
+   height: 450px;
+   display: block;
+   margin: 5% auto;
+}
+
+#apiary-text {
+   width: 600px;
+   height: 138px;
+   display: block;
+   margin:auto;
+}
+
+.map-img {
+   width: 765px;
+   display: block;
+   margin: auto;
+}
+
+.map-before {
+   width: 450px;
+   display: block;
+   margin: 5% auto;
+}
+
+.map-after {
+   width: 550px;
+   display: block;
+   margin: auto;
+}

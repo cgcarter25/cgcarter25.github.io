@@ -3,7 +3,7 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-   <title>Carter | Additional Work</title>
+   <title>Carter | Be An Advocate</title>
    <link href="../css/reset.css" rel="stylesheet">
    <link href="https://fonts.googleapis.com/css?family=Kanit&display=swap" rel="stylesheet">
    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
@@ -18,15 +18,30 @@
    <link rel="stylesheet" type="text/css" href="../slick/slick.css"/>
    <link rel="stylesheet" type="text/css" href="../slick/slick-theme.css"/>
 </head>
+<body>
 <heading>
    <a href="../index.html">
    <h1 class="caroline-nav">CAROLINE CARTER</h1></a>
 </heading>
 <main>
-   <div id="website">
-   <h2 class="drawing-section">Website</h2>
-   <h2 class="title-intro">You're looking at it!</h2>
+   <h2 class="title">Forces on Your Page</h2>
+   <p class="caption">Text Design</p>
+   <p class="blurb">In my Type and Image class at the Rhode Island School of Design, my professor asked us to think about a paragraph of text as an image as opposed to just a body of content. He gave us a few different nouns that he wanted us to show using text. We were not allowed to use any text distortion effects, but instead manipulate lines and letters to convey meaning.</p>
+   <div class="fade">
+      <div>
+         <img src="../img/fp-1.jpg" alt="" class="slick-img">
+      </div>
+      <div>
+         <img src="../img/fp-2.jpg" alt="" class="slick-img">
+      </div>
+      <div>
+         <img src="../img/fp-3.jpg" alt="" class="slick-img">
+      </div>
+      <div>
+         <img src="../img/fp-4.jpg" alt="" class="slick-img">
+      </div>
    </div>
+   <p class="blurb-guy">Tools Used: Adobe InDesign</p>
 </main>
 <footer>
    <p class="footer-message">Hi there. I care about using design to tell meaningful stories.</p>
@@ -36,5 +51,18 @@
       <a href="../contact/index.html" class="footer">contact</a>
    </div>
 </footer>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="../slick/slick.min.js"></script>
+<script type="text/javascript">
+$('.fade').slick({
+  dots: false,
+  infinite: true,
+  speed: 500,
+  fade: true,
+  cssEase: 'linear',
+  respondTo: 'window'
+});
+</script>
 </body>
 </html>

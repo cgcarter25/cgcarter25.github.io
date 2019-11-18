@@ -36,7 +36,6 @@
 
     cursor: pointer;
 
-    color: transparent;
     border: none;
     outline: none;
     background: transparent;
@@ -55,12 +54,12 @@
 .slick-next:hover:before,
 .slick-next:focus:before
 {
-    opacity: 1;
+    color: #2476B3;
 }
 .slick-prev.slick-disabled:before,
 .slick-next.slick-disabled:before
 {
-    opacity: .25;
+   opacity: 0;
 }
 
 .slick-prev:before,
@@ -70,8 +69,6 @@
     font-size: 20px;
     line-height: 1;
 
-    opacity: .75;
-    color: white;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -205,5 +202,5 @@
 
 .slick-prev:before,
 .slick-next:before {
-  color: #f47500;
+  color: #F7B541;
 }

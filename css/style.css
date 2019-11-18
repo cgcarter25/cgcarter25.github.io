@@ -78,6 +78,15 @@ html {
    margin: 15px;
 }
 
+.empty-box {
+   position: relative;
+   display: flex;
+   justify-content: space-around;
+   margin: 15px;
+   width: 300px;
+   height: 300px;
+}
+
 .home-container:hover .hide-image-a {
    opacity: 1;
    transition: .5s ease;
@@ -158,12 +167,6 @@ html {
    text-align: center;
    font: 25px Raleway, sans-serif;
    color: #ffac36;
-}
-
-.blurb {
-   font: 16px/1.5 Raleway, sans-serif;
-   color: #333;
-   margin: 5% 0;
 }
 
 .blurb-guy {
@@ -361,6 +364,13 @@ li {
    color: #333;
 }
 
+.before-map-text {
+   text-align: center;
+   font: 20px / 1.5 Raleway, serif;
+   color: #333;
+   padding-bottom: 12px;
+}
+
 .brochure-text {
    text-align: center;
    font: 20px / 1.5 Raleway, serif;
@@ -371,4 +381,15 @@ li {
 #about-video {
    /* margin-top: 100px; */
    height: 100vh;
+}
+
+.blurb {
+   font: 16px/1.5 Raleway, sans-serif;
+   color: #333;
+   margin: 5% auto;
+
+}
+
+#website {
+   margin: -11% auto;
 }

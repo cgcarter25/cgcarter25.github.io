@@ -101,11 +101,6 @@ main {
    margin: 5% auto;
 }
 
-.apiary-design {
-   width: 900px;
-   margin: 5% auto;
-}
-
 .drawing-section {
    font: 50px Kanit, sans-serif;
    color: #1B76B3;
@@ -149,4 +144,53 @@ main {
    color: #1b76b3;
    margin: 5% 0;
    font-size: 80px;
+}
+
+.empty-container {
+   position: relative;
+   display: flex;
+   justify-content: space-around;
+   margin: 15px;
+   width: 300px;
+   height: 300px;
+}
+
+.apiary-icon {
+   margin: auto;
+   width: 700px;
+   height: 467px;
+}
+
+#apiary-text {
+   width: 800px;
+   height: 183px;
+   display: block;
+   margin:auto;
+}
+
+.apiary-design {
+   width: 900px;
+   height: 675px;
+   display: block;
+   margin: 5% auto;
+}
+
+.map-img {
+   width: 1000px;
+   display: block;
+   margin: auto;
+}
+
+.before-after {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.map-before {
+   width: 450px;
+}
+
+.map-after {
+   width: 550px;
 }
