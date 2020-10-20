@@ -1,152 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width,initial-scale=1.0">
-   <title>Caroline Carter</title>
-   <link href="css/reset.css" rel="stylesheet">
-   <link href="https://fonts.googleapis.com/css?family=Kanit&display=swap" rel="stylesheet">
-   <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
-   <link href="css/variables.css" rel="stylesheet">
-   <link href="css/base.css" rel="stylesheet">
-   <link href="css/headings.css" rel="stylesheet">
-   <link href="css/jcarousel.transitions.css" rel="stylesheet">
-   <link href="css/style.css" rel="stylesheet">
-   <link href="css/desktop.css" rel="stylesheet" media="(min-width: 1020px)">
-   <link href="css/tablet.css" rel="stylesheet" media="(min-width: 760px) and (max-width: 1019px)">
-   <link href="css/phone.css" rel="stylesheet" media="(max-width: 759px)">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=PT+Serif&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Caroline Carter</title>
 </head>
-<heading>
-   <h1 id="caroline-intro">CAROLINE CARTER</h1>
-   <h2 class="title-intro">Graphic Designer, Artist & Storyteller</h2>
-</heading>
-<main>
-   <div id="home-box">
-      <a href="chimp-or-treat/index.html">
-         <div class="home-container">
-            <div class="hide-image-c"></div>
-            <img class="home-image" src="img/coto-cover.png" alt="">
-            <div class="home-caption">
-               <h3>Chimp or Treat</h3>
-               <p class="home-design">Rebrand Design</p>
-            </div>
-         </div>
-      </a>
-      <a href="risd/index.html">
-         <div class="home-container">
-            <div class="hide-image-a"></div>
-            <img class="home-image" src="img/risd-home.png" alt="">
-            <div class="home-caption">
-               <h3>RISD Museum Identity Manual</h3>
-               <p class="home-design">Brand Design</p>
-            </div>
-         </div>
-      </a>
-      <a href="book-covers/index.html">
-         <div class="home-container">
-            <div class="hide-image-e"></div>
-            <img class="home-image" src="img/book-cover-home.png" alt="">
-            <div class="home-caption">
-               <h3>Control of Nature</h3>
-               <p class="home-design">Book Cover Design</p>
-            </div>
-         </div>
-      </a>
-      <a href="be-an-advocate/index.html">
-         <div class="home-container">
-            <div class="hide-image-a"></div>
-            <img class="home-image" src="img/be-an-advocate-home.png" alt="">
-            <div class="home-caption">
-               <h3>Be An Advocate</h3>
-               <p class="home-design">Poster Design</p>
-            </div>
-         </div>
-      </a>
-      <a href="reports/index.html">
-         <div class="home-container">
-            <div class="hide-image-e"></div>
-            <img class="home-image" src="img/annual-report.jpg" alt="">
-            <div class="home-caption">
-               <h3>Project Chimps Annual Report</h3>
-               <p class="home-design">Brochure Design</p>
-            </div>
-         </div>
-      </a>
-      <a href="apiary/index.html">
-         <div class="home-container">
-            <div class="hide-image-c"></div>
-            <img class="home-image" src="img/apiary-home.png" alt="">
-            <div class="home-caption">
-               <h3>Project Harvest</h3>
-               <p class="home-design">Infographic Design</p>
-            </div>
-         </div>
-      </a>
-      <a href="white-book/index.html">
-      <div class="home-container">
-         <div class="hide-image-d"></div>
-         <img class="home-image" src="img/white-home.png" alt="">
-         <div class="home-caption">
-            <h3>White and Clean</h3>
-            <p class="home-design">Book Design</p>
-         </div>
+<body class = "vote-for-her">
+  <div class="project-page" onmousemove="moveImageWork()">
+    <div class="nav-item">
+      <a href="/index.html"><img class="logo" src="/img/logo.png" alt=""></a>
+      <a class="work underline" href="/work.html"><h2>Work</h2></a>
+    </div>
+    <div class="carousel-wrapper">
+      <div class="button-wrapper">
+        <img src="img/arrow.png" alt="" onclick="nextImageWork()" class="carousel-button" id = "carousel-button-prev">
       </div>
-      </a>
-      <a href="map/index.html">
-         <div class="home-container">
-            <div class="hide-image-a"></div>
-            <img class="home-image" src="img/map-home.jpg" alt="">
-            <div class="home-caption">
-               <h3>Peachtree Map</h3>
-               <p class="home-design">Map Design & Animation</p>
+      <ul class="carousel">
+        <a href="/vote-for-her.html">
+        <li class="carousel-item live-image">
+            <img src="/img/vote-for-her-work.jpg" alt="" class="image drop-shadow">
+            <div class="carousel-title-work drop-shadow">
+              <h3 class="carousel-header">Vote For Her</h3>
+              <h4 class="carousel-subheader-left">Brand and Social Media Design</h4>
             </div>
-         </div>
-      </a>
-      <a href="forces/index.html">
-         <div class="home-container">
-            <div class="hide-image-a"></div>
-            <img class="home-image" src="img/fp-home.jpg" alt="">
-            <div class="home-caption">
-               <h3>Forces on Your Page</h3>
-               <p class="home-design">Text Design</p>
+          </li>
+
+          </a>
+        <li class="carousel-item">
+          <a href="/three-trips.html">
+            <img src="/img/three-trips-work.jpg" alt="" class="image drop-shadow">
+            <div class="carousel-title-work drop-shadow">
+              <h3 class="carousel-header">Three Trips</h3>
+              <h4 class="carousel-subheader-right">Infographic Design</h4>
             </div>
-         </div>
-      </a>
-      <a href="postcard/index.html">
-         <div class="home-container">
-            <div class="hide-image-e"></div>
-            <img class="home-image" src="img/post-home.png" alt="">
-            <div class="home-caption">
-               <h3>Postcard for a Typeface</h3>
-               <p class="home-design">Logo and Postcard Design</p>
+          </a>
+        </li>
+        <li class="carousel-item">
+          <a href="/risd-museum.html">
+            <img src="/img/risd-museum-work.png" alt="" class="image drop-shadow">
+            <div class="carousel-title-work drop-shadow">
+              <h3 class="carousel-header">Risd Museum</h3>
+              <h4 class="carousel-subheader-right">Brand Identity Design</h4>
             </div>
-         </div>
-      </a>
-      <a href="additional-work/index.html">
-         <div class="home-container">
-            <div class="hide-image-b"></div>
-            <img class="home-image" src="img/additional-work-home.png" alt="">
-            <div class="home-caption">
-               <h3>Website</h3>
-               <p class="home-design">Web Development</p>
+          </a>
+        </li>
+        <li class="carousel-item">
+          <a href="/direct-mail.html">
+            <img src="/img/direct-mail-work.png" alt="" class="image drop-shadow">
+            <div class="carousel-title-work drop-shadow">
+              <h3 class="carousel-header">Direct Mail</h3>
+              <h4 class="carousel-subheader-right">Mail Design</h4>
             </div>
-         </div>
-      </a>
-      <a href="drawings/index.html">
-         <div class="home-container">
-            <div class="hide-image-c"></div>
-            <img class="home-image" src="img/portrait-home.png" alt="">
-            <div class="home-caption">
-               <h3 id="drawing-caption">Selected Drawings</h3>
+          </a>
+        </li>
+        <li class="carousel-item">
+          <a href="/dogs.html">
+            <img src="/img/dogs-work.png" alt="" class="image drop-shadow">
+            <div class="carousel-title-work drop-shadow">
+              <h3 class="carousel-header">The Complete<br>Dog Book</h3>
+              <h4 class="carousel-subheader-left">Book Design</h4>
             </div>
-         </div>
-      </a>
-</main>
-<footer>
-   <p class="footer-message">Hi there. I care about using design to tell meaningful stories.</p>
-   <div class="footer-container">
-      <a href="about/index.html" class="footer">more about me</a><br>
-      <a href="contact/index.html" class="footer">contact</a>
-   </div>
-</footer>
+          </a>
+        </li>
+        <li class="carousel-item">
+          <a href="/japan.html">
+            <img src="/img/japan-work.png" alt="" class="image drop-shadow">
+            <div class="carousel-title-work drop-shadow">
+              <h3 class="carousel-header">Japan</h3>
+              <h4 class="carousel-subheader-right">Infographic Design</h4>
+            </div>
+          </a>
+        </li>
+        <!-- <li class="carousel-item">
+          <a href="/repme.html">
+            <img src="/img/repme-work.gif" alt="" class="image drop-shadow">
+            <div class="carousel-title-work">
+              <h3 class="carousel-header text-black">RepMe</h3>
+              <h4 class="carousel-subheader-left text-black">Branding and Ad Design</h4>
+            </div>
+          </a>
+        </li> -->
+        <li class="carousel-item">
+          <a href="/field-notes.html">
+            <img src="/img/field-notes-work.png" alt="" class="image drop-shadow">
+            <div class="carousel-title-work drop-shadow">
+              <h3 class="carousel-header">Field Notes from<br>a Catastrophe</h3>
+              <h4 class="carousel-subheader-left">Book Design</h4>
+            </div>
+          </a>
+        </li>
+        <li class="carousel-item">
+          <a href="/control-of-nature.html">
+            <img src="/img/control-of-nature-work.png" alt="" class="image drop-shadow">
+            <div class="carousel-title-work drop-shadow">
+              <h3 class="carousel-header">Control of<br>Nature</h3>
+              <h4 class="carousel-subheader-left">Book Cover Design</h4>
+            </div>
+          </a>
+        </li>
+        <li class="carousel-item">
+          <a href="/apiary.html">
+            <img src="/img/apiary-work.jpg" alt="" class="image drop-shadow">
+            <div class="carousel-title-work drop-shadow">
+              <h3 class="carousel-header">Apiary</h3>
+              <h4 class="carousel-subheader-left">Infographic Design</h4>
+            </div>
+          </a>
+        </li>
+      </ul>
+      <div class="button-wrapper">
+        <img src="img/arrow.png" alt="" onclick="prevImageWork()" class="carousel-button" id = "carousel-button-next">
+    </div>
+    </div>
+    <div class="nav-item">
+      <a class="about underline" href="/about.html"><h2 >About</h2></a>
+    </div>
+  </div>
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
+  <script src="js/jquery.zoom.min.js"></script>
+  <script src="js/DrawSVGPlugin.min.js"></script>
+  <script src="js/work.js"></script>
+</body>
 </html>

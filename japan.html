@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=PT+Serif&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Caroline Carter</title>
+</head>
+<body class ="japan">
+  <div class="project-page" onmousemove="moveImage()">
+    <div class="nav-item">
+      <a href="/index.html"><img class="logo" src="/img/logo.png" alt=""></a>
+      <a class="work underline" href="/work.html"><h2>Work</h2></a>
+    </div>
+    <div class="carousel-wrapper">
+      <div class="button-wrapper">
+        <img src="img/arrow.png" alt="" onclick="nextImage()" class="carousel-button" id = "carousel-button-prev">
+      </div>
+      <ul class="carousel">
+        <li class="carousel-item live-image">
+          <div class="carousel-title">
+            <h4 class="carousel-header text-black">Japan&mdash;Infographic Design</h4>
+          </div>
+          <img src="/img/japan-work.png" alt="" class="image drop-shadow">
+        </li>
+        <li class="carousel-item">
+          <div class="info-wrapper">
+            <h3 class="info-header text-black">Japan</h3>
+            <p class="info-paragraph text-black">I made this accordion book for my Infographic and Data Visualization class at the Rhode Island School of Design.</p>
+            <p class="info-paragraph text-black">I designed the icons and infographics in Adobe Illustrator and the book in Adobe Indesign. I also used an exacto knife to meticulously cut out each top section of the right spreads.</p>
+            <p class="info-paragraph text-black"><a href="/field-notes.html" class = "next-project">Next Project</a></p>
+          </div>
+        </li>
+        <li class="carousel-item">
+          <img src="/img/japan-1.png" alt="" class="image image-long-less-padding drop-shadow">
+        </li>
+        <li class="carousel-item">
+          <img src="/img/japan-2.png" alt="" class="image image-long-less-padding drop-shadow">
+        </li>
+        <li class="carousel-item">
+          <img src="/img/japan-3.png" alt="" class="image image-long-less-padding drop-shadow">
+        </li>
+        <li class="carousel-item">
+          <img src="/img/japan-4.png" alt="" class="image image-long-less-padding drop-shadow">
+        </li>
+        <li class="carousel-item">
+          <img src="/img/japan-5.png" alt="" class="image image-long-less-padding drop-shadow">
+        </li>
+        <li class="carousel-item">
+          <img src="/img/japan-6.png" alt="" class="image image-long-less-padding drop-shadow">
+        </li>
+      </ul>
+      <div class="button-wrapper">
+        <img src="img/arrow.png" alt="" onclick="prevImage()" class="carousel-button" id = "carousel-button-next">
+    </div>
+    </div>
+    <div class="nav-item">
+      <a class="about underline" href="/about.html"><h2 >About</h2></a>
+    </div>
+  </div>
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
+  <script src="js/jquery.zoom.min.js"></script>
+  <script src="js/DrawSVGPlugin.min.js"></script>
+  <script src="js/work.js"></script>
+</body>
+</html>
