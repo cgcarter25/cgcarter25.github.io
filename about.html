@@ -8,29 +8,33 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
+  <link href="css/desktop.css" rel="stylesheet" media="(min-width: 900px)">
+  <link href="css/tablet.css" rel="stylesheet" media="(min-width: 600px) and (max-width: 899px)">
+  <link href="css/phone.css" rel="stylesheet" media="(max-width: 599px)">
   <title>Caroline Carter</title>
 </head>
 <body class ="about-page">
   <div class="project-page" onmousemove="moveImage()">
-    <div class="nav-item">
-      <a href="/index.html"><img class="logo" src="/img/logo.png" alt=""></a>
+  <div class="navigation">
+    <div class="logo-wrapper">
+      <a href="/index.html" ><img class="logo" src="/img/logo.png" alt=""></a>
+    </div>
+    <div class="work-about">
       <a class="work underline" href="/work.html"><h2>Work</h2></a>
-    </div>
-    <div class="carousel-wrapper">
-      <ul class="carousel">
-        <li class="carousel-item live-image">
-          <div class="info-wrapper">
-            <h3 class="info-header text-black">Prounounced "Keh-ruh-Line"</h3>
-            <p class="info-paragraph text-black">Caroline Carter</p>
-            <p class="info-paragraph text-black">I am a graphic designer, front-end developer, and artist working at SKDK as a creative consultant.</p>
-            <p class="info-paragraph text-black">I love using design to tell meaningful stories and reach new audiences. In my spare time I <a href="">paint!</a></p>
-          </div>
-        </li>
-      </ul>
-    </div>
-    <div class="nav-item">
       <a class="about underline" href="/about.html"><h2 >About</h2></a>
     </div>
+  </div>
+  <div class="carousel-wrapper">
+    <ul class="carousel">
+      <li class="carousel-item live-image">
+        <div class="info-wrapper">
+          <h3 class="info-header text-black">Prounounced "Keh-ruh-Line"</h3>
+          <p class="info-paragraph text-black">Caroline Carter</p>
+          <p class="info-paragraph text-black">I am a graphic designer, front-end developer, and artist working at SKDK as a creative consultant.</p>
+          <p class="info-paragraph text-black">I love using design to tell meaningful stories and reach new audiences. In my spare time I <a href="">paint!</a></p>
+        </div>
+      </li>
+    </ul>
   </div>
 
   <!-- jQuery -->

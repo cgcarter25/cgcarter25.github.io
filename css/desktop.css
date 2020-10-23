@@ -1,0 +1,7 @@
+#carousel-button-next {
+  transform: rotate(180deg);
+}
+
+#carousel-button-prev {
+  transform: rotate(0deg);
+}

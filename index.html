@@ -8,18 +8,27 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
+  <link href="css/desktop.css" rel="stylesheet" media="(min-width: 900px)">
+  <link href="css/tablet.css" rel="stylesheet" media="(min-width: 600px) and (max-width: 899px)">
+  <link href="css/phone.css" rel="stylesheet" media="(max-width: 599px)">
   <title>Caroline Carter</title>
 </head>
 <body class = "vote-for-her">
   <div class="project-page" onmousemove="moveImageWork()">
-    <div class="nav-item">
-      <a href="/index.html"><img class="logo" src="/img/logo.png" alt=""></a>
-      <a class="work underline" href="/work.html"><h2>Work</h2></a>
+    <div class="navigation">
+      <div class="logo-wrapper">
+        <a href="/index.html" ><img class="logo" src="/img/logo.png" alt=""></a>
+      </div>
+      <div class="work-about">
+        <a class="work underline" href="/work.html"><h2>Work</h2></a>
+        <a class="about underline" href="/about.html"><h2 >About</h2></a>
+      </div>
+    </div>
+    <div class="button-wrapper">
+      <img src="img/arrow.png" alt="" onclick="nextImageWork()" class="carousel-button" id = "carousel-button-prev">
+      <img src="img/arrow.png" alt="" onclick="prevImageWork()" class="carousel-button" id = "carousel-button-next">
     </div>
     <div class="carousel-wrapper">
-      <div class="button-wrapper">
-        <img src="img/arrow.png" alt="" onclick="nextImageWork()" class="carousel-button" id = "carousel-button-prev">
-      </div>
       <ul class="carousel">
         <a href="/vote-for-her.html">
         <li class="carousel-item live-image">
@@ -29,7 +38,6 @@
               <h4 class="carousel-subheader-left">Brand and Social Media Design</h4>
             </div>
           </li>
-
           </a>
         <li class="carousel-item">
           <a href="/three-trips.html">
@@ -42,7 +50,7 @@
         </li>
         <li class="carousel-item">
           <a href="/risd-museum.html">
-            <img src="/img/risd-museum-work.png" alt="" class="image drop-shadow">
+            <img src="/img/risd-museum-work.png" alt="" class=" image-long-less-padding drop-shadow">
             <div class="carousel-title-work drop-shadow">
               <h3 class="carousel-header">Risd Museum</h3>
               <h4 class="carousel-subheader-right">Brand Identity Design</h4>
@@ -62,7 +70,7 @@
           <a href="/dogs.html">
             <img src="/img/dogs-work.png" alt="" class="image drop-shadow">
             <div class="carousel-title-work drop-shadow">
-              <h3 class="carousel-header">The Complete<br>Dog Book</h3>
+              <h3 class="carousel-header">Dog Book</h3>
               <h4 class="carousel-subheader-left">Book Design</h4>
             </div>
           </a>
@@ -76,20 +84,11 @@
             </div>
           </a>
         </li>
-        <!-- <li class="carousel-item">
-          <a href="/repme.html">
-            <img src="/img/repme-work.gif" alt="" class="image drop-shadow">
-            <div class="carousel-title-work">
-              <h3 class="carousel-header text-black">RepMe</h3>
-              <h4 class="carousel-subheader-left text-black">Branding and Ad Design</h4>
-            </div>
-          </a>
-        </li> -->
         <li class="carousel-item">
           <a href="/field-notes.html">
             <img src="/img/field-notes-work.png" alt="" class="image drop-shadow">
             <div class="carousel-title-work drop-shadow">
-              <h3 class="carousel-header">Field Notes from<br>a Catastrophe</h3>
+              <h3 class="carousel-header">Field Notes</h3>
               <h4 class="carousel-subheader-left">Book Design</h4>
             </div>
           </a>
@@ -98,14 +97,14 @@
           <a href="/control-of-nature.html">
             <img src="/img/control-of-nature-work.png" alt="" class="image drop-shadow">
             <div class="carousel-title-work drop-shadow">
-              <h3 class="carousel-header">Control of<br>Nature</h3>
+              <h3 class="carousel-header">Control of Nature</h3>
               <h4 class="carousel-subheader-left">Book Cover Design</h4>
             </div>
           </a>
         </li>
         <li class="carousel-item">
           <a href="/apiary.html">
-            <img src="/img/apiary-work.jpg" alt="" class="image drop-shadow">
+            <img src="/img/apiary-work.jpg" alt="" class="image-long-less-padding drop-shadow">
             <div class="carousel-title-work drop-shadow">
               <h3 class="carousel-header">Apiary</h3>
               <h4 class="carousel-subheader-left">Infographic Design</h4>
@@ -113,12 +112,6 @@
           </a>
         </li>
       </ul>
-      <div class="button-wrapper">
-        <img src="img/arrow.png" alt="" onclick="prevImageWork()" class="carousel-button" id = "carousel-button-next">
-    </div>
-    </div>
-    <div class="nav-item">
-      <a class="about underline" href="/about.html"><h2 >About</h2></a>
     </div>
   </div>
 

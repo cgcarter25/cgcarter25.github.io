@@ -89,7 +89,6 @@ function prevImageWork() {
   nextImage.className = "carousel-item live-image";
 }
 
-
 TweenMax.to('#carousel-button-next', 1, {y: '-10px', repeat: -1, yoyoEase:true, repeatDelay:0, yoyo: true, transformOrigin: 'center center'});
 TweenMax.to('#carousel-button-prev', 1, {y: '10px', repeat: -1, yoyoEase:true, repeatDelay:0, yoyo: true, transformOrigin: 'center center'});
 
@@ -127,7 +126,7 @@ function moveImageWork() {
   document.querySelector('.live-image').style.transform = `translate(${((width/2) - mouseX) * 0.02}px, ${((height/2) - mouseY) * 0.02}px`;
 
   for (let i = 0; i < carouselLabels.length; i++) {
-    carouselLabels[i].style.transform = `translate(${((width/2) - mouseX) * 0.05}px, ${(((height/2) - mouseY) * 0.05) - 200}px`;
+    carouselLabels[i].style.transform = `translate(${((width/2) - mouseX) * 0.03}px, ${(((height/2) - mouseY) * 0.03) - 200}px`;
   }
 
   lastMouseX = mouseX;

@@ -8,44 +8,45 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
+  <link href="css/desktop.css" rel="stylesheet" media="(min-width: 900px)">
+  <link href="css/tablet.css" rel="stylesheet" media="(min-width: 600px) and (max-width: 899px)">
+  <link href="css/phone.css" rel="stylesheet" media="(max-width: 599px)">
   <title>Caroline Carter</title>
 </head>
 <body class ="three-trips">
   <div class="project-page" onmousemove="moveImage()">
-    <div class="nav-item">
-      <a href="/index.html"><img class="logo" src="/img/logo.png" alt=""></a>
-      <a class="work underline" href="/work.html"><h2>Work</h2></a>
-    </div>
-    <div class="carousel-wrapper">
-      <div class="button-wrapper">
-        <img src="img/arrow.png" alt="" onclick="nextImage()" class="carousel-button" id = "carousel-button-prev">
+    <div class="navigation">
+      <div class="logo-wrapper">
+        <a href="/index.html" ><img class="logo" src="/img/logo.png" alt=""></a>
       </div>
-      <ul class="carousel">
-        <li class="carousel-item live-image">
-          <div class="carousel-title">
-            <h4 class="carousel-header text-black">Apiary&mdash;Infographic Design</h4>
-          </div>
-          <img src="/img/apiary-work.jpg" alt="" class="image drop-shadow">
-        </li>
-        <li class="carousel-item">
-          <div class="info-wrapper">
-            <h3 class="info-header text-black">Apiary</h3>
-            <p class="info-paragraph text-black">I made this poster as an informational guide to visitors during my graphic design internship at Project Chimps.</p>
-            <p class="info-paragraph text-black">I designed the poster and all the icons in Adobe Illustrator.</p>
-            <p class="info-paragraph text-black"><a href="/vote-for-her.html" class = "next-project">Next Project</a></p>
-          </div>
-        </li>
-        <li class="carousel-item">
-          <img src="/img/apiary-1.png" alt="" class="image drop-shadow zoom-image">
-        </li>
-      </ul>
-      <div class="button-wrapper">
-        <img src="img/arrow.png" alt="" onclick="prevImage()" class="carousel-button" id = "carousel-button-next">
+      <div class="work-about">
+        <a class="work underline" href="/work.html"><h2>Work</h2></a>
+        <a class="about underline" href="/about.html"><h2 >About</h2></a>
+      </div>
     </div>
+    <div class="button-wrapper">
+      <img src="img/arrow.png" alt="" onclick="nextImage()" class="carousel-button" id = "carousel-button-prev">
+      <img src="img/arrow.png" alt="" onclick="prevImage()" class="carousel-button" id = "carousel-button-next">
     </div>
-    <div class="nav-item">
-      <a class="about underline" href="/about.html"><h2 >About</h2></a>
-    </div>
+    <ul class="carousel">
+      <li class="carousel-item live-image">
+        <div class="carousel-title">
+          <h4 class="carousel-header text-black">Apiary&mdash;Infographic Design</h4>
+        </div>
+        <img src="/img/apiary-work.jpg" alt="" class="image-long-less-padding drop-shadow">
+      </li>
+      <li class="carousel-item">
+        <div class="info-wrapper">
+          <h3 class="info-header text-black">Apiary</h3>
+          <p class="info-paragraph text-black">I made this poster as an informational guide to visitors during my graphic design internship at Project Chimps.</p>
+          <p class="info-paragraph text-black">I designed the poster and all the icons in Adobe Illustrator.</p>
+          <p class="info-paragraph text-black"><a href="/vote-for-her.html" class = "next-project">Next Project</a></p>
+        </div>
+      </li>
+      <li class="carousel-item">
+        <img src="/img/apiary-1.png" alt="" class="image-long-less-padding drop-shadow zoom-image">
+      </li>
+    </ul>
   </div>
 
   <!-- jQuery -->

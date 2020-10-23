@@ -1,0 +1,113 @@
+
+
+.work-about {
+  display: flex;
+  justify-content: center;
+  margin-top: 70vh;
+  bottom: 10%
+}
+
+.about {
+  transform: rotate(0deg);
+}
+
+.work {
+  transform: rotate(0deg);
+}
+
+.work-item {
+  font-size: 50px;
+}
+
+.work-page {
+  margin-top: 25vh;
+}
+
+.logo-wrapper {
+  display: block;
+  text-align: center;
+  margin-top: -1vh;
+}
+
+.button-wrapper {
+  flex-direction: row;
+  text-align: center;
+  display: block;
+  width: 100vw;
+  height: auto;
+  bottom: 13%;
+  margin: 0;
+}
+
+#carousel-button-next {
+  transform: rotate(90deg);
+}
+
+#carousel-button-prev {
+  transform: rotate(270deg);
+}
+
+.image {
+  display: block;
+  margin: auto;
+  position: relative;
+  height: 50vh;
+  width: auto;
+  padding-top: 3vh;
+}
+
+.image-long {
+  width: 480px;
+  height: auto;
+  padding-top: 15vh;
+}
+
+.image-top {
+  width: 400px;
+  z-index: 10;
+  padding: 15px;
+}
+
+.image-bottom {
+  width: 400px;
+  z-index: 9;
+  padding: 15px;
+}
+
+.image-left {
+  width: 280px;
+  height: auto;
+  z-index: 10;
+  padding: 15px;
+}
+
+.image-right {
+  width: 280px;
+  height: auto;
+  z-index: 9;
+  padding: 15px;
+}
+
+.info-wrapper {
+  width: 450px;
+}
+
+.info-header {
+  font-size: 40px;
+}
+
+.info-paragraph {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 50px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+.carousel {
+  margin-top: 20vh;
+}
