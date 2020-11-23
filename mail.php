@@ -8,7 +8,7 @@ if($_POST) {
     $email_body = "<div>";
 
     if(isset($_POST['name'])) {
-        $visitor_name = filter_var($_POST['name'], FILTER_SANITIZE_STRING);
+        $name = filter_var($_POST['name'], FILTER_SANITIZE_STRING);
         $email_body .= "<div>
                            <label><b>Name:</b></label>&nbsp;<span>".$name."</span>
                         </div>";
@@ -31,6 +31,7 @@ if($_POST) {
     }
 
     $recipient = "cgcarter25@gmail.com";
+    
     $email_body .= "</div>";
 
     $headers  = 'MIME-Version: 1.0' . "\r\n"
