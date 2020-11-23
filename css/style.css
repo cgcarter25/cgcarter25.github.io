@@ -534,7 +534,7 @@ input[type=text], select, textarea {
 
 }
 
-#subject {
+#message {
   padding: 12px 20px;
   margin: 6px 0 16px 0;
   background-color: #14285022;
