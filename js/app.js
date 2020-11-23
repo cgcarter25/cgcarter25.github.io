@@ -87,6 +87,10 @@ document.querySelector('#learn-more-japan').addEventListener('mouseover', learnM
 
 document.querySelector('#learn-more-japan').addEventListener('mouseout', learnLess)
 
+document.querySelector('#learn-more-apiary').addEventListener('mouseover', learnMore)
+
+document.querySelector('#learn-more-apiary').addEventListener('mouseout', learnLess)
+
 document.querySelector('#learn-more-dogs').addEventListener('mouseover', learnMore)
 
 document.querySelector('#learn-more-dogs').addEventListener('mouseout', learnLess)
@@ -207,6 +211,7 @@ let seltzer = 0,
     risd = 0,
     threeTrips = 0,
     japan = 0,
+    apiary = 0,
     dogs = 0,
     fieldNotes = 0,
     control = 0,
@@ -285,6 +290,7 @@ function closeGeneric() {
   closeRisd();
   closeThreeTrips();
   closeJapan();
+  closeApiary();
   closeDogs();
   closeFieldNotes();
   closeDirectMail();
@@ -303,6 +309,7 @@ function openSeltzer() {
   closeRisd();
   closeThreeTrips();
   closeJapan();
+  closeApiary();
   closeDogs();
   closeFieldNotes();
   closeDirectMail();
@@ -345,6 +352,7 @@ function openRisd() {
   closeSeltzer();
   closeThreeTrips();
   closeJapan();
+  closeApiary();
   closeDogs();
   closeFieldNotes();
   closeDirectMail();
@@ -444,11 +452,13 @@ document.querySelector('#learn-more-three-trips').addEventListener('click', open
 
 document.querySelector('#learn-more-japan').addEventListener('click', openJapan)
 
+document.querySelector('#learn-more-apiary').addEventListener('click', openApiary)
 
 function openThreeTrips() {
   closeSeltzer();
   closeRisd();
   closeJapan();
+  closeApiary();
   closeDogs();
   closeFieldNotes();
   closeDirectMail();
@@ -458,6 +468,10 @@ function openThreeTrips() {
   document.querySelector('#japan-content').style.display = "none";
 
   document.querySelector('#learn-more-japan').style.display = "block";
+
+  document.querySelector('#apiary-content').style.display = "none";
+
+  document.querySelector('#learn-more-apiary').style.display = "block";
 
   openGeneric();
 
@@ -480,6 +494,8 @@ function openThreeTrips() {
 
   document.querySelector('#three-trips-caption').style.margin = "23vh 0 0 0";
   document.querySelector('#japan-caption').style.margin = "23vh 0 0 0";
+  document.querySelector('#apiary-caption').style.margin = "23vh 0 0 0";
+
 
   threeTrips = 1;
 }
@@ -489,11 +505,16 @@ function openJapan() {
   closeSeltzer();
   closeRisd();
   closeThreeTrips();
+  closeApiary();
   closeDogs();
   closeFieldNotes();
   closeDirectMail();
   closeVoteForHer();
   closePeters();
+
+  document.querySelector('#apiary-content').style.display = "none";
+
+  document.querySelector('#learn-more-apiary').style.display = "block";
 
   document.querySelector('#three-trips-content').style.display = "none";
 
@@ -520,18 +541,73 @@ function openJapan() {
 
   document.querySelector('#three-trips-caption').style.margin = "23vh 0 0 0";
   document.querySelector('#japan-caption').style.margin = "23vh 0 0 0";
+  document.querySelector('#apiary-caption').style.margin = "23vh 0 0 0";
 
   japan = 1;
 
 }
+
+function openApiary() {
+  closeSeltzer();
+  closeRisd();
+  closeJapan();
+  closeDogs();
+  closeFieldNotes();
+  closeDirectMail();
+  closeVoteForHer();
+  closePeters();
+
+  document.querySelector('#japan-content').style.display = "none";
+
+  document.querySelector('#learn-more-japan').style.display = "none";
+
+  document.querySelector('#three-trips-content').style.display = "none";
+
+  document.querySelector('#learn-more-three-trips').style.display = "none";
+
+  document.querySelector('#apiary-content').style.display = "block";
+
+  document.querySelector('#learn-more-apiary').style.display = "block";
+
+  openGeneric();
+
+  document.querySelector('#three-trips-home-image').style.height = "50vh";
+  document.querySelector('#japan-home-image').style.height = "50vh";
+  document.querySelector('#apiary-home-image').style.height = "50vh";
+
+  document.querySelector('#infographic').style.height = "50vh";
+
+  document.querySelector('#learn-more-apiary').style.display = "none";
+
+  document.querySelector('#apiary-content').style.display = "block";
+
+  document.querySelector('#apiary-content').style.height = "auto";
+
+  let carouselItems =
+  document.getElementsByClassName('carousel-item-infographic');
+  for (let i = 0; i < carouselItems.length; i++) {
+    carouselItems[i].style.height = "50vh";
+  }
+
+  document.querySelector('#three-trips-caption').style.margin = "23vh 0 0 0";
+  document.querySelector('#japan-caption').style.margin = "23vh 0 0 0";
+  document.querySelector('#apiary-caption').style.margin = "23vh 0 0 0";
+
+  apiary = 1;
+}
+
 
 function closeThreeTrips() {
   document.querySelector('#three-trips-content').style.display = "none";
 
   document.querySelector('#learn-more-three-trips').style.display = "none";
 
+  document.querySelector('#learn-more-apiary').style.display = "none";
+
+
   document.querySelector('#japan-home-image').style.height = "100vh";
   document.querySelector('#three-trips-home-image').style.height = "100vh";
+  document.querySelector('#apiary-home-image').style.height = "100vh";
 
   document.querySelector('#infographic').style.height = "100vh";
 
@@ -549,6 +625,7 @@ function closeThreeTrips() {
 
   document.querySelector('#three-trips-caption').style.margin = "";
   document.querySelector('#japan-caption').style.margin = "";
+  document.querySelector('#apiary-caption').style.margin = "";
 
   japan = 0;
 }
@@ -558,8 +635,13 @@ function closeJapan() {
 
   document.querySelector('#learn-more-japan').style.display = "none";
 
+  document.querySelector('#learn-more-apiary').style.display = "none";
+
+
   document.querySelector('#three-trips-home-image').style.height = "100vh";
   document.querySelector('#japan-home-image').style.height = "100vh";
+  document.querySelector('#apiary-home-image').style.height = "100vh";
+
 
   document.querySelector('#infographic').style.height = "100vh";
 
@@ -577,8 +659,44 @@ function closeJapan() {
 
   document.querySelector('#three-trips-caption').style.margin = "";
   document.querySelector('#japan-caption').style.margin = "";
+  document.querySelector('#apiary-caption').style.margin = "";
 
   japan = 0;
+
+}
+
+function closeApiary() {
+  document.querySelector('#three-trips-content').style.display = "none";
+
+  document.querySelector('#learn-more-japan').style.display = "none";
+
+  document.querySelector('#learn-more-apiary').style.display = "none";
+
+
+  document.querySelector('#three-trips-home-image').style.height = "100vh";
+  document.querySelector('#japan-home-image').style.height = "100vh";
+  document.querySelector('#apiary-home-image').style.height = "100vh";
+
+
+  document.querySelector('#infographic').style.height = "100vh";
+
+  document.querySelector('#learn-more-apiary').style.display = "block";
+
+  document.querySelector('#apiary-content').style.display = "none";
+
+  document.querySelector('#apiary-content').style.height = "";
+
+  let carouselItems =
+  document.getElementsByClassName('carousel-item-infographic');
+  for (let i = 0; i < carouselItems.length; i++) {
+    carouselItems[i].style.height = "100vh";
+  }
+
+  document.querySelector('#three-trips-caption').style.margin = "";
+  document.querySelector('#japan-caption').style.margin = "";
+  document.querySelector('#apiary-caption').style.margin = "";
+
+  apiary = 0;
 
 }
 
@@ -593,6 +711,7 @@ function openDogs() {
   closeRisd();
   closeThreeTrips();
   closeJapan();
+  closeApiary();
   closeFieldNotes();
   closeDirectMail();
   closeVoteForHer();
@@ -734,6 +853,7 @@ function openDirectMail() {
   closeRisd();
   closeThreeTrips();
   closeJapan();
+  closeApiary();
   closeDogs();
   closeFieldNotes();
   closeVoteForHer();
@@ -796,6 +916,7 @@ function openVoteForHer() {
   closeRisd();
   closeThreeTrips();
   closeJapan();
+  closeApiary();
   closeDogs();
   closeFieldNotes();
   closeDirectMail();
@@ -836,6 +957,7 @@ function openPeters() {
   closeRisd();
   closeThreeTrips();
   closeJapan();
+  closeApiary();
   closeDogs();
   closeFieldNotes();
   closeDirectMail();
