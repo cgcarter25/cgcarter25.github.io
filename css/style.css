@@ -26,12 +26,12 @@ html {
   color: white;
   text-transform: uppercase;
   display: block;
-  margin-top: 30vh;
+  margin-top: 28vh;
 }
 
 .home-subheader {
   text-align: left;
-  font: 800 50px 'brandon-grotesque', sans-serif;
+  font: 800 30px 'brandon-grotesque', sans-serif;
   line-height: 1.0;
   color: #142850;
   text-transform: uppercase;
