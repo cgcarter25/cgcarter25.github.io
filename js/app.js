@@ -559,15 +559,15 @@ function openApiary() {
 
   document.querySelector('#japan-content').style.display = "none";
 
-  document.querySelector('#learn-more-japan').style.display = "none";
+  document.querySelector('#learn-more-japan').style.display = "block";
 
   document.querySelector('#three-trips-content').style.display = "none";
 
-  document.querySelector('#learn-more-three-trips').style.display = "none";
+  document.querySelector('#learn-more-three-trips').style.display = "block";
 
   document.querySelector('#apiary-content').style.display = "block";
 
-  document.querySelector('#learn-more-apiary').style.display = "block";
+  document.querySelector('#learn-more-apiary').style.display = "none";
 
   openGeneric();
 
@@ -633,9 +633,9 @@ function closeThreeTrips() {
 function closeJapan() {
   document.querySelector('#three-trips-content').style.display = "none";
 
-  document.querySelector('#learn-more-japan').style.display = "none";
+  document.querySelector('#learn-more-japan').style.display = "block";
 
-  document.querySelector('#learn-more-apiary').style.display = "none";
+  document.querySelector('#learn-more-apiary').style.display = "block";
 
 
   document.querySelector('#three-trips-home-image').style.height = "100vh";
@@ -668,7 +668,7 @@ function closeJapan() {
 function closeApiary() {
   document.querySelector('#three-trips-content').style.display = "none";
 
-  document.querySelector('#learn-more-japan').style.display = "none";
+  document.querySelector('#learn-more-japan').style.display = "block";
 
   document.querySelector('#learn-more-apiary').style.display = "none";
 
