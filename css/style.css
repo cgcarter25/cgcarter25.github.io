@@ -343,6 +343,12 @@ a {
   width: auto;
 }
 
+#apiary-content {
+  display: none;
+  position: relative;
+  width: auto;
+}
+
 #dogs-content {
   display: none;
   position: relative;
