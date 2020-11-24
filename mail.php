@@ -32,8 +32,6 @@ if($_POST) {
 
     $recipient = "cgcarter25@gmail.com";
 
-    $email_subject = "New Form Submission"
-
     $email_body .= "</div>";
 
     $headers  = 'MIME-Version: 1.0' . "\r\n"
