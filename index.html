@@ -491,14 +491,54 @@
       </div>
       <div class="contact">
         <div class="right-side-about-contact contact-container">
-          <form class="form-container" method="POST" action="mail.php">
+          <!-- <form class="form-container" method="POST" action="mail.php">
             <h1 class="nav-header">Say hello!</h1>
             <input type="text" id="name" name="name" placeholder="Name" tabindex="1">
             <input type="text" id="email" name="email" placeholder="Email" tabindex="2">
             <input type="text" id="phone-number" name="phonenumber" placeholder="Phone Number" tabindex="3">
             <textarea id="message" name="message" placeholder="Write something..." style="height:200px" tabindex="4"></textarea>
             <input id="submit" type="submit" value="SUBMIT">
-          </form>
+          </form> -->
+          <div class="fcf-body">
+
+    <div id="fcf-form">
+    <h3 class="fcf-h3">Contact us</h3>
+
+    <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+
+        <div class="fcf-form-group">
+            <label for="Name" class="fcf-label">Your name</label>
+            <div class="fcf-input-group">
+                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <label for="Email" class="fcf-label">Your email address</label>
+            <div class="fcf-input-group">
+                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <label for="Message" class="fcf-label">Your message</label>
+            <div class="fcf-input-group">
+                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+        </div>
+
+        <div class="fcf-credit" id="fcf-credit">
+        Simple HTML email form provided by: <a href="https://www.freecontactform.com" target="_blank">FreeContactForm.com</a>
+        </div>
+
+    </form>
+    </div>
+
+</div>
         </div>
       </div>
     </div>
