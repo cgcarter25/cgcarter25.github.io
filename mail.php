@@ -1,4 +1,13 @@
 <?php
+echo "<pre>";
+$_POST;
+echo '</pre>'
+
+print_r($_POST);
+
+?>
+
+<!-- <?php
 
 if($_POST) {
     $name = "";
@@ -47,4 +56,4 @@ if($_POST) {
 } else {
     echo '<p>Something went wrong</p>';
 }
-?>
+?> -->
