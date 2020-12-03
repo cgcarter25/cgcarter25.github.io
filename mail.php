@@ -10,8 +10,8 @@ if (isset($_POST['submit'])) {
   $headers = "From: " .$email;
   $txt = "New form submission from " .$name.".\n\n".$message;
 
-  mail($mailTo $subject, $txt, $headers);
-  header("Location: index.html?mailsend")
+  mail($mailTo, $subject, $txt, $headers);
+  header("Location: index.html?mailsend");
 }
 
 ?>
