@@ -38,14 +38,15 @@ html {
   display: block;
   margin: 2vh 0 0 2vw;
   text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+  padding: 24px;
+
 }
 
 .this-way {
   text-align: center;
   width: 100vw;
-  height: 100vh;
   position: absolute;
-  margin-top: 16vh;
+  bottom: 2vh;
 }
 
 .this-way-text {

@@ -253,7 +253,10 @@ function openGeneric() {
 }
 
 // CLOSE GENERIC
-document.querySelector('.close-work').addEventListener('click', closeGeneric)
+document.querySelector('.close-work').addEventListener('click', function() {
+  closeGeneric();
+  window.scrollTo(0, (window.innerHeight));
+})
 
 function closeGeneric() {
 
@@ -296,16 +299,65 @@ function closeGeneric() {
   closeDirectMail();
   closeVoteForHer();
   closePeters();
+
 }
 
-// BRANDING LEARN MORE
-document.querySelector('#learn-more-seltzer').addEventListener('click', openSeltzer)
+// SOCIAL LEARN MORE
+document.querySelector('#learn-more-vote-for-her').addEventListener('click', function() {
+  openVoteForHer();
+  window.scrollTo(0, (window.innerHeight));
+})
 
-document.querySelector('#learn-more-risd').addEventListener('click', openRisd)
+document.querySelector('#learn-more-peters').addEventListener('click', function() {
+  openPeters();
+  window.scrollTo(0, (window.innerHeight));
+})
 
 
-function openSeltzer() {
+function openVoteForHer() {
+  closeSeltzer();
+  closeRisd();
+  closeThreeTrips();
+  closeJapan();
+  closeApiary();
+  closeDogs();
+  closeFieldNotes();
+  closeDirectMail();
+  closePeters();
 
+  document.querySelector('#peters-content').style.display = "none";
+
+  document.querySelector('#learn-more-peters').style.display = "block";
+
+  openGeneric();
+
+  document.querySelector('#vote-for-her-home-image').style.height = "50vh";
+  document.querySelector('#peters-home-image').style.height = "50vh";
+
+  document.querySelector('#social').style.height = "50vh";
+
+  document.querySelector('#learn-more-vote-for-her').style.display = "none";
+
+  document.querySelector('#vote-for-her-content').style.display = "block";
+
+  document.querySelector('#vote-for-her-content').style.height = "auto";
+
+  let carouselItems =
+  document.getElementsByClassName('carousel-item-social');
+  for (let i = 0; i < carouselItems.length; i++) {
+    carouselItems[i].style.height = "50vh";
+  }
+
+  document.querySelector('#vote-for-her-caption').style.margin = "23vh 0 0 0";
+  document.querySelector('#peters-caption').style.margin = "23vh 0 0 0";
+
+  voteForHer = 1;
+
+}
+
+
+function openPeters() {
+  closeSeltzer();
   closeRisd();
   closeThreeTrips();
   closeJapan();
@@ -314,145 +366,111 @@ function openSeltzer() {
   closeFieldNotes();
   closeDirectMail();
   closeVoteForHer();
-  closePeters();
 
-  document.querySelector('#risd-content').style.display = "none";
-
-  document.querySelector('#learn-more-risd').style.display = "block";
-
+  document.querySelector('#vote-for-her-content').style.display = "none";
   openGeneric();
 
-  document.querySelector('#seltzer-home-image').style.height = "50vh";
-  document.querySelector('#risd-home-image').style.height = "50vh";
+  document.querySelector('#learn-more-vote-for-her').style.display = "block";
 
-  document.querySelector('#seltzer-content').style.width = "75vw";
+  document.querySelector('#vote-for-her-home-image').style.height = "50vh";
+  document.querySelector('#peters-home-image').style.height = "50vh";
 
-  document.querySelector('#branding').style.height = "50vh";
+  document.querySelector('#social').style.height = "50vh";
 
-  document.querySelector('#learn-more-seltzer').style.display = "none";
+  document.querySelector('#learn-more-peters').style.display = "none";
 
-  document.querySelector('#seltzer-content').style.display = "block";
+  document.querySelector('#peters-content').style.display = "block";
 
-  document.querySelector('#seltzer-content').style.height = "auto";
+  document.querySelector('#peters-content').style.height = "auto";
 
   let carouselItems =
-  document.getElementsByClassName('carousel-item-branding');
+  document.getElementsByClassName('carousel-item-social');
   for (let i = 0; i < carouselItems.length; i++) {
     carouselItems[i].style.height = "50vh";
   }
 
-  document.querySelector('#seltzer-caption').style.margin = "23vh 0 0 0";
-  document.querySelector('#risd-caption').style.margin = "23vh 0 0 0";
+  document.querySelector('#vote-for-her-caption').style.margin = "23vh 0 0 0";
+  document.querySelector('#peters-caption').style.margin = "23vh 0 0 0";
 
-  seltzer = 1;
-}
-
-
-function openRisd() {
-  closeSeltzer();
-  closeThreeTrips();
-  closeJapan();
-  closeApiary();
-  closeDogs();
-  closeFieldNotes();
-  closeDirectMail();
-  closeVoteForHer();
-  closePeters();
-
-  document.querySelector('#seltzer-content').style.display = "none";
-
-  document.querySelector('#learn-more-seltzer').style.display = "block";
-
-  openGeneric();
-
-  document.querySelector('#seltzer-home-image').style.height = "50vh";
-  document.querySelector('#risd-home-image').style.height = "50vh";
-
-  document.querySelector('#branding').style.height = "50vh";
-
-  document.querySelector('#learn-more-risd').style.display = "none";
-
-  document.querySelector('#risd-content').style.display = "block";
-
-  document.querySelector('#risd-content').style.height = "auto";
-
-  let carouselItems =
-  document.getElementsByClassName('carousel-item-branding');
-  for (let i = 0; i < carouselItems.length; i++) {
-    carouselItems[i].style.height = "50vh";
-  }
-
-  document.querySelector('#seltzer-caption').style.margin = "23vh 0 0 0";
-  document.querySelector('#risd-caption').style.margin = "23vh 0 0 0";
-
-  risd = 1;
+  peters = 1;
 
 }
 
-function closeSeltzer() {
-  document.querySelector('#risd-content').style.display = "none";
+function closeVoteForHer() {
+  document.querySelector('#peters-content').style.display = "none";
 
-  document.querySelector('#learn-more-risd').style.display = "none";
+  document.querySelector('#learn-more-peters').style.display = "none";
 
-  document.querySelector('#seltzer-home-image').style.height = "100vh";
-  document.querySelector('#risd-home-image').style.height = "100vh";
+  document.querySelector('#vote-for-her-home-image').style.height = "100vh";
+  document.querySelector('#peters-home-image').style.height = "100vh";
 
-  document.querySelector('#branding').style.height = "100vh";
+  document.querySelector('#social').style.height = "100vh";
 
-  document.querySelector('#learn-more-seltzer').style.display = "block";
+  document.querySelector('#learn-more-vote-for-her').style.display = "block";
 
-  document.querySelector('#seltzer-content').style.display = "none";
+  document.querySelector('#vote-for-her-content').style.display = "none";
 
-  document.querySelector('#seltzer-content').style.height = "";
+  document.querySelector('#vote-for-her-content').style.height = "";
 
   let carouselItems =
-  document.getElementsByClassName('carousel-item-branding');
+  document.getElementsByClassName('carousel-item-social');
   for (let i = 0; i < carouselItems.length; i++) {
     carouselItems[i].style.height = "100vh";
   }
 
-  document.querySelector('#seltzer-caption').style.margin = "";
-  document.querySelector('#risd-caption').style.margin = "";
+  document.querySelector('#vote-for-her-caption').style.margin = "";
+  document.querySelector('#peters-caption').style.margin = "";
 
-  seltzer = 0;
+  voteForHer = 0;
+
 }
 
 
-function closeRisd() {
-  document.querySelector('#seltzer-content').style.display = "none";
+function closePeters() {
+  document.querySelector('#vote-for-her-content').style.display = "none";
 
-  document.querySelector('#learn-more-risd').style.display = "none";
+  document.querySelector('#learn-more-peters').style.display = "none";
 
-  document.querySelector('#seltzer-home-image').style.height = "100vh";
-  document.querySelector('#risd-home-image').style.height = "100vh";
+  document.querySelector('#vote-for-her-home-image').style.height = "100vh";
+  document.querySelector('#peters-home-image').style.height = "100vh";
 
-  document.querySelector('#branding').style.height = "100vh";
+  document.querySelector('#social').style.height = "100vh";
 
-  document.querySelector('#learn-more-risd').style.display = "block";
+  document.querySelector('#learn-more-peters').style.display = "block";
 
-  document.querySelector('#risd-content').style.display = "none";
+  document.querySelector('#peters-content').style.display = "none";
 
-  document.querySelector('#risd-content').style.height = "";
+  document.querySelector('#peters-content').style.height = "";
 
   let carouselItems =
-  document.getElementsByClassName('carousel-item-branding');
+  document.getElementsByClassName('carousel-item-social');
   for (let i = 0; i < carouselItems.length; i++) {
     carouselItems[i].style.height = "100vh";
   }
 
-  document.querySelector('#seltzer-caption').style.margin = "";
-  document.querySelector('#risd-caption').style.margin = "";
+  document.querySelector('#vote-for-her-caption').style.margin = "";
+  document.querySelector('#peters-caption').style.margin = "";
 
-  risd = 0;
+  peters = 0;
 
 }
+
 
 // INFOGRAPHIC LEARN MORE
-document.querySelector('#learn-more-three-trips').addEventListener('click', openThreeTrips)
+document.querySelector('#learn-more-three-trips').addEventListener('click', function() {
+  openThreeTrips();
+  window.scrollTo(0, (window.innerHeight) * 2);
+})
 
-document.querySelector('#learn-more-japan').addEventListener('click', openJapan)
+document.querySelector('#learn-more-japan').addEventListener('click', function() {
+  openJapan();
+  window.scrollTo(0, (window.innerHeight) * 2);
+})
 
-document.querySelector('#learn-more-apiary').addEventListener('click', openApiary)
+document.querySelector('#learn-more-apiary').addEventListener('click', function() {
+  openApiary();
+  window.scrollTo(0, (window.innerHeight) * 2);
+})
 
 function openThreeTrips() {
   closeSeltzer();
@@ -496,10 +514,10 @@ function openThreeTrips() {
   document.querySelector('#japan-caption').style.margin = "23vh 0 0 0";
   document.querySelector('#apiary-caption').style.margin = "23vh 0 0 0";
 
-
   threeTrips = 1;
-}
 
+  // window.scrollTo(0, (window.innerHeight * 2))
+}
 
 function openJapan() {
   closeSeltzer();
@@ -594,6 +612,7 @@ function openApiary() {
   document.querySelector('#apiary-caption').style.margin = "23vh 0 0 0";
 
   apiary = 1;
+
 }
 
 
@@ -663,6 +682,7 @@ function closeJapan() {
 
   japan = 0;
 
+
 }
 
 function closeApiary() {
@@ -698,12 +718,19 @@ function closeApiary() {
 
   apiary = 0;
 
+
 }
 
 // BOOK LEARN MORE
-document.querySelector('#learn-more-dogs').addEventListener('click', openDogs)
+document.querySelector('#learn-more-dogs').addEventListener('click', function() {
+  openDogs();
+  window.scrollTo(0, (window.innerHeight) * 3);
+})
 
-document.querySelector('#learn-more-field-notes').addEventListener('click', openFieldNotes)
+document.querySelector('#learn-more-field-notes').addEventListener('click', function() {
+  openFieldNotes();
+  window.scrollTo(0, (window.innerHeight) * 3);
+})
 
 
 function openDogs() {
@@ -744,6 +771,7 @@ function openDogs() {
   document.querySelector('#field-notes-caption').style.margin = "23vh 0 0 0";
 
   dogs = 1;
+
 }
 
 
@@ -813,6 +841,7 @@ function closeDogs() {
   document.querySelector('#field-notes-caption').style.margin = "";
 
   dogs = 0;
+
 }
 
 
@@ -846,7 +875,10 @@ function closeFieldNotes() {
 }
 
 // DIRECT MAIL LEARN MORE
-document.querySelector('#learn-more-direct-mail').addEventListener('click', openDirectMail)
+document.querySelector('#learn-more-direct-mail').addEventListener('click', function() {
+  openDirectMail();
+  window.scrollTo(0, (window.innerHeight) * 4);
+})
 
 function openDirectMail() {
   closeSeltzer();
@@ -905,55 +937,20 @@ function closeDirectMail() {
 }
 
 
-// SOCIAL LEARN MORE
-document.querySelector('#learn-more-vote-for-her').addEventListener('click', openVoteForHer)
+// BRANDING LEARN MORE
+document.querySelector('#learn-more-seltzer').addEventListener('click', function() {
+  openSeltzer();
+  window.scrollTo(0, (window.innerHeight) * 5);
+})
 
-document.querySelector('#learn-more-peters').addEventListener('click', openPeters)
-
-
-function openVoteForHer() {
-  closeSeltzer();
-  closeRisd();
-  closeThreeTrips();
-  closeJapan();
-  closeApiary();
-  closeDogs();
-  closeFieldNotes();
-  closeDirectMail();
-  closePeters();
-
-  document.querySelector('#peters-content').style.display = "none";
-
-  document.querySelector('#learn-more-peters').style.display = "block";
-
-  openGeneric();
-
-  document.querySelector('#vote-for-her-home-image').style.height = "50vh";
-  document.querySelector('#peters-home-image').style.height = "50vh";
-
-  document.querySelector('#social').style.height = "50vh";
-
-  document.querySelector('#learn-more-vote-for-her').style.display = "none";
-
-  document.querySelector('#vote-for-her-content').style.display = "block";
-
-  document.querySelector('#vote-for-her-content').style.height = "auto";
-
-  let carouselItems =
-  document.getElementsByClassName('carousel-item-social');
-  for (let i = 0; i < carouselItems.length; i++) {
-    carouselItems[i].style.height = "50vh";
-  }
-
-  document.querySelector('#vote-for-her-caption').style.margin = "23vh 0 0 0";
-  document.querySelector('#peters-caption').style.margin = "23vh 0 0 0";
-
-  voteForHer = 1;
-}
+document.querySelector('#learn-more-risd').addEventListener('click', function() {
+  openThreeTrips();
+  window.scrollTo(0, (window.innerHeight) * 5);
+})
 
 
-function openPeters() {
-  closeSeltzer();
+function openSeltzer() {
+
   closeRisd();
   closeThreeTrips();
   closeJapan();
@@ -962,90 +959,133 @@ function openPeters() {
   closeFieldNotes();
   closeDirectMail();
   closeVoteForHer();
+  closePeters();
 
-  document.querySelector('#vote-for-her-content').style.display = "none";
+  document.querySelector('#risd-content').style.display = "none";
+
+  document.querySelector('#learn-more-risd').style.display = "block";
+
   openGeneric();
 
-  document.querySelector('#learn-more-vote-for-her').style.display = "block";
+  document.querySelector('#seltzer-home-image').style.height = "50vh";
+  document.querySelector('#risd-home-image').style.height = "50vh";
 
-  document.querySelector('#vote-for-her-home-image').style.height = "50vh";
-  document.querySelector('#peters-home-image').style.height = "50vh";
+  document.querySelector('#seltzer-content').style.width = "75vw";
 
-  document.querySelector('#social').style.height = "50vh";
+  document.querySelector('#branding').style.height = "50vh";
 
-  document.querySelector('#learn-more-peters').style.display = "none";
+  document.querySelector('#learn-more-seltzer').style.display = "none";
 
-  document.querySelector('#peters-content').style.display = "block";
+  document.querySelector('#seltzer-content').style.display = "block";
 
-  document.querySelector('#peters-content').style.height = "auto";
+  document.querySelector('#seltzer-content').style.height = "auto";
 
   let carouselItems =
-  document.getElementsByClassName('carousel-item-social');
+  document.getElementsByClassName('carousel-item-branding');
   for (let i = 0; i < carouselItems.length; i++) {
     carouselItems[i].style.height = "50vh";
   }
 
-  document.querySelector('#vote-for-her-caption').style.margin = "23vh 0 0 0";
-  document.querySelector('#peters-caption').style.margin = "23vh 0 0 0";
+  document.querySelector('#seltzer-caption').style.margin = "23vh 0 0 0";
+  document.querySelector('#risd-caption').style.margin = "23vh 0 0 0";
 
-  peters = 1;
+  seltzer = 1;
+}
+
+function openRisd() {
+  closeSeltzer();
+  closeThreeTrips();
+  closeJapan();
+  closeApiary();
+  closeDogs();
+  closeFieldNotes();
+  closeDirectMail();
+  closeVoteForHer();
+  closePeters();
+
+  document.querySelector('#seltzer-content').style.display = "none";
+
+  document.querySelector('#learn-more-seltzer').style.display = "block";
+
+  openGeneric();
+
+  document.querySelector('#seltzer-home-image').style.height = "50vh";
+  document.querySelector('#risd-home-image').style.height = "50vh";
+
+  document.querySelector('#branding').style.height = "50vh";
+
+  document.querySelector('#learn-more-risd').style.display = "none";
+
+  document.querySelector('#risd-content').style.display = "block";
+
+  document.querySelector('#risd-content').style.height = "auto";
+
+  let carouselItems =
+  document.getElementsByClassName('carousel-item-branding');
+  for (let i = 0; i < carouselItems.length; i++) {
+    carouselItems[i].style.height = "50vh";
+  }
+
+  document.querySelector('#seltzer-caption').style.margin = "23vh 0 0 0";
+  document.querySelector('#risd-caption').style.margin = "23vh 0 0 0";
+
+  risd = 1;
 
 }
 
-function closeVoteForHer() {
-  document.querySelector('#peters-content').style.display = "none";
+function closeSeltzer() {
+  document.querySelector('#risd-content').style.display = "none";
 
-  document.querySelector('#learn-more-peters').style.display = "none";
+  document.querySelector('#learn-more-risd').style.display = "none";
 
-  document.querySelector('#vote-for-her-home-image').style.height = "100vh";
-  document.querySelector('#peters-home-image').style.height = "100vh";
+  document.querySelector('#seltzer-home-image').style.height = "100vh";
+  document.querySelector('#risd-home-image').style.height = "100vh";
 
-  document.querySelector('#social').style.height = "100vh";
+  document.querySelector('#branding').style.height = "100vh";
 
-  document.querySelector('#learn-more-vote-for-her').style.display = "block";
+  document.querySelector('#learn-more-seltzer').style.display = "block";
 
-  document.querySelector('#vote-for-her-content').style.display = "none";
+  document.querySelector('#seltzer-content').style.display = "none";
 
-  document.querySelector('#vote-for-her-content').style.height = "";
+  document.querySelector('#seltzer-content').style.height = "";
 
   let carouselItems =
-  document.getElementsByClassName('carousel-item-social');
+  document.getElementsByClassName('carousel-item-branding');
   for (let i = 0; i < carouselItems.length; i++) {
     carouselItems[i].style.height = "100vh";
   }
 
-  document.querySelector('#vote-for-her-caption').style.margin = "";
-  document.querySelector('#peters-caption').style.margin = "";
+  document.querySelector('#seltzer-caption').style.margin = "";
+  document.querySelector('#risd-caption').style.margin = "";
 
-  voteForHer = 0;
+  seltzer = 0;
 }
 
+function closeRisd() {
+  document.querySelector('#seltzer-content').style.display = "none";
 
-function closePeters() {
-  document.querySelector('#vote-for-her-content').style.display = "none";
+  document.querySelector('#learn-more-risd').style.display = "none";
 
-  document.querySelector('#learn-more-peters').style.display = "none";
+  document.querySelector('#seltzer-home-image').style.height = "100vh";
+  document.querySelector('#risd-home-image').style.height = "100vh";
 
-  document.querySelector('#vote-for-her-home-image').style.height = "100vh";
-  document.querySelector('#peters-home-image').style.height = "100vh";
+  document.querySelector('#branding').style.height = "100vh";
 
-  document.querySelector('#social').style.height = "100vh";
+  document.querySelector('#learn-more-risd').style.display = "block";
 
-  document.querySelector('#learn-more-peters').style.display = "block";
+  document.querySelector('#risd-content').style.display = "none";
 
-  document.querySelector('#peters-content').style.display = "none";
-
-  document.querySelector('#peters-content').style.height = "";
+  document.querySelector('#risd-content').style.height = "";
 
   let carouselItems =
-  document.getElementsByClassName('carousel-item-social');
+  document.getElementsByClassName('carousel-item-branding');
   for (let i = 0; i < carouselItems.length; i++) {
     carouselItems[i].style.height = "100vh";
   }
 
-  document.querySelector('#vote-for-her-caption').style.margin = "";
-  document.querySelector('#peters-caption').style.margin = "";
+  document.querySelector('#seltzer-caption').style.margin = "";
+  document.querySelector('#risd-caption').style.margin = "";
 
-  peters = 0;
+  risd = 0;
 
 }
