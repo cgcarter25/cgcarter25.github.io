@@ -1089,3 +1089,9 @@ function closeRisd() {
   risd = 0;
 
 }
+
+document.querySelector('#studio-art-link').addEventListener('click', openStudioArt)
+
+function openStudioArt() {
+  console.log('asdf')
+}
