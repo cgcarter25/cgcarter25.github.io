@@ -69,7 +69,6 @@ $(document).ready(function(){
   $('.slick-prev').hide();
 });
 
-
 // LEARN MORE / LESS
 document.querySelector('#learn-more-seltzer').addEventListener('mouseover', learnMore)
 
@@ -117,13 +116,13 @@ function learnMore() {
     let learnMoreItems =
     document.getElementsByClassName('circle');
     for (let i = 0; i < learnMoreItems.length; i++) {
-      learnMoreItems[i].width.baseVal.value = 110;
+      learnMoreItems[i].width.baseVal.value = 115;
     }
   } else {
     let learnMoreItems =
     document.getElementsByClassName('circle');
     for (let i = 0; i < learnMoreItems.length; i++) {
-      learnMoreItems[i].width.baseVal.value = 110;
+      learnMoreItems[i].width.baseVal.value = 115;
     }
   }
 }
@@ -146,21 +145,6 @@ function learnLess() {
 }
 
 // NEXT MORE / LESS
-document.querySelector('#arrows-branding').addEventListener('mouseover', nextMore)
-
-document.querySelector('#arrows-branding').addEventListener('mouseout', nextLess)
-
-document.querySelector('#arrows-infographic').addEventListener('mouseover', nextMore)
-
-document.querySelector('#arrows-infographic').addEventListener('mouseout', nextLess)
-
-document.querySelector('#arrows-book').addEventListener('mouseover', nextMore)
-
-document.querySelector('#arrows-book').addEventListener('mouseout', nextLess)
-
-document.querySelector('#arrows-social').addEventListener('mouseover', nextMore)
-
-document.querySelector('#arrows-social').addEventListener('mouseout', nextLess)
 
 document.querySelector('#arrows-branding').addEventListener('click', closeGeneric)
 
@@ -170,40 +154,62 @@ document.querySelector('#arrows-book').addEventListener('click', closeGeneric)
 
 document.querySelector('#arrows-social').addEventListener('click', closeGeneric)
 
+//NEXT BODY TEXT
 
-function nextMore() {
-  let width = document.querySelector('.next-circle').width.baseVal.value;
-  if (width == 40) {
-    let learnMoreItems =
-    document.getElementsByClassName('next-circle');
-    for (let i = 0; i < learnMoreItems.length; i++) {
-      learnMoreItems[i].width.baseVal.value = 125;
-    }
-  } else {
-    let learnMoreItems =
-    document.getElementsByClassName('next-circle');
-    for (let i = 0; i < learnMoreItems.length; i++) {
-      learnMoreItems[i].width.baseVal.value = 125;
-    }
-  }
-}
+document.querySelector('#next-body-peters').addEventListener('click', function() {
+  $('#carousel-content-social').slick('slickNext');
+  openPeters();
+  window.scrollTo(0, (window.innerHeight));
+})
 
-function nextLess() {
-  let width = document.querySelector('.next-circle').width.baseVal.value;
-  if (width == 40) {
-    let learnMoreItems =
-    document.getElementsByClassName('next-circle');
-    for (let i = 0; i < learnMoreItems.length; i++) {
-      learnMoreItems[i].width.baseVal.value = 40;
-    }
-  } else {
-    let learnMoreItems =
-    document.getElementsByClassName('next-circle');
-    for (let i = 0; i < learnMoreItems.length; i++) {
-      learnMoreItems[i].width.baseVal.value = 40;
-    }
-  }
-}
+document.querySelector('#next-body-vote-for-her').addEventListener('click', function() {
+  $('#carousel-content-social').slick('slickNext');
+  openVoteForHer();
+  window.scrollTo(0, (window.innerHeight));
+})
+
+document.querySelector('#next-body-japan').addEventListener('click', function() {
+  $('#carousel-content-infographic').slick('slickNext');
+  openJapan();
+  window.scrollTo(0, (window.innerHeight) * 2);
+})
+
+document.querySelector('#next-body-apiary').addEventListener('click', function() {
+  $('#carousel-content-infographic').slick('slickNext');
+  openApiary();
+  window.scrollTo(0, (window.innerHeight) * 2);
+})
+
+document.querySelector('#next-body-three-trips').addEventListener('click', function() {
+  $('#carousel-content-infographic').slick('slickNext');
+  openThreeTrips();
+  window.scrollTo(0, (window.innerHeight) * 2);
+})
+
+document.querySelector('#next-body-field-notes').addEventListener('click', function() {
+  $('#carousel-content-book').slick('slickNext');
+  openFieldNotes();
+  window.scrollTo(0, (window.innerHeight) * 3);
+})
+
+document.querySelector('#next-body-dogs').addEventListener('click', function() {
+  $('#carousel-content-book').slick('slickNext');
+  openDogs();
+  window.scrollTo(0, (window.innerHeight) * 3);
+})
+
+document.querySelector('#next-body-risd').addEventListener('click', function() {
+  $('#carousel-content-branding').slick('slickNext');
+  openRisd();
+  window.scrollTo(0, (window.innerHeight) * 5);
+})
+
+document.querySelector('#next-body-seltzer').addEventListener('click', function() {
+  $('#carousel-content-branding').slick('slickNext');
+  openSeltzer();
+  window.scrollTo(0, (window.innerHeight) * 5);
+})
+
 
 // OPEN PAGES
 
@@ -944,7 +950,7 @@ document.querySelector('#learn-more-seltzer').addEventListener('click', function
 })
 
 document.querySelector('#learn-more-risd').addEventListener('click', function() {
-  openThreeTrips();
+  openRisd();
   window.scrollTo(0, (window.innerHeight) * 5);
 })
 
