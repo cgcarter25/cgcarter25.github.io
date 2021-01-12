@@ -139,7 +139,7 @@
   display: none;
   width: 100vw;
   height: 100vh;
-  background-color: white;
+  background-color: #dae1e7;
   position: fixed;
   z-index: 999;
 }

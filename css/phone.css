@@ -175,7 +175,7 @@
   display: none;
   width: 100vw;
   height: 100vh;
-  background-color: white;
+  background-color: #dae1e7;
   position: fixed;
   z-index: 999;
 }
@@ -193,4 +193,27 @@
 
 .text-white {
   color: white;
+}
+
+#nav-open-1 {
+  display: block;
+  transition: 0.5s;
+}
+
+#nav-open-2 {
+  display: block;
+  transition: 0.5s;
+}
+
+#nav-open-3 {
+  display: block;
+  transition: 0.5s;
+}
+
+#nav-close-1 {
+  display: none;
+}
+
+#nav-close-2 {
+  display: none;
 }
