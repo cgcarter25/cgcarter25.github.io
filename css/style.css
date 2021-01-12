@@ -620,3 +620,7 @@ button:focus {
   color: #00909e;
   cursor: pointer;
 }
+
+.small-nav {
+  display: none;
+}
