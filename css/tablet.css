@@ -158,3 +158,26 @@
 .text-white {
   color: white;
 }
+
+#nav-open-1 {
+  display: block;
+  transition: 0.5s;
+}
+
+#nav-open-2 {
+  display: block;
+  transition: 0.5s;
+}
+
+#nav-open-3 {
+  display: block;
+  transition: 0.5s;
+}
+
+#nav-close-1 {
+  display: none;
+}
+
+#nav-close-2 {
+  display: none;
+}

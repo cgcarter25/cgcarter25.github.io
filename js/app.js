@@ -30,10 +30,24 @@ document.querySelector('.small-nav').addEventListener('mouseout', function() {
 })
 
 document.querySelector('.small-nav').addEventListener('click', function() {
-  if (document.querySelector('.nav-pop-up').style.display == "none" || document.querySelector('.nav-pop-up').style.display == "") {
-    console.log('asdf')
-  } else {
+  let open1 = document.querySelector('#nav-open-1'),
+      open2 = document.querySelector('#nav-open-2'),
+      open3 = document.querySelector('#nav-open-3'),
+      close1 = document.querySelector('#nav-close-1'),
+      close2 = document.querySelector('#nav-close-2');
 
+  if (document.querySelector('.nav-pop-up').style.display == "none" || document.querySelector('.nav-pop-up').style.display == "") {
+    open1.style.display = "none";
+    open2.style.display = "none";
+    open3.style.display = "none";
+    close1.style.display = "block";
+    close2.style.display = "block";
+  } else {
+    open1.style.display = "block";
+    open2.style.display = "block";
+    open3.style.display = "block";
+    close1.style.display = "none";
+    close2.style.display = "none";
   }
 })
 
