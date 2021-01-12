@@ -21,7 +21,6 @@ $(document).ready(function(){
 function popUp() {
   const nav = document.querySelector('.nav-pop-up');
   if (nav.style.display == "none") {
-    console.log(nav.style.display)
     nav.style.display = "block";
   } else {
     nav.style.display = "none"
@@ -130,8 +129,8 @@ document.querySelector('#learn-more-peters').addEventListener('mouseover', learn
 document.querySelector('#learn-more-peters').addEventListener('mouseout', learnLess)
 
 function learnMore() {
-  let width = document.querySelector('.circle').width.baseVal.value;
-  if (width == 40) {
+  let circleWidth = document.querySelector('.circle').width.baseVal.value;
+  if (circleWidth == 40) {
     let learnMoreItems =
     document.getElementsByClassName('circle');
     for (let i = 0; i < learnMoreItems.length; i++) {
@@ -147,8 +146,8 @@ function learnMore() {
 }
 
 function learnLess() {
-  let width = document.querySelector('.circle').width.baseVal.value;
-  if (width == 40) {
+  let circleWidth = document.querySelector('.circle').width.baseVal.value;
+  if (circleWidth == 40) {
     let learnMoreItems =
     document.getElementsByClassName('circle');
     for (let i = 0; i < learnMoreItems.length; i++) {
@@ -168,8 +167,9 @@ let width;
 
 function windowWidth() {
   width = window.innerWidth;
-  console.log(width)
 }
+
+windowWidth();
 
 window.addEventListener('resize', function() {
   windowWidth();
@@ -177,7 +177,6 @@ window.addEventListener('resize', function() {
     window.location.reload(true)
   }
 });
-
 
 // NEXT MORE / LESS
 
