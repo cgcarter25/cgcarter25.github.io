@@ -18,9 +18,28 @@ $(document).ready(function(){
 });
 
 // NAVIGATION POPUP
+
+document.querySelector('.small-nav').addEventListener('mouseover', function() {
+  TweenMax.to('#nav-open-1', .5, {x: '5px', transformOrigin: 'center center'});
+  TweenMax.to('#nav-open-3', .5, {x: '-5px', transformOrigin: 'center center'});
+})
+
+document.querySelector('.small-nav').addEventListener('mouseout', function() {
+  TweenMax.to('#nav-open-1', .5, {x: '0px', transformOrigin: 'center center'});
+  TweenMax.to('#nav-open-3', .5, {x: '0px', transformOrigin: 'center center'});
+})
+
+document.querySelector('.small-nav').addEventListener('click', function() {
+  if (document.querySelector('.nav-pop-up').style.display == "none" || document.querySelector('.nav-pop-up').style.display == "") {
+    console.log('asdf')
+  } else {
+
+  }
+})
+
 function popUp() {
   const nav = document.querySelector('.nav-pop-up');
-  if (nav.style.display == "none") {
+  if (nav.style.display == "none" || nav.style.display == "") {
     nav.style.display = "block";
   } else {
     nav.style.display = "none"
