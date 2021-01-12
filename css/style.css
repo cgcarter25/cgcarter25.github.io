@@ -624,3 +624,7 @@ button:focus {
 .small-nav {
   display: none;
 }
+
+.nav-pop-up {
+  display: none;
+}
