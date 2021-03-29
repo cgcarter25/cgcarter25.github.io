@@ -4,542 +4,145 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&family=Yeseva+One&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://use.typekit.net/gvg0ggp.css">
-  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
-  <link href="css/desktop.css" rel="stylesheet" media="(min-width: 985px)">
-  <link href="css/tablet.css" rel="stylesheet" media="(min-width: 600px) and (max-width: 985px)">
-  <link href="css/phone.css" rel="stylesheet" media="(max-width: 599px)">
+  <link href="../css/tablet.css" rel="stylesheet" media="(max-width: 990px)">
+  <link href="../css/phone.css" rel="stylesheet" media="(max-width: 480px)">
+
   <title>Caroline Carter</title>
 </head>
-  <body>
-    <div class="small-nav">
-      <svg class="small-nav-svg" width="60" height="60">
-        <circle cx="30" cy="30" r="25" fill="white"/>
-        <line id="nav-open-1" x1="20" y1="22" x2="40" y2="22" style="stroke:#142850; stroke-width:3; stroke-linecap:round"/>
-        <line id="nav-open-2" x1="20" y1="30" x2="40" y2="30" style="stroke:#142850;stroke-width:3; stroke-linecap:round" />
-        <line id="nav-open-3" x1="20" y1="38" x2="40" y2="38" style="stroke:#142850;stroke-width:3; stroke-linecap:round" />
-        <line id="nav-close-1" x1="20" y1="20" x2="40" y2="40" style="stroke:#142850; stroke-width:3; stroke-linecap:round"/>
-        <line id="nav-close-2" x1="20" y1="40" x2="40" y2="20" style="stroke:#142850;stroke-width:3; stroke-linecap:round" />
-      </svg>
-    </div>
-    <div class="nav-pop-up">
-      <ul class="nav-pop-up-list">
-        <li class="nav-pop-up-list-item" id="work-pop-up"><a href="#work">Work</a></li>
-        <li class="nav-pop-up-list-item" id="about-pop-up"><a href="#about">About</a></li>
-        <li class="nav-pop-up-list-item" id="contact-pop-up"><a href="#contact">Contact</a></li>
-      </ul>
-    </div>
-    <div class="home">
-      <div class="home-container">
-        <div class="home-top">
-          <h1 class="home-subheader">Caroline CARTER</h1>
-          <ul class="nav-home">
-            <li class="nav-home-list"><a href="#work">Work</a></li>
-            <li class="nav-home-list"><a href="#about">About</a></li>
-            <li class="nav-home-list"><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
-        <h1 class="home-header">Using design to tell meaningful stories.</h1>
-        <div class="this-way">
-          <h3 class="this-way-text">This way!</h3>
-          <svg width="50" height="100">
-            <rect x="5" y="10" width="40" height="70" rx="20" fill="none" stroke="white" stroke-width="2px"fill-opacity="0.6"/>
-            <line id="mouse-1" x1="25" y1="25" x2="25" y2="60" style="stroke:white;stroke-width:3; stroke-linecap:round" />
-            <line id="mouse-2" x1="15" y1="30" x2="25" y2="40" style="stroke:white;stroke-width:3; stroke-linecap:round" />
-            <line id="mouse-3" x1="35" y1="30" x2="25" y2="40" style="stroke:white;stroke-width:3; stroke-linecap:round" />
-          </svg>
-        </div>
+<body>
+  <div class="nav-container">
+    <div class="nav">
+      <a href="index.html"><img src="../img/logo.png" alt="" width="60px"></a>
+      <div class="nav-link-container">
+        <a href="pages/work.html"><h4 class="nav-link">Work</h4></a>
+        <a href="pages/about.html"><h4 class="nav-link">About</h4></a>
+        <a href="pages/contact.html"><h4 class="nav-link">Contact</h4></a>
       </div>
     </div>
-    <div class="work-section" id="work">
-      <div class="left-nav">
-        <div class="work-nav">
-          <svg class="close-work">
-            <circle id="close-work-circle" cx="30" cy="30" r="30" fill="#00909e"/>
-            <line x1="18" y1="18" x2="42" y2="42" style="stroke:white; stroke-width:3; stroke-linecap:round"/>
-            <line x1="18" y1="42" x2="42" y2="18" style="stroke:white;stroke-width:3; stroke-linecap:round" />
-          </svg>
-          <div class="align-center-left-work">
-            <h1 class="nav-header">Work</h1>
-            <ul class="nav-subheader">
-              <li class="nav-list"><a href="#social">Social</a></li>
-              <li class="nav-list"><a href="#infographic">Infographic</a></li>
-              <li class="nav-list"><a href="#book">Book</a></li>
-              <li class="nav-list"><a href="#direct-mail">Direct Mail</a></li>
-              <li class="nav-list"><a href="#branding">Branding</a></li>
-            </ul>
-          </div>
-          <ul class="nav-bottom">
-            <li class="nav-list active-link"><a href="#work" class="bottom-link">Work</a></li>
-            <li class="nav-list"><a href="#about" class="bottom-link">About</a></li>
-            <li class="nav-list"><a href="#contact" class="bottom-link">Contact</a></li>
-          </ul>
-        </div>
+  </div>
+  <div class="intro-home">
+    <div class="intro-blurb">
+      <h2 class="intro-head drop-shadow">Using design to tell meaningful stories.</h2>
+      <p class="intro-subhead drop-shadow">Do you have a story you want help telling?</p>
+      <button type="button" name="button" href="pages/contact.html"><div class="drop-shadow">Say hello!</div></button>
+      <p class="cursive-link this-way">This Way!</p>
+    </div>
+    <img src="img/home-image.png" class="art-image" alt="">
+  </div>
+  <div class="home-work-container">
+    <a class="home-work-box" id="three-trips" href="pages/three-trips.html">
+      <img src="img/three-trips-home-static.jpg" alt="" class="home-img-static">
+      <div id="show-three-trips">
+        <img src="img/three-trips-home-hover.jpg" alt="" class="home-img-hover">
+        <div class="hover-gradient" id="gradient-three-trips"></div>
+        <p class="box-subhead drop-shadow">Infographic Design<br>
+        <span class="box-head drop-shadow">Watch Where You're Going</span></p>
       </div>
-      <div class="work">
-        <div class="right-side work-link" id="social">
-          <div id="carousel-content-social">
-            <div class="carousel-item carousel-item-social">
-              <div class="header">
-                <img class="home-image" id="vote-for-her-home-image" src="/img/vote-for-her-home.jpg" alt="">
-                <div class="align-center-right" id="vote-for-her-caption">
-                  <h2 class="work-header">Vote For Her</h2>
-                  <h3 class="work-subheader">Social Ad Design</h3>
-                  <div class="learn-more" id="learn-more-vote-for-her">
-                    <svg class="learn-more-circle">
-                      <rect class="circle" x="0" y="0" width="40" height="40" rx="20" fill="#00909e" fill-opacity="0.6"/>
-                    </svg>
-                    <h4 class="learn-more-text">Learn More</h4>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item carousel-item-social">
-              <div class="header">
-                <img class="home-image" id="peters-home-image" src="/img/peters-home.jpg" alt="">
-                <div class="align-center-right" id="peters-caption">
-                  <h2 class="work-header">Gary Peters for Michigan Senate</h2>
-                  <h3 class="work-subheader">Social Ad Design</h3>
-                  <div class="learn-more" id="learn-more-peters">
-                    <svg class="learn-more-circle">
-                      <rect class="circle" x="0" y="0" width="40" height="40" rx="20" fill="#00909e" fill-opacity="0.6"/>
-                    </svg>
-                    <h4 class="learn-more-text">Learn More</h4>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="arrows align-center-right" id="arrows-social">
-            <h4 id="arrow-next-social" class="next-text">Next Project</h4>
-          </div>
-        </div>
-        <div id="vote-for-her-content">
-          <p class="intro-work-paragraph-1">
-            <span class="about-paragraph-header">The Problem:</span> Vote For Her approached SKDK and asked that we elevate Kamala Harris' image to the public. They wanted to emphasize Harris' potential historic moment being elected as the first asian-american and black woman vice president, and counter any racist or sexist attacks that came her way duing the election season.
-          </p>
-          <p class="intro-work-paragraph-2">
-            <span class="about-paragraph-header">The Solution:</span> I worked with one of the art directors at SKDK to develop a few design directions within their existing but underdeveloped brand. Upon picking a direction after consulting with the broader Vote For Her team, we closely followed the news and responded to any attacks on the Biden Harris ticket as well as elevate their general plan.
-          </p>
-          <img src="/img/vote-for-her-moodboard.jpg" alt="" class="work-image-full-bleed">
-          <p class="work-paragraph">
-            With the help of the public affairs Vote For Her team, we closely followed the news to respond to current events. We posted content on both twitter and facebook, resizing any design for both platforms.
-          </p>
-          <img src="/img/vote-for-her-twitter.jpg" alt="" class="work-image-full-bleed">
-          <img src="/img/vote-for-her-facebook.jpg" alt="" class="work-image-full-bleed">
-          <p class="work-paragraph">
-            During the vice presidential debate between Mike Pence and Kamala Harris, one of the art directors and I were in a war room pulling clips from the live footage. The following morning, we decided to compile a montage of footage of Pence interrupting Harris and the moderator. I worked to pull the clips and compile the video in only 3 hours, so we could be the first to drop the video on twitter. It was liked 5,700+ times and retweeted 2,000 + times including by CNN anchor Dana Bash and Senior Advisor to President Obama Valarie Jarrett.
-          </p>
-          <div class="twitter-video">
-            <blockquote class="twitter-tweet">
-              <p lang="en" dir="ltr">Total interruption count: 43. <br><br>Last night, <a href="https://twitter.com/KamalaHarris?ref_src=twsrc%5Etfw">@KamalaHarris</a> spoke for every woman that has had men interrupt or speak over her. She handled those interruptions like a woman who should be our next Vice President. <br><br> <a href="https://twitter.com/hashtag/imstillspeaking?src=hash&amp;ref_src=twsrc%5Etfw">#imstillspeaking</a> <a href="https://twitter.com/hashtag/VoteForHer?src=hash&amp;ref_src=twsrc%5Etfw">#VoteForHer</a> <a href="https://twitter.com/hashtag/WinWithBlackWomen?src=hash&amp;ref_src=twsrc%5Etfw">#WinWithBlackWomen</a> <a href="https://t.co/8ohowX8UDR">pic.twitter.com/8ohowX8UDR</a></p>&mdash; VoteForHer (@voteforher2020) <a href="https://twitter.com/voteforher2020/status/1314281496128163840?ref_src=twsrc%5Etfw">October 8, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-          </div>
-          <div class="intro-work-paragraph-2">
-            <h4 id="next-body-peters" class="next-body-text">Next Project: Gary Peters for Michigan Senate</h4>
-          </div>
-        </div>
-        <div id="peters-content">
-          <p class="intro-work-paragraph-1">
-            <span class="about-paragraph-header">The Problem:</span> Senator Gary Peters was up for re-election in Michigan and his campaign reached out to SKDK to help create facebook and newspaper ads to help his re-election.
-          </p>
-          <p class="intro-work-paragraph-2">
-            <span class="about-paragraph-header">The Solution:</span> I used his website as branding material and worked to stay within his existing brand while creating visually interesting ads. The public affairs team as SKDK reached out to me with the language and it was my responsibility to create a couple options for any design request for the team to choose from. I created and resized over 100 graphics for this campaign in October.
-          </p>
-          <img src="/img/peters-moodboard.jpg" alt="" class="work-image-full-bleed">
-          <img src="/img/peters-facebook.jpg" alt="" class="work-image-full-bleed">
-          <div class="intro-work-paragraph-2">
-            <h4 id="next-body-vote-for-her" class="next-body-text">Next Project: Vote For Her</h4>
-          </div>
-        </div>
-        <div class="right-side work-link" id="infographic">
-          <div id="carousel-content-infographic">
-            <div class="carousel-item carousel-item-infographic">
-              <div class="header">
-                <img class="home-image" id="three-trips-home-image" src="/img/three-trips-home.jpg" alt="">
-                <div class="align-center-right" id="three-trips-caption">
-                  <h2 class="work-header">Three Trips</h2>
-                  <h3 class="work-subheader">Infographic Design</h3>
-                  <div class="learn-more" id="learn-more-three-trips">
-                    <svg class="learn-more-circle">
-                      <rect class="circle" x="0" y="0" width="40" height="40" rx="20" fill="#00909e" fill-opacity="0.6"/>
-                    </svg>
-                    <h4 class="learn-more-text">Learn More</h4>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item carousel-item-infographic">
-              <div class="header">
-                <img class="home-image" id="japan-home-image" src="/img/japan-home.png" alt="">
-                <div class="align-center-right" id="japan-caption">
-                  <h2 class="work-header">Japan</h2>
-                  <h3 class="work-subheader">Infographic Design</h3>
-                  <div class="learn-more" id="learn-more-japan">
-                    <svg class="learn-more-circle">
-                      <rect class="circle" x="0" y="0" width="40" height="40" rx="20" fill="#00909e" fill-opacity="0.6"/>
-                    </svg>
-                    <h4 class="learn-more-text">Learn More</h4>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item carousel-item-infographic">
-              <div class="header">
-                <img class="home-image" id="apiary-home-image" src="/img/apiary-home.jpg" alt="">
-                <div class="align-center-right" id="apiary-caption">
-                  <h2 class="work-header">Apiary</h2>
-                  <h3 class="work-subheader">Infographic Design</h3>
-                  <div class="learn-more" id="learn-more-apiary">
-                    <svg class="learn-more-circle">
-                      <rect class="circle" x="0" y="0" width="40" height="40" rx="20" fill="#00909e" fill-opacity="0.6"/>
-                    </svg>
-                    <h4 class="learn-more-text">Learn More</h4>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="arrows align-center-right" id="arrows-infographic">
-            <h4 id="arrow-next-infographic" class="next-text">Next Project</h4>
-          </div>
-        </div>
-        <div id="three-trips-content">
-          <p class="intro-work-paragraph-1">
-            <span class="about-paragraph-header">The Problem:</span> In my Data Visualization and Infographic class at the Rhode Island School of Design, my professor asked us to create an infographic that showed three different trips all starting from the Biltmore Hotel in Providence, RI. One trip needed to end at the design center, one at our house, and one abroad. Each trip needed to show at least 15 different events as well as how long the trip took.
-          </p>
-          <p class="intro-work-paragraph-2">
-            <span class="about-paragraph-header">The Solution:</span> Instead of showing the length of time each trip took, I decided to show carbon footprint of each trip and how my methods of transportation contributed to the overall footprint. All the art and icons were created by hand in Adobe Illustrator.
-          </p>
-          <img src="/img/three-trips-mockup.jpg" alt="" class="work-image-full-bleed">
-          <p class="work-paragraph">
-            The infographic is designed to keep your attention and reveal more and more layers of information the closer you look. Upon first glance you may only notice the title, Earth illustration, or carbon emission graph, but then you may notice the carbon footprint definition or even the conversation I had with the TSA worker at the JFK airport.
-          </p>
-          <img src="/img/three-trips-1.png" alt="" class="work-image-full-bleed">
-]          <p class="work-paragraph">
-            The infographic is designed to draw a viwer in closer. All icons and art were created by hand in Adobe Illustrator.
-          </p>
-          <div class="intro-work-paragraphYa -2">
-            <h4 id="next-body-japan" class="next-body-text">Next Project: Japan</h4>
-          </div>
-        </div>
-        <div id="japan-content">
-          <p class="intro-work-paragraph-1">
-            <span class="about-paragraph-header">The Problem:</span> In my Data Visualization and Infographic class at the Rhode Island School of Design, my professor asked us to create an infographic that compiled ten different infographics for one country.
-          </p>
-          <p class="intro-work-paragraph-2">
-            <span class="about-paragraph-header">The Solution:</span> I created this accordion book of Japan by designing the art in adobe illustrator and laying it out in Adobe InDesign. The book is cut so that the left folio is two inches shorter than the right folio. The top two inches of the right folio are cut so that each layer represents part of Japan's culture-a tsunami wave, buddhist temples, bonsai trees, mount fuji, and the japanese flag.
-          </p>
-          <iframe allowfullscreen="true" allow="fullscreen" style="border:none;width:100%;height:600px;" src="//e.issuu.com/embed.html?d=japan_design_issuu&u=cgcarter25"></iframe>
-          <div class="intro-work-paragraph-2">
-            <h4 id="next-body-apiary" class="next-body-text">Next Project: Apiary</h4>
-          </div>
-        </div>
-        <div id="apiary-content">
-          <p class="intro-work-paragraph-1">
-            <span class="about-paragraph-header">The Problem:</span> In my internship at Project Chimps, the country's newest chimpanzee refuge located in Morganton Georgia, I was tasked with creating a sign that would inform visitors of the ecological significance of apiary's and their role in their facility.
-          </p>
-          <p class="intro-work-paragraph-2">
-            <span class="about-paragraph-header">The Solution:</span> I researched apiary's and talked to the workers at Project Chimps and created a large (18x24in) sign of what I felt was important information to share with the public. I used secondary colors in Project Chimp's brand so as to stay within their brand but carve out a sub-brand that would suit the apiary.
-          </p>
-          <img src="/img/apiary-1.png" alt="" class="work-image-full-bleed">
-          <div class="intro-work-paragraph-2">
-            <h4 id="next-body-three-trips" class="next-body-text">Next Project: Three Trips</h4>
-          </div>
-        </div>
-        <div class="right-side work-link" id="book">
-          <div id="carousel-content-book">
-            <div class="carousel-item carousel-item-book">
-              <div class="header">
-                <img class="home-image" id="dogs-home-image" src="/img/dogs-home.jpg" alt="">
-                <div class="align-center-right" id="dogs-caption">
-                  <h2 class="work-header">The Complete Dog Breed Book</h2>
-                  <h3 class="work-subheader">Book Design</h3>
-                  <div class="learn-more" id="learn-more-dogs">
-                    <svg class="learn-more-circle">
-                      <rect class="circle" x="0" y="0" width="40" height="40" rx="20" fill="#00909e" fill-opacity="0.6"/>
-                    </svg>
-                    <h4 class="learn-more-text">Learn More</h4>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item carousel-item-book">
-              <div class="header">
-                <img class="home-image" id="field-notes-home-image" src="/img/field-notes-home.jpg" alt="">
-                <div class="align-center-right" id="field-notes-caption">
-                  <h2 class="work-header">Field Notes from a Catastrophe</h2>
-                  <h3 class="work-subheader">Book Design</h3>
-                  <div class="learn-more" id="learn-more-field-notes">
-                    <svg class="learn-more-circle">
-                      <rect class="circle" x="0" y="0" width="40" height="40" rx="20" fill="#00909e" fill-opacity="0.6"/>
-                    </svg>
-                    <h4 class="learn-more-text">Learn More</h4>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="arrows align-center-right" id="arrows-book">
-            <h4 id="arrow-next-book" class="next-text">Next Project</h4>
-          </div>
-        </div>
-        <div id="dogs-content">
-          <p class="intro-work-paragraph-1">
-            <span class="about-paragraph-header">The Problem:</span> In my Book Design class at the Rhode Island School of Design, my professor asked us to create a book with a complex hiearchy such as a cookbook or travel book.
-          </p>
-          <p class="intro-work-paragraph-2">
-            <span class="about-paragraph-header">The Solution:</span> I chose to create a dog breed book. All the dog illustrations were done in Adobe Illustrator Draw and the book was designed in Adobe Illustrator.
-          </p>
-          <img src="/img/dogs-cover.jpg" alt="" class="work-image-full-bleed">
-          <iframe class="iframe" allowfullscreen="true" allow="fullscreen" style="border:none;width:100%;height:600px;" src="//e.issuu.com/embed.html?d=project_b_issuu&u=cgcarter25"></iframe>
-          <div class="intro-work-paragraph-2">
-            <h4 id="next-body-field-notes" class="next-body-text">Next Project: Field Notes from a Catastrophe</h4>
-          </div>
-        </div>
-        <div id="field-notes-content">
-          <p class="intro-work-paragraph-1">
-            <span class="about-paragraph-header">The Problem:</span> In my Book Design class at the Rhode Island School of Design, my professor asked us to redesign a book of our choosing.
-          </p>
-          <p class="intro-work-paragraph-2">
-            <span class="about-paragraph-header">The Solution:</span> I chose Field Notes from a Catastrophe by Elizabeth Kolbert. The book cover was designed in Adobe Photoshop and the book was designed in Adobe InDesign.
-          </p>
-          <img src="/img/field-notes-cover.jpg" alt="" class="work-image-full-bleed">
-          <p class="work-paragraph">
-            The cover is inspired by a Rite in the Rain Journal, which is the most popular note-taking book for ecologists due to its weatherproof qualities. Rite in the Rain's have an iconic yellow cover and while I thought it would be recognized by those likely to read this book, I also thought that the yellow inspired caution which seemed appropriate for a book about climate change.
-          </p>
-          <iframe allowfullscreen="true" allow="fullscreen" style="border:none;width:100%;height:600px;" src="//e.issuu.com/embed.html?d=project_a_issuu&u=cgcarter25"></iframe>
-          <div class="intro-work-paragraph-2">
-            <h4 id="next-body-dogs" class="next-body-text">Next Project: Dogs</h4>
-          </div>
-        </div>
-        <div class="right-side work-link" id="direct-mail">
-          <div class="header">
-            <img class="home-image" id="direct-mail-home-image" src="/img/direct-mail-home.jpg" alt="">
-            <div class="align-center-right" id="direct-mail-caption">
-              <h2 class="work-header">2020 Election Season</h2>
-              <h3 class="work-subheader">Direct Mail Design</h3>
-              <div class="learn-more" id="learn-more-direct-mail">
-                <svg class="learn-more-circle">
-                  <rect class="circle" x="0" y="0" width="40" height="40" rx="20" fill="#00909e" fill-opacity="0.6"/>
-                </svg>
-                <h4 class="learn-more-text">Learn More</h4>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div id="direct-mail-content">
-          <p class="intro-work-paragraph-1">
-            <span class="about-paragraph-header">The Problem:</span> As a creative consultant at SKDK, we worked with several organizations and campaigns at the presidential, congressional, state, and local level to design both positive and negative direct mail.
-          </p>
-          <p class="intro-work-paragraph-2">
-            <span class="about-paragraph-header">The Solution:</span> I designed, edited, prepressed, and proofed over 80 pieces for candidates running at the congressional, state, and local levels. I stayed within each candidate's existing brand, building it out for the candidates with less developed brands.
-          </p>
-          <img src="/img/direct-mail-moodboard-1.jpg" alt="" class="work-image-full-bleed">
-          <p class="work-paragraph">
-            This case study is a sample of mail I did for Erin Zweiner who ran for state representative in Texas. Each mail piece is 6.5x11 double-sided. Initial design was done in less than 24 hours in Adobe InDesign. We were able to get the pieces out of the door and to the printers in under a week.
-          </p>
-          <img src="/img/direct-mail-moodboard-2.jpg" alt="" class="work-image-full-bleed">
-          <img src="/img/direct-mail-moodboard-3.jpg" alt="" class="work-image-full-bleed">
-          <p class="work-paragraph">
-            We worked with Be Change Now in Hawaii in their efforts to back liberal candidates. I designed mail pieces for five different candidates running for state and local office. Initial desing was done in less than 24 hours in Adobe InDesign. We were able to get the pieces out of the door and to the printers in under a week.
-          </p>
-        </div>
-        <div class="right-side work-link" id="branding">
-          <div id="carousel-content-branding">
-            <div class="carousel-item carousel-item-branding">
-              <div class="header">
-                <img class="home-image" id="seltzer-home-image" src="/img/seltzer-home.jpg" alt="">
-                <div class="align-center-right" id="seltzer-caption">
-                  <h2 class="work-header">Seltzer Cans</h2>
-                  <h3 class="work-subheader">Rebrand Design</h3>
-                  <div class="learn-more" id="learn-more-seltzer">
-                    <svg class="learn-more-circle">
-                      <rect class="circle" x="0" y="0" width="40" height="40" rx="20" fill="#00909e" fill-opacity="0.6"/>
-                    </svg>
-                    <h4 class="learn-more-text">Learn More</h4>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item carousel-item-branding">
-              <div class="header">
-                <img class="home-image" id="risd-home-image" src="/img/risd-home.svg" alt="">
-                <div class="align-center-right" id="risd-caption">
-                  <h2 class="work-header">RISD Museum</h2>
-                  <h3 class="work-subheader">Brand Design</h3>
-                  <div class="learn-more" id="learn-more-risd">
-                    <svg class="learn-more-circle">
-                      <rect class="circle" x="0" y="0" width="40" height="40" rx="20" fill="#00909e" fill-opacity="0.6"/>
-                    </svg>
-                    <h4 class="learn-more-text">Learn More</h4>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="arrows align-center-right" id="arrows-branding">
-            <h4 id="arrow-next-branding" class="next-text">Next Project</h4>
-          </div>
-        </div>
-        <div id="seltzer-content">
-          <p class="intro-work-paragraph-1">
-            <span class="about-paragraph-header">The Problem:</span> I wanted to practice my branding skills and take on a fun personal project.
-          </p>
-          <p class="intro-work-paragraph-2">
-            <span class="about-paragraph-header">The Solution:</span> I decided to refresh the logos and can designs for three popular seltzer companies, whose logos I felt could use a refresh.
-          </p>
-          <div class="polar">
-            <p class="work-header-paragraph">Polar Soda</p>
-            <div class="flex-image">
-              <div>
-                <img src="/img/seltzer-polar-logo-old.png" alt="" class="flex-logo-image">
-                <p class="work-subheader-paragraph">Old Logo</p>
-              </div>
-              <div>
-                <img src="/img/seltzer-polar-logo-new.svg" alt="" class="flex-logo-image">
-                <p class="work-subheader-paragraph">ReDesigned Logo</p>
-              </div>
-            </div>
-            <p class="seltzer-paragraph">
-              I felt that Polar could use a more vintage looking logo given they have been around for so long. I decided to keep the polar icon, but give it a new look.
-            </p>
-            <img src="/img/seltzer-polar-guidelines.png" alt="" class="work-image">
-          </div>
-          <div class="schweppes">
-            <p class="work-header-paragraph">Schweppes</p>
-            <div class="flex-image">
-              <div>
-                <img src="/img/seltzer-schweppes-logo-old.png" alt="" class="flex-logo-image">
-                <p class="work-subheader-paragraph">Old Logo</p>
-              </div>
-              <div>
-                <img src="/img/seltzer-schweppes-logo-new.svg" alt="" class="flex-logo-image">
-                <p class="work-subheader-paragraph">ReDesigned Logo</p>
-              </div>
-            </div>
-            <p class="seltzer-paragraph">
-              I felt Schweppes was in need of a fun new logo that grabbed soda-drinkers' attention. I wanted to give it a similar retro spin to Polar and capitalize on how long they have been in the seltzer market.
-            </p>
-            <img src="/img/seltzer-schweppes-guidelines.png" alt="" class="work-image">
-          </div>
-          <div class="lacroix">
-            <p class="work-header-paragraph">La Croix</p>
-            <div class="flex-image">
-              <div>
-                <img src="/img/seltzer-lacroix-logo-old.png" alt="" class="flex-logo-image">
-                <p class="work-subheader-paragraph">Old Logo</p>
-              </div>
-              <div>
-                <img src="/img/seltzer-lacroix-logo-new.svg" alt="" class="flex-logo-image">
-                <p class="work-subheader-paragraph">ReDesigned Logo</p>
-              </div>
-            </div>
-            <p class="seltzer-paragraph">
-              I quite like La Croix's logo as it is, but thought that it could be fun to give it a more feminine look. I kept many of the same elements in the original logo.
-            </p>
-            <img src="/img/seltzer-lacroix-guidelines.png" alt="" class="work-image">
-          </div>
-          <div class="can-flex-image">
-            <img src="/img/seltzer-polar-can.png" alt="" class="flex-can-image">
-            <img src="/img/seltzer-schweppes-can.png" alt="" class="flex-can-image">
-            <img src="/img/seltzer-lacroix-can.png" alt="" class="flex-can-image">
-          </div>
-          <div class="intro-work-paragraph-2">
-            <h4 id="next-body-risd" class="next-body-text">Next Project: RISD Museum</h4>
-          </div>
-        </div>
-        <div id="risd-content">
-          <p class="intro-work-paragraph-1">
-            <span class="about-paragraph-header">The Problem:</span> In my identity for design branding class at the Rhode Island School of Design, we were tasked with redesigning the RISD Museum's brand.
-          </p>
-          <p class="intro-work-paragraph-2">
-            <span class="about-paragraph-header">The Solution:</span> Over the course of two weeks, I redesigned their logo, stationary set, and website in a set of brand guidelines. The brand guidelines and logo aniamtion are laid out below.
-          </p>
-          <img src="/img/risd-cover.jpg" alt="" class="work-image-full-bleed">
-          <iframe allowfullscreen="true" allow="fullscreen" style="border:none;width:100%;height:600px;" src="//e.issuu.com/embed.html?d=carolinecarteridentitymanual&u=cgcarter25"></iframe>
-          <div class="intro-work-paragraph-2">
-            <h4 id="next-body-seltzer" class="next-body-text">Next Project: Seltzer Cans</h4>
-          </div>
-        </div>
+    </a>
+    <a class="home-work-box" id="vote-for-her" href="pages/vote-for-her.html">
+      <img src="img/vote-for-her-home-static.jpg" alt="" class="home-img-static">
+      <div id="show-vote-for-her">
+        <img src="img/vote-for-her-home-hover.jpg" alt="" class="home-img-hover">
+        <div class="hover-gradient" id="gradient-vote-for-her"></div>
+        <p class="box-subhead drop-shadow">Social Media Design<br>
+        <span class="box-head drop-shadow">Vote For Her</span></p>
+      </div>
+    </a>
+    <a class="home-work-box" id="japan" href="pages/japan.html">
+      <img src="img/japan-home-static.jpg" alt="" class="home-img-static">
+      <div id="show-japan">
+        <img src="img/japan-home-hover.jpg" alt="" class="home-img-hover">
+        <div class="hover-gradient" id="gradient-japan"></div>
+        <p class="box-subhead drop-shadow">Infographic Design<br>
+        <span class="box-head drop-shadow">Japan</span></p>
+      </div>
+    </a>
+    <a class="home-work-box" id="risd" href="pages/risd.html">
+      <img src="img/risd-home-static.jpg" alt="" class="home-img-static">
+      <div id="show-risd">
+        <img src="img/risd-home-hover.jpg" alt="" class="home-img-hover">
+        <div class="hover-gradient" id="gradient-risd"></div>
+        <p class="box-subhead drop-shadow">Brand Design<br>
+        <span class="box-head drop-shadow">RISD Museum</span></p>
+      </div>
+    </a>
+    <a class="home-work-box" id="apiary" href="pages/apiary.html">
+      <img src="img/apiary-home-static.jpg" alt="" class="home-img-static">
+      <div id="show-apiary">
+        <img src="img/apiary-home-hover.jpg" alt="" class="home-img-hover">
+        <div class="hover-gradient" id="gradient-apiary"></div>
+        <p class="box-subhead drop-shadow">Infographic Design<br>
+        <span class="box-head drop-shadow">Project Chimps Apiary</span></p>
+      </div>
+    </a>
+    <a class="home-work-box" id="dogs" href="pages/dogs.html">
+      <img src="img/dogs-home-static.jpg" alt="" class="home-img-static">
+      <div id="show-dogs">
+        <img src="img/dogs-home-hover.jpg" alt="" class="home-img-hover">
+        <div class="hover-gradient" id="gradient-dogs"></div>
+        <p class="box-subhead drop-shadow">Book Design<br>
+        <span class="box-head drop-shadow">Dogs</span></p>
+      </div>
+    </a>
+    <a class="home-work-box" id="direct-mail" href="pages/direct-mail.html">
+      <img src="img/direct-mail-home-static.jpg" alt="" class="home-img-static">
+      <div id="show-direct-mail">
+        <img src="img/direct-mail-home-hover.jpg" alt="" class="home-img-hover">
+        <div class="hover-gradient" id="gradient-direct-mail"></div>
+        <p class="box-subhead drop-shadow">Direct Mail Design<br>
+        <span class="box-head drop-shadow">2020 Election Season</span></p>
+      </div>
+    </a>
+    <a class="home-work-box" id="field-notes" href="pages/field-notes.html">
+      <img src="img/field-notes-home-static.jpg" alt="" class="home-img-static">
+      <div id="show-field-notes">
+        <img src="img/field-notes-home-hover.jpg" alt="" class="home-img-hover">
+        <div class="hover-gradient" id="gradient-field-notes"></div>
+        <p class="box-subhead drop-shadow">Book Design<br>
+        <span class="box-head drop-shadow">Field Notes from a Catastrophe</span></p>
       </div>
     </div>
-    <div class="about-section" id="about">
-      <div class="left-nav">
-        <div class="about-nav">
-          <div class="align-center">
-            <h1 class="nav-header">About</h1>
-          </div>
-          <ul class="nav-bottom">
-            <li class="nav-list"><a href="#work" class="bottom-link">Work</a></li>
-            <li class="nav-list active-link"><a href="#about" class="bottom-link">About</a></li>
-            <li class="nav-list"><a href="#contact" class="bottom-link">Contact</a></li>
-          </ul>
-          <img class="caroline-photo" src="/img/caroline2.png" alt="">
-        </div>
-      </div>
-      <div class="about">
-        <div class="right-side-about-contact">
-          <div class="about-container">
-            <p class="about-paragraph about-paragraph-bold">Hi there! I am a graphic designer, web designer, and artist living in Bend Oregon.</p>
-            <p class="about-paragraph">Painting and drawing were my main introductions into the creative world, which led to my fascination and pursuit of graphic and web design. Above all else, I care about using design to tell meaningful stories.</p>
-            <p class="about-paragraph about-paragraph-header">Graphic Design</p>
-            <p class="about-paragraph">Upon graduating from Bowdoin College in 2019, I found myself at the Rhode Island School of Design where I first found my infatuation with using design as both an artform and form of communication. </p>
-            <p class="about-paragraph">The following fall I interned at Project Chimps as a graphic design and communications intern. I then joined SKDK, voted the top public affairs agency by the Holmes report in 2019, as a graphic design intern and was promoted that summer to creative consultant so as to help the creative department with the workload during election season.</p>
-            <p class="about-paragraph about-paragraph-bold">To me, design is about storytelling.</p>
-            <p class="about-paragraph about-paragraph-header">Web Design</p>
-            <p class="about-paragraph">At RISD, I took a class in Web Design and since have been teaching myself Javascript. I love the challenge of problem solving and achieving a design with code.</p>
-            <p class="about-paragraph">I am also taking classes in UI/UX to learn the fundamentals of user-oriented design as well as applications such as Figma and Adobe XD. </p>
-            <p class="about-paragraph about-paragraph-header">Studio Art</p>
-            <p class="about-paragraph">My foundation is grounded in my painting, drawing, and printmaking practice. Using my hands on paper to create art helps my graphic design practice and vice versa.</p>
-            <p class="about-paragraph">I feel most in my roots in the messiness of oil paints and charcoal as well as testing ink through the printing press. Check out my work <span class="underline-link" id="studio-art-link">here</span>!</p>
-          </div>
-        </div>
-      </div>
-      <div id="studio-art-content">
+  </a>
+  <a href="pages/work.html" class="cursive-link"><p>Check out more here!</p></a>
 
-      </div>
-    </div>
-    <div class="contact-section" id="contact">
-      <div class="left-nav">
-        <div class="contact-nav">
-          <div class="align-center">
-            <h1 class="nav-header text-white">Contact</h1>
-          </div>
-          <ul class="nav-bottom">
-            <li class="nav-list text-white"><a href="#work" class="bottom-link">Work</a></li>
-            <li class="nav-list text-white"><a href="#about" class="bottom-link">About</a></li>
-            <li class="nav-list text-white active-link"><a href="#contact" class="bottom-link">Contact</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="contact">
-        <div class="right-side-about-contact contact-container">
-          <form class="form-container" method="post" action="mail.php">
-            <h1 class="nav-header">Say hello!</h1>
-            <input type="text" id="name" name="name" placeholder="Name" tabindex="1">
-            <input type="text" id="email" name="email" placeholder="Email" tabindex="2">
-            <input type="text" id="subject" name="subject" placeholder="Subject" tabindex="3">
-            <textarea id="message" name="message" placeholder="Write something..." style="height:200px" tabindex="4"></textarea>
-            <input id="submit" type="submit" name="submit" value="SUBMIT">
-          </form>
-        </div>
-      </div>
-    </div>
-  <!-- jQuery -->
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <!-- Slick -->
-  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <div class="margin">
+    <div class="clients-testimonials">
 
-  <!-- GSAP -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
-  <!-- Scroll Magic -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
-  <script src="js/DrawSVGPlugin.min.js"></script>
-  <script src="js/jquery.zoom.min.js"></script>
-  <script src="js/app.js"></script>
+    </div>
+  </div>
+  <div class="footer">
+    <img src="img/logo-black.png" width="50px" alt="">
+    <div class="flex-between">
+      <div>
+        <h3 class="footer-head">Need help visually sharing your stories with the world?</h3>
+        <h3 class="footer-head">Let's be in touch soon!</h3>
+        <a href="pages/contact.html"><h4 class="email-link">cgcarter25@gmail.com</h4></a>
+      </div>
+      <div class="socials">
+        <img class="social-image" src="img/behance.png" width="30px" alt="">
+        <img class="social-image" src="img/linkedin.png" width="30px" alt="">
+        <img class="social-image" src="img/dribbble.png" width="30px" alt="">
+      </div>
+    </div>
+    <hr>
+    <p class="footer-note">Website design and code by Caroline Carter... That's me!</p>
+  </div>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<!-- Slick -->
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<!-- GSAP -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
+<!-- Scroll Magic -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+<script src="js/DrawSVGPlugin.min.js"></script>
+<script src="js/app.js"></script>
 </body>
 </html>
