@@ -25,6 +25,7 @@ body {
 
 .image-caption {
   width: 100%;
+  padding: 0;
   text-align: center;
 }
 
@@ -102,4 +103,8 @@ body {
 
 .contact-form-double {
   display: block;
+}
+
+.image-header {
+  
 }

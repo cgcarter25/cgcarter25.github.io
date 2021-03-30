@@ -213,10 +213,10 @@ hr {
 }
 
 .image-header {
-  height: 100vh;
+  height: 100%;
   position: fixed;
   object-fit: cover;
-  overflow:hidden;
+  overflow: hidden;
 }
 
 .image-caption {

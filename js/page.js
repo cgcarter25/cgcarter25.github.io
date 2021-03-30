@@ -1,8 +1,14 @@
-let windowWidth
+let windowWidth,
+    windowHeight,
     transitionTime = '0.7s';
 
 function sizeHomeImage() {
-  document.querySelector('.image-header').style.width = `${window.innerWidth}px`
+  windowWidth = window.innerWidth;
+  windowHeight = window.innerHeight;
+
+    document.querySelector('.image-header').style.width = `${window.innerWidth}px`
+    // document.querySelector('.image-header').style.width = `${windowWidth}px`;
+
   var bottom = document.querySelector('.image-header').getBoundingClientRect().bottom
   document.querySelector('.page-content').style.transform = `translateY(${bottom}px)`
   document.querySelector('.image-caption').style.transform = `translateY(${bottom/10}px)`
