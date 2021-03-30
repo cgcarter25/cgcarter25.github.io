@@ -41,7 +41,11 @@ a {
 
 .cursive-link {
   font: 500 20px fairwater-script, serif;
-  text-align: right;
+  float: right;
+}
+
+.more-here {
+  height: 100px;
 }
 
 .this-way {
@@ -143,7 +147,7 @@ button:hover {
 }
 
 .footer-head {
-  font: 30px 'Yeseva One', serif;
+  font: 26px 'Yeseva One', serif;
 }
 
 .flex-between {
@@ -176,7 +180,6 @@ hr {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin: ;
 
 }
 .work-box {
