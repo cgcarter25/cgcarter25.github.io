@@ -16,15 +16,17 @@ a {
 }
 
 .art-image {
+  position: absolute;
+  right: 0%;
   z-index: -10;
-  height: 600px;
-  clip-path: inset(0% 0% 8% 0%);
-  transform: translateY(8%);
+  height: 650px;
+  transform: translateY(50px);
 }
 
 .intro-head {
   margin-top: 200px;
   padding-bottom: 10px;
+  filter: drop-shadow(0px 0px 2px black);
 }
 
 .intro-subhead {
@@ -32,27 +34,32 @@ a {
   font-size: 22px;
 }
 
+.intro-blurb {
+  position: absolute;
+}
+
 .intro-home {
+  position: relative;
   height: 600px;
   margin: 0px 150px;
-  display: flex;
-  justify-content: space-between;
 }
 
 .cursive-link {
   font: 500 20px fairwater-script, serif;
-  float: right;
 }
 
-.more-here {
+.more-here-container {
   height: 100px;
 }
 
+.more-here {
+  float: right;
+}
+
 .this-way {
-  text-align: left;
+  position: relative;
   color: #a3f7bf;
-  position: absolute;
-  bottom: 10%;
+  margin: 0px 150px;
 }
 
 .drop-shadow {
@@ -98,6 +105,13 @@ button {
 
 button:hover {
   cursor: pointer;
+  background-color: #393e4688;
+}
+
+button:focus {
+  border: none;
+  outline: none;
+  outline-style: none;
 }
 
 .home-work-container {
