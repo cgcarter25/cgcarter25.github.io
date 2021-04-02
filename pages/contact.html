@@ -30,24 +30,24 @@
       <h2 class="about-head">Want to work together?</h2>
       <h3 class="contact-subhead">Say hello!</h3>
     </div>
-    <form class="form-container" method="post" action="contact.php">
+    <form class="form-container" action="https://formspree.io/f/myylyyqr" method="POST">
       <div class="contact-form-double">
         <div>
           <p class="contact-header">name</p>
-          <input type="text" id="name" name="name" placeholder="What's your name?" tabindex="1" class="contact-input contact-input-half">
+          <input type="email" name="name" class="contact-input contact-input-half">
         </div>
         <div>
           <p class="contact-header">email</p>
-          <input type="text" id="email" name="email" placeholder="What's your email?" tabindex="2" class="contact-input contact-input-half">
+          <input type="email" name="_replyto" class="contact-input contact-input-half">
         </div>
       </div>
       <div>
         <p class="contact-header">subject</p>
-        <input type="text" id="subject" name="subject" placeholder="What's this about?" tabindex="3" class="contact-input">
+        <input name="_subject" class="contact-input">
       </div>
       <div>
         <p class="contact-header">message</p>
-        <textarea id="message" name="message" placeholder="Any extra information is always helpful!" style="height:200px" tabindex="4" class="contact-input"></textarea>
+        <textarea name="message" class="contact-input"></textarea>
       </div>
       <input id="submit" type="submit" name="submit" value="SUBMIT" class="contact-input">
     </form>
