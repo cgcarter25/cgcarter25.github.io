@@ -24,8 +24,35 @@
   margin: 10px 10px 10px;
 }
 
+.intro-head {
+  font-size: 40px;
+}
+
+.intro-subhead {
+}
+
+.art-image {
+  right: auto;
+  /* width: 100%;
+  height: auto; */
+}
+
+.intro-blurb {
+  text-align: center;
+  width: 400px;
+}
+
 .blurb {
   width: 100%;
+}
+
+.intro-home {
+  margin: 50px;
+}
+
+.art-image {
+  width: 400px;
+  height: auto;
 }
 
 .inline-image {

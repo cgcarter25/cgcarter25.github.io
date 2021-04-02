@@ -26,16 +26,19 @@ a {
 .intro-head {
   margin-top: 200px;
   padding-bottom: 10px;
-  filter: drop-shadow(0px 0px 2px black);
+  text-shadow: 0px 0px 3px black, 0px 0px 8px black;
 }
 
 .intro-subhead {
-  padding-bottom: 10px;
+  padding-bottom: 30px;
   font-size: 22px;
+  text-shadow: 0px 0px 3px black, 0px 0px 8px black;
 }
 
 .intro-blurb {
+  width: 500px;
   position: absolute;
+  height: 100%;
 }
 
 .intro-home {
@@ -63,7 +66,7 @@ a {
 }
 
 .drop-shadow {
-  filter: drop-shadow(1px 1px 1px #4448);
+  text-shadow: 0px 0px 3px #393e46;
 }
 
 .nav-container {
@@ -125,7 +128,7 @@ button:focus {
 }
 
 .hover-gradient {
-  background-image: linear-gradient(to top right, #393e46 0%, #a3f7bf 100%);
+  background-image: linear-gradient(to top right, #2A7543 0%, #a3f7bf 100%);
   position: absolute;
 }
 
