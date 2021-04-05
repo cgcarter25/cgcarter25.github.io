@@ -11,6 +11,39 @@ body {
   font-size: 16px;
 }
 
+.intro-home {
+  width: 300px;
+  right: auto;
+}
+
+.art-image {
+  width: 280px;
+  height: auto;
+}
+
+.intro-blurb {
+  width: 270px;
+  transform: translateY(40px)
+}
+
+.intro-head {
+  font-size: 24px;
+}
+
+.intro-home {
+  height: 500px;
+}
+
+.intro-subhead {
+  font-size: 13px;
+  padding-bottom: 10px;
+}
+
+.say-more {
+  font-size: 16px;
+  padding: 5px 8px;
+}
+
 .flex-between {
   display: block;
 }

@@ -28,9 +28,6 @@
   font-size: 40px;
 }
 
-.intro-subhead {
-}
-
 .art-image {
   display: block;
   margin-left: auto;
@@ -53,6 +50,7 @@
   margin-left: auto;
   margin-right: auto;
   width: 450px;
+  transform: translateY(220px)
 }
 
 .blurb {
@@ -62,7 +60,7 @@
 .intro-home {
   width: 450px;
   margin: 0px auto;
-  height: 100vh;
+  height: 790px;
 }
 
 .home-work-container {
