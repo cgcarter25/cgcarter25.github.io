@@ -106,5 +106,15 @@ body {
 }
 
 .image-header {
-  
+
+}
+
+.cursive-link {
+  font-size: 16px;
+  text-align: center;
+}
+
+.more-here {
+  float: none;
+  line-height: 0.9;
 }
