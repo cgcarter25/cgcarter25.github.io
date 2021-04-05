@@ -32,21 +32,27 @@
 }
 
 .art-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 480px;
   right: auto;
-  width: 100%;
-  max-width: 600px;
-  object-fit: cover;
-  object-position: top;
 }
 
 .nav-logo {
   width: 50px;
 }
 
+.this-way {
+  display: none;
+}
 
 .intro-blurb {
   text-align: center;
-  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 450px;
 }
 
 .blurb {
@@ -54,9 +60,20 @@
 }
 
 .intro-home {
-  margin: 50px;
+  width: 450px;
+  margin: 0px auto;
   height: 100vh;
-  width: auto;
+}
+
+.home-work-container {
+  transform: translateY(-100px)
+}
+
+.more-here-container {
+  height: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  transform: translateY(-100px)
 }
 
 .inline-image {

@@ -21,6 +21,7 @@ a {
 
 .art-image {
   position: absolute;
+  display:block;
   right: 0%;
   z-index: -10;
   height: 650px;
