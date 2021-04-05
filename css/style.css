@@ -337,10 +337,6 @@ hr {
   align-items: center;
 }
 
-.about-image {
-  padding: 40px;
-}
-
 .about-head {
   max-width: 800px;
 }
@@ -367,17 +363,17 @@ hr {
 .about-image {
   width: 130px;
   height: auto;
-  padding-top: 5px;
+  padding: 5px 40px 0px 0px;
 }
 
 .about-image-home {
-  width: 200px;
+  width: 150px;
   height: auto;
   padding: 5px 40px 0 0;
 }
 
 .about-paragraph-intro {
-  padding: 40px 48px;
+  padding: 40px 0px;
   margin-bottom: 10px;
   font-size: 20px;
   line-height: 1.6;

@@ -33,8 +33,9 @@
 
 .art-image {
   right: auto;
-  /* width: 100%;
-  height: auto; */
+  bottom: 0%;
+  height: 80%;
+  width: auto;
 }
 
 .intro-blurb {
@@ -48,11 +49,8 @@
 
 .intro-home {
   margin: 50px;
-}
-
-.art-image {
-  width: 400px;
-  height: auto;
+  height: 100vh;
+  width: auto;
 }
 
 .inline-image {
