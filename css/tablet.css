@@ -33,9 +33,10 @@
 
 .art-image {
   right: auto;
-  bottom: 0%;
-  height: 80%;
-  width: auto;
+  width: 100%;
+  max-width: 600px;
+  object-fit: cover;
+  object-position: top;
 }
 
 .intro-blurb {
