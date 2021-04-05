@@ -15,6 +15,10 @@ a {
   color: #a3f7bf;
 }
 
+.nav-logo {
+  width: 60px;
+}
+
 .art-image {
   position: absolute;
   right: 0%;

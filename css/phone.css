@@ -109,6 +109,11 @@ body {
 
 }
 
+.nav-logo {
+  width: 40px;
+}
+
+
 .cursive-link {
   font-size: 16px;
   text-align: center;

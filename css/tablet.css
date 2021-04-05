@@ -39,6 +39,11 @@
   object-position: top;
 }
 
+.nav-logo {
+  width: 50px;
+}
+
+
 .intro-blurb {
   text-align: center;
   width: 400px;
