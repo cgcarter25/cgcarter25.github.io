@@ -1,20 +1,13 @@
-let oldWindowWidth = 0,
-    windowWidth,
+let windowWidth,
     windowHeight,
     transitionTime = '0.7s';
 
 function sizeHomeImage() {
   windowWidth = window.innerWidth;
   windowHeight = window.innerHeight;
-
-  if (oldWindowWidth != windowWidth) {
-    document.querySelector('.image-header').style.width = `${window.innerWidth}px`
-    var bottom = document.querySelector('.image-header').getBoundingClientRect().bottom
-    document.querySelector('.page-content').style.transform = `translateY(${bottom}px)`
-    document.querySelector('.image-caption').style.transform = `translateY(${bottom/10}px)`
-  }
-  oldWindowWidth = windowWidth;
-
+  document.querySelector('.image-header').style.width = `${window.innerWidth}px`
+  document.querySelector('.image-caption').style.top = `${windowHeight/10}px`
+  document.querySelector('.page-content').style.top = `${windowHeight}px`
 }
 
 sizeHomeImage();
