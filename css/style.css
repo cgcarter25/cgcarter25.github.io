@@ -329,9 +329,10 @@ hr {
 
 .d3-link:hover {
   color: black;
-  background-color: #eee;
   transition: 0.5s;
   cursor: pointer;
+  background-color: #eee;
+
 }
 
 .column {
