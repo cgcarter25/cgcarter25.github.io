@@ -274,6 +274,19 @@ hr {
   padding-bottom: 20px;
 }
 
+.d3-link {
+  color: #eee;
+  line-height: 1.2;
+  border-bottom: 2px #a3f7bf solid;
+}
+
+.d3-link:hover {
+  color: black;
+  cursor: pointer;
+  background-color: #a3f7bf;
+  transition: 0.5s;
+}
+
 .column {
   margin-right: 40px;
 }
