@@ -296,13 +296,14 @@ hr {
 .see-also {
   font: 500 30px 'Yeseva One', serif;
   color: #eee;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
 }
 
 .see-also-image {
   width: 300px;
   height: 300px;
   object-fit: cover;
+  padding-bottom: 10px;
 }
 
 .see-also-header {
@@ -358,6 +359,10 @@ hr {
 
 .bold-copy {
   font-weight: 900
+}
+
+.italic-copy {
+  font-style: italic;
 }
 
 .inline-container {
