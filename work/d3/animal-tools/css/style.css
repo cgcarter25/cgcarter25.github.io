@@ -1,0 +1,125 @@
+html { font-size: 62.5%; }
+
+body {
+  font-family: 'Zilla Slab', serif;
+  font-size: 1.2rem;
+  color: #5d0a0e;
+  fill: #5d0a0e;
+  background: white;
+}
+
+.animal-content-wrapper {
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+#animal-title {
+	font-family: 'Zilla Slab', sans-serif;
+	font-size: 30px;
+	font-weight: 600;
+	margin: 40px 30px 0px 30px;
+}
+
+#animal-subtitle {
+	font-size: 14px;
+	margin: 0px 30px 20px 30px;
+	font-weight: 300;
+  color: #818287;
+}
+
+#animal-intro {
+	font-size: 16px;
+	margin: 0px 30px 10px 30px;
+	max-width: 800px;
+}
+
+#animal-hover {
+	font-size: 16px;
+	margin: 0px 30px 10px 30px;
+	max-width: 800px;
+	color: #818287;
+	font-weight: 300;
+}
+
+#animal-chart {
+	text-align: center;
+}
+
+#animal-credit {
+	float: right;
+	font-size: 14px;
+	margin: 0px 30px 5px 30px;
+	padding-bottom: 20px;
+}
+
+#animal-sources {
+	float: left;
+	font-size: 14px;
+	margin: 0px 30px 5px 30px;
+}
+
+a:hover {
+  	text-decoration: none;
+  	border-bottom: 1px solid black;
+}
+
+a, a:link, a:visited, a:active {
+	text-decoration: none;
+  	color: black;
+  	border-bottom: 1px dotted rgba(0, 0, 0, .5);
+}
+
+.MiddleEarth {
+  color: #0e527f;
+}
+
+/*--- chart ---*/
+
+.name-title {
+  font-family: 'Abel', sans-serif;
+	font-size: 2.5rem;
+	cursor: default;
+	text-anchor: middle;
+  height: 100px;
+  width: 100px;
+}
+
+.pic {
+  position: absolute;
+  width: 150px;
+  height: auto;
+  pointer-events: none;
+}
+
+.value-title {
+	font-family: 'Abel', serif;
+	text-anchor: middle;
+	font-size: 2rem;
+  fill: #818287;
+}
+
+.animal-note {
+	text-anchor: middle;
+	font-size: 1.5rem;
+  font-family: 'Abel', sans-serif;
+  fill: #818287;
+}
+
+.inner-label {
+  font-family: 'Abel', sans-serif;
+	font-size: 1.5rem;
+  line-height: 1.2;
+	cursor: default;
+}
+
+.outer-label {
+  font-family: 'Abel', sans-serif;
+	font-size: 1.5rem;
+	cursor: default;
+}
+
+.outer-label-value {
+  font-family: 'Abel', sans-serif;
+  font-size: 1.3rem;
+  fill: #818287;
+}

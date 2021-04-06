@@ -1,0 +1,485 @@
+﻿animal,tool,use
+New World Monkeys,Affix,1
+New World Monkeys,Throw,1
+New World Monkeys,Bait,1
+New World Monkeys,Contain,1
+New World Monkeys,Pry,1
+New World Monkeys,"Wave, shake",1
+New World Monkeys,Block,1
+New World Monkeys,Prop and climb,1
+New World Monkeys,Dig,1
+New World Monkeys,Scratch,1
+New World Monkeys,Pound,1
+New World Monkeys,Hang,1
+New World Monkeys,Wipe,1
+New World Monkeys,Insect and probe,1
+New World Monkeys,Drop,1
+New World Monkeys,Reach,1
+New World Monkeys,Absorb,1
+New World Monkeys,"Drag, roll",1
+New World Monkeys,Club,1
+New World Monkeys,"Jab, stab",1
+New World Monkeys,Symbolize,1
+New World Monkeys,Cut,1
+Chimpanzees,Affix,1
+Chimpanzees,Throw,1
+Chimpanzees,Bait,1
+Chimpanzees,Contain,1
+Chimpanzees,Pry,1
+Chimpanzees,"Wave, shake",1
+Chimpanzees,Block,1
+Chimpanzees,Prop and climb,1
+Chimpanzees,Dig,1
+Chimpanzees,Scratch,1
+Chimpanzees,Pound,1
+Chimpanzees,Hang,1
+Chimpanzees,Wipe,1
+Chimpanzees,Insect and probe,1
+Chimpanzees,Drop,1
+Chimpanzees,Reach,1
+Chimpanzees,Absorb,1
+Chimpanzees,"Drag, roll",1
+Chimpanzees,Club,1
+Chimpanzees,"Jab, stab",1
+Chimpanzees,Symbolize,1
+Chimpanzees,Cut,1
+Orangutans,Affix,1
+Orangutans,Throw,1
+Orangutans,Bait,1
+Orangutans,Contain,1
+Orangutans,Pry,1
+Orangutans,"Wave, shake",1
+Orangutans,Block,1
+Orangutans,Prop and climb,1
+Orangutans,Dig,1
+Orangutans,Scratch,1
+Orangutans,Pound,1
+Orangutans,Hang,1
+Orangutans,Wipe,1
+Orangutans,Insect and probe,1
+Orangutans,Drop,1
+Orangutans,Reach,1
+Orangutans,Absorb,1
+Orangutans,"Drag, roll",1
+Orangutans,Club,1
+Orangutans,"Jab, stab",1
+Orangutans,Symbolize,1
+Orangutans,Cut,1
+Bonobos,Affix,1
+Bonobos,Throw,1
+Bonobos,Bait,1
+Bonobos,Contain,1
+Bonobos,Pry,1
+Bonobos,"Wave, shake",1
+Bonobos,Block,0
+Bonobos,Prop and climb,1
+Bonobos,Dig,1
+Bonobos,Scratch,1
+Bonobos,Pound,1
+Bonobos,Hang,1
+Bonobos,Wipe,1
+Bonobos,Insect and probe,1
+Bonobos,Drop,1
+Bonobos,Reach,1
+Bonobos,Absorb,1
+Bonobos,"Drag, roll",1
+Bonobos,Club,1
+Bonobos,"Jab, stab",1
+Bonobos,Symbolize,1
+Bonobos,Cut,1
+Gorillas,Affix,1
+Gorillas,Throw,1
+Gorillas,Bait,1
+Gorillas,Contain,1
+Gorillas,Pry,1
+Gorillas,"Wave, shake",1
+Gorillas,Block,1
+Gorillas,Prop and climb,1
+Gorillas,Dig,1
+Gorillas,Scratch,1
+Gorillas,Pound,1
+Gorillas,Hang,0
+Gorillas,Wipe,1
+Gorillas,Insect and probe,1
+Gorillas,Drop,1
+Gorillas,Reach,1
+Gorillas,Absorb,1
+Gorillas,"Drag, roll",1
+Gorillas,Club,1
+Gorillas,"Jab, stab",1
+Gorillas,Symbolize,1
+Gorillas,Cut,0
+Old World Monkeys,Affix,1
+Old World Monkeys,Throw,1
+Old World Monkeys,Bait,1
+Old World Monkeys,Contain,1
+Old World Monkeys,Pry,1
+Old World Monkeys,"Wave, shake",1
+Old World Monkeys,Block,0
+Old World Monkeys,Prop and climb,1
+Old World Monkeys,Dig,1
+Old World Monkeys,Scratch,1
+Old World Monkeys,Pound,1
+Old World Monkeys,Hang,1
+Old World Monkeys,Wipe,1
+Old World Monkeys,Insect and probe,1
+Old World Monkeys,Drop,1
+Old World Monkeys,Reach,1
+Old World Monkeys,Absorb,1
+Old World Monkeys,"Drag, roll",1
+Old World Monkeys,Club,1
+Old World Monkeys,"Jab, stab",1
+Old World Monkeys,Symbolize,0
+Old World Monkeys,Cut,0
+Birds,Affix,1
+Birds,Throw,1
+Birds,Bait,1
+Birds,Contain,1
+Birds,Pry,1
+Birds,"Wave, shake",0
+Birds,Block,1
+Birds,Prop and climb,1
+Birds,Dig,1
+Birds,Scratch,1
+Birds,Pound,1
+Birds,Hang,0
+Birds,Wipe,1
+Birds,Insect and probe,1
+Birds,Drop,1
+Birds,Reach,1
+Birds,Absorb,1
+Birds,"Drag, roll",1
+Birds,Club,1
+Birds,"Jab, stab",1
+Birds,Symbolize,0
+Birds,Cut,0
+Elephants,Affix,1
+Elephants,Throw,1
+Elephants,Bait,0
+Elephants,Contain,0
+Elephants,Pry,0
+Elephants,"Wave, shake",1
+Elephants,Block,1
+Elephants,Prop and climb,1
+Elephants,Dig,0
+Elephants,Scratch,1
+Elephants,Pound,0
+Elephants,Hang,0
+Elephants,Wipe,1
+Elephants,Insect and probe,1
+Elephants,Drop,1
+Elephants,Reach,1
+Elephants,Absorb,0
+Elephants,"Drag, roll",1
+Elephants,Club,1
+Elephants,"Jab, stab",0
+Elephants,Symbolize,0
+Elephants,Cut,0
+Carnivores,Affix,1
+Carnivores,Throw,1
+Carnivores,Bait,1
+Carnivores,Contain,1
+Carnivores,Pry,1
+Carnivores,"Wave, shake",0
+Carnivores,Block,1
+Carnivores,Prop and climb,0
+Carnivores,Dig,0
+Carnivores,Scratch,1
+Carnivores,Pound,1
+Carnivores,Hang,0
+Carnivores,Wipe,0
+Carnivores,Insect and probe,0
+Carnivores,Drop,0
+Carnivores,Reach,1
+Carnivores,Absorb,0
+Carnivores,"Drag, roll",1
+Carnivores,Club,0
+Carnivores,"Jab, stab",0
+Carnivores,Symbolize,0
+Carnivores,Cut,0
+Rodents,Affix,1
+Rodents,Throw,1
+Rodents,Bait,0
+Rodents,Contain,0
+Rodents,Pry,0
+Rodents,"Wave, shake",1
+Rodents,Block,1
+Rodents,Prop and climb,1
+Rodents,Dig,1
+Rodents,Scratch,0
+Rodents,Pound,0
+Rodents,Hang,0
+Rodents,Wipe,0
+Rodents,Insect and probe,0
+Rodents,Drop,0
+Rodents,Reach,1
+Rodents,Absorb,0
+Rodents,"Drag, roll",1
+Rodents,Club,0
+Rodents,"Jab, stab",0
+Rodents,Symbolize,0
+Rodents,Cut,0
+Gibbons,Affix,0
+Gibbons,Throw,1
+Gibbons,Bait,0
+Gibbons,Contain,0
+Gibbons,Pry,0
+Gibbons,"Wave, shake",1
+Gibbons,Block,0
+Gibbons,Prop and climb,0
+Gibbons,Dig,0
+Gibbons,Scratch,1
+Gibbons,Pound,0
+Gibbons,Hang,1
+Gibbons,Wipe,0
+Gibbons,Insect and probe,1
+Gibbons,Drop,1
+Gibbons,Reach,1
+Gibbons,Absorb,1
+Gibbons,"Drag, roll",0
+Gibbons,Club,0
+Gibbons,"Jab, stab",0
+Gibbons,Symbolize,0
+Gibbons,Cut,0
+Insects,Affix,1
+Insects,Throw,1
+Insects,Bait,1
+Insects,Contain,1
+Insects,Pry,0
+Insects,"Wave, shake",0
+Insects,Block,0
+Insects,Prop and climb,0
+Insects,Dig,0
+Insects,Scratch,0
+Insects,Pound,1
+Insects,Hang,0
+Insects,Wipe,0
+Insects,Insect and probe,1
+Insects,Drop,1
+Insects,Reach,0
+Insects,Absorb,0
+Insects,"Drag, roll",0
+Insects,Club,0
+Insects,"Jab, stab",0
+Insects,Symbolize,0
+Insects,Cut,0
+Cetaceans,Affix,0
+Cetaceans,Throw,1
+Cetaceans,Bait,0
+Cetaceans,Contain,1
+Cetaceans,Pry,0
+Cetaceans,"Wave, shake",1
+Cetaceans,Block,0
+Cetaceans,Prop and climb,1
+Cetaceans,Dig,1
+Cetaceans,Scratch,0
+Cetaceans,Pound,0
+Cetaceans,Hang,0
+Cetaceans,Wipe,1
+Cetaceans,Insect and probe,0
+Cetaceans,Drop,0
+Cetaceans,Reach,0
+Cetaceans,Absorb,0
+Cetaceans,"Drag, roll",0
+Cetaceans,Club,0
+Cetaceans,"Jab, stab",0
+Cetaceans,Symbolize,0
+Cetaceans,Cut,0
+Ungulates,Affix,1
+Ungulates,Throw,0
+Ungulates,Bait,0
+Ungulates,Contain,0
+Ungulates,Pry,0
+Ungulates,"Wave, shake",1
+Ungulates,Block,0
+Ungulates,Prop and climb,0
+Ungulates,Dig,1
+Ungulates,Scratch,1
+Ungulates,Pound,0
+Ungulates,Hang,0
+Ungulates,Wipe,0
+Ungulates,Insect and probe,0
+Ungulates,Drop,0
+Ungulates,Reach,0
+Ungulates,Absorb,0
+Ungulates,"Drag, roll",0
+Ungulates,Club,0
+Ungulates,"Jab, stab",0
+Ungulates,Symbolize,0
+Ungulates,Cut,0
+Cephalopods,Affix,1
+Cephalopods,Throw,1
+Cephalopods,Bait,0
+Cephalopods,Contain,0
+Cephalopods,Pry,0
+Cephalopods,"Wave, shake",0
+Cephalopods,Block,1
+Cephalopods,Prop and climb,0
+Cephalopods,Dig,1
+Cephalopods,Scratch,0
+Cephalopods,Pound,0
+Cephalopods,Hang,0
+Cephalopods,Wipe,0
+Cephalopods,Insect and probe,0
+Cephalopods,Drop,0
+Cephalopods,Reach,0
+Cephalopods,Absorb,0
+Cephalopods,"Drag, roll",0
+Cephalopods,Club,0
+Cephalopods,"Jab, stab",0
+Cephalopods,Symbolize,0
+Cephalopods,Cut,0
+Prosimians,Affix,1
+Prosimians,Throw,0
+Prosimians,Bait,0
+Prosimians,Contain,0
+Prosimians,Pry,0
+Prosimians,"Wave, shake",0
+Prosimians,Block,1
+Prosimians,Prop and climb,0
+Prosimians,Dig,1
+Prosimians,Scratch,0
+Prosimians,Pound,0
+Prosimians,Hang,0
+Prosimians,Wipe,0
+Prosimians,Insect and probe,0
+Prosimians,Drop,0
+Prosimians,Reach,0
+Prosimians,Absorb,0
+Prosimians,"Drag, roll",0
+Prosimians,Club,0
+Prosimians,"Jab, stab",0
+Prosimians,Symbolize,0
+Prosimians,Cut,0
+Crustaceans,Affix,1
+Crustaceans,Throw,0
+Crustaceans,Bait,0
+Crustaceans,Contain,0
+Crustaceans,Pry,0
+Crustaceans,"Wave, shake",1
+Crustaceans,Block,1
+Crustaceans,Prop and climb,0
+Crustaceans,Dig,0
+Crustaceans,Scratch,0
+Crustaceans,Pound,0
+Crustaceans,Hang,0
+Crustaceans,Wipe,0
+Crustaceans,Insect and probe,0
+Crustaceans,Drop,0
+Crustaceans,Reach,0
+Crustaceans,Absorb,0
+Crustaceans,"Drag, roll",0
+Crustaceans,Club,0
+Crustaceans,"Jab, stab",0
+Crustaceans,Symbolize,0
+Crustaceans,Cut,0
+Arachnids,Affix,1
+Arachnids,Throw,1
+Arachnids,Bait,1
+Arachnids,Contain,0
+Arachnids,Pry,0
+Arachnids,"Wave, shake",0
+Arachnids,Block,0
+Arachnids,Prop and climb,0
+Arachnids,Dig,0
+Arachnids,Scratch,0
+Arachnids,Pound,0
+Arachnids,Hang,0
+Arachnids,Wipe,0
+Arachnids,Insect and probe,0
+Arachnids,Drop,0
+Arachnids,Reach,0
+Arachnids,Absorb,0
+Arachnids,"Drag, roll",0
+Arachnids,Club,0
+Arachnids,"Jab, stab",0
+Arachnids,Symbolize,0
+Arachnids,Cut,0
+Gastropods,Affix,1
+Gastropods,Throw,0
+Gastropods,Bait,0
+Gastropods,Contain,0
+Gastropods,Pry,1
+Gastropods,"Wave, shake",0
+Gastropods,Block,0
+Gastropods,Prop and climb,0
+Gastropods,Dig,0
+Gastropods,Scratch,0
+Gastropods,Pound,0
+Gastropods,Hang,0
+Gastropods,Wipe,0
+Gastropods,Insect and probe,0
+Gastropods,Drop,0
+Gastropods,Reach,0
+Gastropods,Absorb,0
+Gastropods,"Drag, roll",0
+Gastropods,Club,0
+Gastropods,"Jab, stab",0
+Gastropods,Symbolize,0
+Gastropods,Cut,0
+Fish,Affix,0
+Fish,Throw,1
+Fish,Bait,0
+Fish,Contain,1
+Fish,Pry,0
+Fish,"Wave, shake",0
+Fish,Block,0
+Fish,Prop and climb,0
+Fish,Dig,0
+Fish,Scratch,0
+Fish,Pound,0
+Fish,Hang,0
+Fish,Wipe,0
+Fish,Insect and probe,0
+Fish,Drop,0
+Fish,Reach,0
+Fish,Absorb,0
+Fish,"Drag, roll",0
+Fish,Club,0
+Fish,"Jab, stab",0
+Fish,Symbolize,0
+Fish,Cut,0
+Amphibians,Affix,1
+Amphibians,Throw,0
+Amphibians,Bait,0
+Amphibians,Contain,0
+Amphibians,Pry,0
+Amphibians,"Wave, shake",0
+Amphibians,Block,0
+Amphibians,Prop and climb,0
+Amphibians,Dig,0
+Amphibians,Scratch,0
+Amphibians,Pound,0
+Amphibians,Hang,0
+Amphibians,Wipe,0
+Amphibians,Insect and probe,0
+Amphibians,Drop,0
+Amphibians,Reach,0
+Amphibians,Absorb,0
+Amphibians,"Drag, roll",0
+Amphibians,Club,0
+Amphibians,"Jab, stab",0
+Amphibians,Symbolize,0
+Amphibians,Cut,0
+Echinoids,Affix,1
+Echinoids,Throw,0
+Echinoids,Bait,0
+Echinoids,Contain,0
+Echinoids,Pry,0
+Echinoids,"Wave, shake",0
+Echinoids,Block,0
+Echinoids,Prop and climb,0
+Echinoids,Dig,0
+Echinoids,Scratch,0
+Echinoids,Pound,0
+Echinoids,Hang,0
+Echinoids,Wipe,0
+Echinoids,Insect and probe,0
+Echinoids,Drop,0
+Echinoids,Reach,0
+Echinoids,Absorb,0
+Echinoids,"Drag, roll",0
+Echinoids,Club,0
+Echinoids,"Jab, stab",0
+Echinoids,Symbolize,0
+Echinoids,Cut,0

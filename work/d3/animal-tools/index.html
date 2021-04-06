@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+	<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Animal Tools</title>
+
+		<!-- Google fonts -->
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Abel&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+		<!-- Styling -->
+		<link href="css/style.css" rel="stylesheet">
+
+    <!-- JS -->
+		<script src="https://d3js.org/d3.v4.min.js"></script>
+
+		<!-- Custom "chord" and "ribbon" functions -->
+		<script src="js/loom.js"></script>
+		<script src="js/string.js"></script>
+
+	</head>
+	<body>
+
+		<div class="animal-content-wrapper">
+			<h1 id="animal-title">Which Animals use <span class="MiddleEarth">Tools</span>?</h1>
+			<h4 id="animal-subtitle">In R. W. Shumaker, K. R. Walkup, &  B. B. Beck's book "Animal Tool Behavior: The Use and Manufacture of Tools by Animals", they break up various animal tool use as observed by humans into 22 categories. Across the Animal Kingdom, we see some animals using all 22 and some using just a few.</h4>
+			<div id="animal-intro">Tool use refers to anytime an animal uses any kind of tool or tool-like behavior in order to achieve a a goal such as acquiring food and water, grooming, defense, communication, recreation or construction. Primates such as chimpanzees studied by Jane Goodall are generally the most skilled tool-users, but we see a variety of toolboxes in animals you might not expect, like insects rodents, and even fish. Tool use is not always a sign of intelligence, contrary to popular opinion. Many animals' tool behavior is genetically programmed, such as with the spider or the hermit crab. There are animals, like humans, that are intelligent enough to learn new behaviors on the spot.</div>
+			<div id="animal-hover">Hover over animals or tools to get a more detailed overview.</div>
+		</div>
+		<div class="pic"></div>
+		<div id="animal-chart"></div>
+
+		</div>
+
+    <script src="js/script.js"></script>
+	</body>
+</html>
