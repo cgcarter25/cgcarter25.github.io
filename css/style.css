@@ -295,6 +295,7 @@ hr {
 .see-also-box {
   width: 300px;
   padding-right: 10px;
+  padding-bottom: 0px;
 }
 
 .see-also {
@@ -521,4 +522,9 @@ textarea {
 
 .work-box-empty-2 {
   padding: 10px;
+}
+
+.solution-link {
+  color: gray;
+  text-decoration: underline;
 }
