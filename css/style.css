@@ -355,7 +355,16 @@ hr {
 
 .blurb-paragraph {
   padding: 20px 40px 10px;
+}
 
+.blurb-link {
+  text-align: left;
+  color: #232931;
+  padding-top: 0px;
+}
+
+.blurb-link:hover {
+  color: #23293199;
 }
 
 .page-image {
