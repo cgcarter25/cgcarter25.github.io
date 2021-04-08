@@ -1,0 +1,223 @@
+body {
+  font: 300 12px 'Work Sans';
+}
+
+rect.selection {
+  fill: gray;
+  fill-opacity: 0.3;
+  border: 10px;
+}
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+.axis {
+  font: 300 12px 'Work Sans'
+}
+
+.axisText {
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+}
+
+.axes {
+  position: absolute;
+  z-index: -100;
+}
+
+.dog-image {
+  pointer-events: none;
+  opacity: 1;
+  height: 30vh;
+  width: auto;
+  margin-left: 5%;
+  transform: scaleX(-1);
+}
+
+.legend {
+  display: flex;
+  justify-content: space-between;
+  z-index: 1000;
+  margin: 40px 0px 10px;
+}
+
+.header-container {
+  z-index: 1000;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 40px 0px;
+}
+
+.top {
+  width: auto;
+  height: 500;
+}
+
+.title {
+  font: 800 30px 'Work Sans';
+  padding: 0px 20px 16px 0px;
+}
+
+.name-data {
+  font: 300 16px 'Work Sans';
+  padding-bottom: 4px;
+}
+
+.subhead {
+  padding-top: 10px;
+  width: 610px;
+  font: 300 16px 'Work Sans';
+  line-height: 1.6;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  margin: 20px 0px 30px;
+  background: #D6D6D6;
+}
+
+.dog-name {
+  font: 800 24px 'Work Sans';
+  text-transform: capitalize;
+}
+
+.canva {
+  margin: auto;
+}
+.search-bar-container {
+  display: flex;
+}
+
+.search-bar {
+  height: 30px;
+  width: 200px;
+  background-color: #E2EEED;
+  padding: 4px 8px;
+  border: none;
+  outline: none;
+  font: 500 12px 'Work Sans';
+  margin: 0
+}
+
+.search-button {
+  height: 38px;
+  width: 38px;
+  border: none;
+  border-left: 0.5px solid #3C8B77;
+  outline: none;
+  margin: 0;
+  position: absolute;
+  background-color: #aaa0;
+}
+
+.search-button:hover {
+  cursor: pointer;
+}
+
+.dropdown {
+  position: absolute;
+  z-index: 100;
+  height: 300px;
+  width: 200px;
+  background-color: #E2EEED;
+  display: none;
+  overflow-y: scroll;
+  font: 500 12px 'Work Sans'
+}
+
+.search-name {
+  padding: 8px 8px 4px;
+}
+
+.search-name:hover {
+  cursor: pointer;
+  background-color: #3C8B77;
+}
+
+.triangle-button {
+  position: absolute;
+  background-color: #E2EEED;
+  display: block;
+}
+
+.close-button {
+  position: absolute;
+  background-color: #E2EEED;
+  display: none;
+}
+
+.gradient {
+  margin-top: 4px;
+}
+
+.letter-gradient {
+  display: flex;
+  width: 310px;
+  justify-content: space-between;
+}
+
+.color-key {
+  margin-bottom: 10px;
+}
+
+.color-text {
+  text-align: center;
+}
+
+.notes {
+  font: 800 24px 'Work Sans';
+  text-transform: capitalize;
+  padding-bottom: 10px;
+}
+
+.insights-container {
+  margin-top: 100px ;
+}
+
+.insights {
+  padding-bottom:100px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.insight-column {
+  max-width: 700px;
+  padding-right: 40px;
+  font: 300 16px 'Work Sans';
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: underline;
+  color: rgba(0, 139, 155)
+}
+
+a:hover {
+  color: rgb(251, 140, 0)
+}
+
+.tooltip {
+  position: absolute;
+  pointer-events: none;
+  width: 200px;
+  z-index: 10;
+  text-align: center;
+  padding: 2px;
+  font-weight: 500 ;
+  text-shadow: 0px 0px 4px white, 0px 0px 2px white, 0px 0px 1px white;
+}
+
+.voronoiGroup {
+  position: absolute;
+  z-index: 100
+}
+
+.background-container {
+  position: relative;
+}

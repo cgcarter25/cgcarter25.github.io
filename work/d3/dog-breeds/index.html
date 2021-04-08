@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dog Breeds</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+<script src="https://d3js.org/d3.v4.min.js"></script>
+</head>
+<body>
+  <!-- <div class="background-container">
+    <h1>Uh oh! Looks like your browser is too narrow!</h1>
+  </div> -->
+  <div class="visualization">
+    <div class="top">
+      <div class="header-container">
+        <div class="header">
+          <div>
+            <h1 class="title">Who's Top Dog?</h1>
+            <p class="name-data">Designed by <a href="https://carolinecarter.co/" target="_blank" rel="noopener noreferrer">Caroline Carter</a></p>
+            <p class="name-data">Data from <a href="https://www.akc.org/about/archive/guide-collections/" target="_blank" rel="noopener noreferrer">American Kennel Club</a></p>
+            <div class="subhead">The chart below shows the most popular dog breeds as registered by the American Kennel Club overtime from 1946 to 2019. Use the smaller chart below to control which years are displayed in the chart. You may also search for the dogs that have made the top 10 in the search bar.</div>
+          </div>
+        </div>
+        <img src="img/dog.png" class="dog-image" alt="">
+      </div>
+      <hr>
+      <div class="legend">
+        <div>
+          <div class="search-bar-container">
+            <input type="text" class = "search-bar" id="searchBar" placeholder="Search..">
+            <div>
+              <svg height="38px" width="38px" class="triangle-button">
+                <polygon points="14,18 24,18 19,24" style="fill:#3C8B77;" />
+              </svg>
+              <svg height="38px" width="38px" class="close-button">
+                <line x1="14" y1="14" x2="24" y2="24" style="stroke:#3C8B77;stroke-width:3" />
+                <line x1="14" y1="24" x2="24" y2="14" style="stroke:#3C8B77;stroke-width:3" />
+              </svg>
+              <input type="button" class="search-button" id="searchButton">
+            </div>
+          </div>
+          <div class="dropdown">
+          </div>
+        </div>
+        <p class="dog-name">All Dogs</p>
+        <div>
+          <div class="color-key">
+            <p class="color-text">Color indicates the starting letter of the breed</p>
+            <svg height="20px" width="310px" class="gradient">
+              <defs>
+                <linearGradient id="MyGradient">
+                  <stop offset="5%" stop-color="rgba(251, 140, 0, 0.7)" />
+                  <stop offset="95%" stop-color="rgba(0, 139, 155, 0.7)" />
+                </linearGradient>
+              </defs>
+              <rect width="310" height="17" style="fill:url(#MyGradient)"/>
+            </svg>
+            <div class="letter-gradient">
+              <p>A</p>
+              <p>Z</p>
+            </div>
+          </div>
+          <div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="canva">
+    </div>
+    <div class="insights-container">
+      <hr>
+      <div class="notes">Notes</div>
+      <div class="insights">
+        <div class="insight-column">
+          Currently, the Labrador Retreiver reigns as the most popular dog breed and has done so since 1991. There are, however, some new breeds making their way into the top 10 like the Pembroke Welsh Corgi, which made the 10th spot in 2019. <a href="https://www.avma.org/resources-tools/reports-statistics/us-pet-ownership-statistics" target="_blank" rel="noopener noreferrer">Dogs are the most popular pet for Americans,</a> as 38.4% of households own at least one dog. In fact, the average number of dogs owned per household is 1.6, meaning most households that own a dog own more than one. It should be noted, however, that <a href="https://puredogtalk.com/podcast/akc-dog-registration-trend-reversal/" target="_blank" rel="noopener noreferrer">dog registration rates have decreased,</a> suggesting that while Americans are still adopting dogs, fewer are registering their dogs.
+        </div>
+        <div class="insight-column">
+          Some <a href="https://www.psychologytoday.com/us/blog/the-path-passionate-happiness/201809/why-dogs-make-you-happy" target="_blank" rel="noopener noreferrer">studies</a> have shown that owning a dog can help you maintain a more positive, optimistic persespective, essentially making you happier. Their unconditional love is shown to improve moods, decrease stress, and increase oxytocin. They also do so by "getting you off the couch" as they require exercise. This is universal across all breeds, and while there are breeds like the labrador retreiver and german shepherd which have been at the top of the ranks for a while, really any dog can give you the companionship and love that most seek out when buying a dog.
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+<script src="js/app.js"></script>
+
+</html>

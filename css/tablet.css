@@ -154,3 +154,11 @@
 .flex-between {
   display: block;
 }
+
+.work-box-empty-1 {
+  display: none;
+}
+
+.work-box-empty-2 {
+  display: none;
+}

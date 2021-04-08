@@ -514,3 +514,11 @@ textarea {
   display: flex;
   justify-content: space-between;
 }
+
+.work-box-empty-1 {
+  padding: 10px;
+}
+
+.work-box-empty-2 {
+  padding: 10px;
+}
