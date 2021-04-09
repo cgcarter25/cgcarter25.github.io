@@ -337,6 +337,8 @@ function mouseover(d) {
 	      top = document.querySelector('.top').clientHeight;
 		lines.selectAll(`.line`).style('opacity', 0.15)
 		lines.select(`.${this.className.baseVal}-line`).style('opacity', 1)
+		context.selectAll(".line").style("opacity", 0.3);
+		context.select(`.${this.className.baseVal}-line`).style("opacity", 1);
 	  circles.select(`#${this.id}-circle`).style('opacity', 1)
 		tooltip.html(`${sentenceCase(d.data.breed)}`)
 	  .style('opacity', 1)
@@ -350,6 +352,7 @@ function mouseover(d) {
 function mouseout(d) {
 	if (search == 0) {
 		lines.selectAll(`.line`).style('opacity', 0.8)
+		context.selectAll(".line").style("opacity", 0.8);
 	  circles.selectAll(`circle`).style('opacity', 0)
 	  tooltip.style('opacity', 0)
 
