@@ -15,8 +15,8 @@ let coffeeItem1 = document.querySelector('#coffeeItem1'),
     onethird = -67,
     twothirds = -133,
     foam = -170,
-    width = window.innerwidth,
-    height= window.innerheight;
+    width = document.querySelector('body').clientwidth,
+    height= document.querySelector('body').clientheight;
 
 function sentenceCase(word) {
   var result = word.replace( /([A-Z])/g, " $1" );
@@ -26,8 +26,8 @@ function sentenceCase(word) {
 
 function addBackground() {
   const svgRect = document.querySelector('#rect');
-  width = window.innerWidth,
-  height = window.innerHeight
+  width = document.querySelector('body').clientWidth,
+  height = document.querySelector('body').clientHeight
 
   svgRect.innerHTML = `<path d='M 40 20 L ${width - 40} 20 Q ${width-40} 40, ${width-20} 40 L ${width - 20} ${height - 40} Q ${width-40} ${height-40}, ${width-40} ${height-20} L 40 ${height - 20} Q 40 ${height-40}, 20 ${height-40} L 20 40 Q 40 40, 40 20 Z' fill="white" stroke="#684930" stroke-width="2px"/>
   <path d='M 50 30 L ${width - 50} 30 Q ${width-50} 50, ${width-30} 50 L ${width - 30} ${height - 50} Q ${width-50} ${height-50}, ${width-50} ${height-30} L 50 ${height - 30} Q 50 ${height-50}, 30 ${height-50} L 30 50 Q 50 50, 50 30 Z' fill='url(#beans)' stroke='#7D807D' stroke-width="1.5px"/>`
