@@ -491,7 +491,7 @@ function animate(element) {
     var tween= $(`#${element}-1`)
     TweenMax.fromTo(tween, 1, {y:nocup}, {y:onequarter});
     tween= $(`#${element}-2`)
-    TweenMax.fromTo(tween, 1, {y:nocup}, {y:onehalf});
+    TweenMax.fromTo(tween, 1, {y:nocup}, {y:twothirds});
   }
   if(element == 'frappé') {
     var tween= $(`#${element}-1`)
