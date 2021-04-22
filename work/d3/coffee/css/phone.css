@@ -1,12 +1,12 @@
 
 h1 {
-  font-size: 35px;
+  font-size: 25px;
   margin-top: 60px;
   line-height: 1;
 }
 
 .coffee-title-voltage {
-  font-size: 30px;
+  font-size: 23px;
 }
 
 .top {
@@ -18,11 +18,12 @@ h1 {
 }
 
 .coffee-svg {
-  transform: translateY(-0px);
+  transform: matrix(0.4, 0, 0, 0.4, 100, -90);
+  transform-origin: left;
 }
 
 .flex-buttons {
-  transform: translateY(-80px);
+  transform: translateY(-190px);
 }
 
 .break {
@@ -38,6 +39,6 @@ h1 {
 }
 
 .drink-info {
-  width: 270px;
-  transform: translateY(-40px);
+  width: 230px;
+  transform: translateY(-130px);
 }
