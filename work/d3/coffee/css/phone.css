@@ -18,12 +18,12 @@ h1 {
 }
 
 .coffee-svg {
-  transform: matrix(0.4, 0, 0, 0.4, 100, -90);
+  transform: matrix(0.4, 0, 0, 0.4, 100, -120);
   transform-origin: left;
 }
 
 .flex-buttons {
-  transform: translateY(-190px);
+  transform: translateY(-250px);
 }
 
 .break {
@@ -40,5 +40,5 @@ h1 {
 
 .drink-info {
   width: 230px;
-  transform: translateY(-130px);
+  transform: translateY(-200px);
 }
