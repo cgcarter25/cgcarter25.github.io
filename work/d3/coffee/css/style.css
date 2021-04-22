@@ -1,0 +1,224 @@
+body {
+  background-color: #93BEA4;
+  font: 400 24pt liebeerika, sans-serif;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.break {
+  display:none;
+}
+
+#rect {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: -1000;
+}
+
+h1 {
+  font: 700 65px filson-pro, sans-serif;
+  margin-top: 60px;
+}
+
+.top {
+  height: 170px;
+  width: 100%;
+  text-align: center;
+}
+
+#coffee-title {
+  color: #684930;
+  text-transform: uppercase;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+  width: 100%;
+  position: absolute;
+}
+
+#coffee-title-behind {
+  color: white;
+  text-transform: uppercase;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  width: 100%;
+  position: absolute;
+  transform: translate(1.5px,2.5px);
+}
+
+.coffee-title-voltage {
+  font: 400 60px voltage, sans-serif;
+  text-transform: lowercase;
+}
+
+.coffee-svg {
+  display: block;
+  margin: auto;
+  width: 350px;
+  height: 350px;
+  pointer-events: none;
+}
+
+.buttons {
+  width: 100px;
+  height: 50px;
+}
+
+.flex-buttons {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  width: 100%;
+  margin:auto;
+  z-index: 100;
+  transform: translateY(-225px);
+}
+
+.button-circle {
+  opacity: 0;
+}
+
+.button-art {
+  stroke: black;
+  stroke-width: 2;
+  stroke-linecap: round;
+  fill: none;
+}
+
+.buttons:hover .button-art{
+  stroke: #93BEA4;
+  cursor: pointer
+}
+
+.buttons:hover .button-circle{
+  fill: #93BEA4;
+  cursor: pointer
+}
+
+.buttons:hover{
+  cursor: pointer
+}
+
+.drink-info {
+  transform: translateY(-55px);
+  text-align: left;
+  max-width: 760px;
+  margin: auto;
+}
+
+.drink-flex {
+  display: flex;
+  justify-content: flex-start;
+}
+
+#drinkName {
+  font: 400 40px voltage, sans-serif;
+  color: #93BEA4;
+}
+
+#drinkRatio {
+  font-size: 20pt;
+  /* color: #7D807D; */
+  width: 56%;
+}
+
+#drinkCup {
+  font-size: 20pt;
+  margin-bottom: 2px;
+  /* color: #7D807D; */
+  width: 44%;
+}
+
+#drinkBlurb {
+  font-size: 20pt;
+  width: 50%;
+}
+
+.drink-flex-tablet {
+  width: 50%;
+  display: flex;
+}
+
+.coffeeItem-container {
+  display: flex;
+  justify-content: center;
+}
+
+.coffeeItem {
+  padding: 1px;
+  margin: 0px 12px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+}
+
+.coffeeItem:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  color: #93BEA4;
+}
+
+.ratio-icon {
+  width: 25px;
+  padding-right: 10px;
+}
+
+.reflection {
+  position: absolute;
+  z-index: 100;
+}
+
+.drink {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+.espresso-style {
+  fill: #684930;
+}
+
+.coffee-style {
+  fill: #924216;
+}
+
+.water-style {
+  fill: #B4E0E0;
+}
+
+.ice-style {
+  fill: #B4E0E0;
+}
+
+.chocolate-style {
+  fill: #3A1F0A;
+}
+
+.steamedMilk-style {
+  fill: #FED7B3;
+}
+
+.milkFoam-style {
+  fill: #FFEDCB;
+}
+
+.whippedCream-style {
+  fill: #FFEDCB;
+}
+
+.cream-style {
+  fill: #FFEDCB;
+}
+
+.iceCream-style {
+  fill: #FFEDCB;
+}
+
+.whiskey-style {
+  fill: #A95A21;
+}

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.typekit.net/fqb7mym.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/tablet.css" media="(max-width: 990px)">
+  <link href="css/phone.css" rel="stylesheet" media="(max-width: 590px)">
+  <title>Coffee</title>
+</head>
+<body>
+  <svg id="rect"></svg>
+  <div class="top">
+    <h1 id="coffee-title-behind">Types <span class="coffee-title-voltage">of</span> <br class="break">Coffee Drinks</span></h1>
+    <h1 id="coffee-title">Types <span class="coffee-title-voltage">of</span> <br class="break">Coffee Drinks</h1>
+  </div>
+  <div>
+    <div id="coffeeItem1" class="coffeeItem-container"></div>
+    <div id="coffeeItem2" class="coffeeItem-container"></div>
+    <div id="coffeeItem3" class="coffeeItem-container"></div>
+    <div id="coffeeItem4" class="coffeeItem-container"></div>
+  </div>
+  <svg class="coffee-svg">
+    <g>
+      <path class="handle" d="M7.7,6.4C25.8-8,72.2,18.2,1.5,70.1" stroke="black" fill="none" stroke-width="5" transform="translate(288,113)"/>
+      <path class="romano-lemon" d="M40.2,2.5v75.3 M77.8,40.2H2.5 M13.5,13.5l53.3,53.3 M66.8,13.5L13.5,66.8 M40.2,2.5 C19.4,2.5,2.5,19.4,2.5,40.2s16.9,37.7,37.7,37.7S77.8,61,77.8,40.2S61,2.5,40.2,2.5z" fill="#EED75C" stroke="#F9E683" stroke-width="5" opacity="0" transform="translate(0, 19)"/>
+
+    </g>
+    <g id="cup-body">
+      <defs>
+        <path id="cup" d="M2.5,2.5h253.4v88.2c0,49.6-35.8,89.7-80,89.7H82.5c-44.2,0-80-40.2-80-89.7V2.5z" stroke="black" fill="none" stroke-width="5" transform="translate(40,60)"/>
+      </defs>
+      <clipPath id="cup-2">
+        <use xlink:href="#cup" overflow="visible"/>
+      </clipPath>
+    </g>
+    <g id="espresso" class="drink" clip-path="url(#cup-2)">
+      <rect id="espresso-1" x="0" y="250" class="espresso-style" width="100%" height="100%"/>
+    </g>
+    <g id="doppio" class="drink" clip-path="url(#cup-2)">
+      <rect id="doppio-1" x="0" y="250" class="espresso-style" width="100%" height="100%"/>
+    </g>
+    <g id="ristretto" class="drink" clip-path="url(#cup-2)">
+      <rect id="ristretto-1" x="0" y="250" class="espresso-style" width="100%" height="100%"/>
+    </g>
+    <g id="lungo" class="drink" clip-path="url(#cup-2)">
+      <rect id="lungo-1" x="0" y="250" class="espresso-style" width="100%" height="100%"/>
+    </g>
+    <g id="romano" class="drink" clip-path="url(#cup-2)">
+      <rect id="romano-1" x="0" y="250" class="espresso-style" width="100%" height="100%"/>
+    </g>
+    <g id="americano" class="drink" clip-path="url(#cup-2)">
+      <rect id="americano-2" x="0" y="250" class="water-style" width="100%" height="100%"/>
+      <rect id="americano-1" x="0" y="250" class="espresso-style" width="100%" height="100%"/>
+    </g>
+    <g id="redEye" class="drink" clip-path="url(#cup-2)">
+      <rect id="redEye-2" x="0" y="250" class="coffee-style" width="100%" height="100%"/>
+      <rect id="redEye-1" x="0" y="250" class="espresso-style" width="100%" height="100%"/>
+    </g>
+    <g id="caféAuLait" class="drink" clip-path="url(#cup-2)">
+      <rect id="caféAuLait-2" x="0" y="250" class="steamedMilk-style" width="100%" height="100%"/>
+      <rect id="caféAuLait-1" x="0" y="250" class="coffee-style" width="100%" height="100%"/>
+    </g>
+    <g id="macchiato" class="drink" clip-path="url(#cup-2)">
+      <rect id="macchiato-2" x="0" y="250" class="steamedMilk-style" width="100%" height="100%"/>
+      <rect id="macchiato-1" x="0" y="250" class="espresso-style" width="100%" height="100%"/>
+    </g>
+    <g id="flatWhite" class="drink" clip-path="url(#cup-2)">
+      <rect id="flatWhite-2" x="0" y="250" class="steamedMilk-style" width="100%" height="100%"/>
+      <rect id="flatWhite-1" x="0" y="250" class="espresso-style" width="100%" height="100%"/>
+    </g>
+    <g id="cappuccino" class="drink" clip-path="url(#cup-2)">
+      <rect id="cappuccino-3" x="0" y="250" class="milkFoam-style" width="100%" height="100%"/>
+      <rect id="cappuccino-2" x="0" y="250" class="steamedMilk-style" width="100%" height="100%"/>
+      <rect id="cappuccino-1" x="0" y="250" class="espresso-style" width="100%" height="100%"/>
+    </g>
+    <g id="cortado" class="drink" clip-path="url(#cup-2)">
+      <rect id="cortado-3" x="0" y="250" class="milkFoam-style" width="100%" height="100%"/>
+      <rect id="cortado-2" x="0" y="250" class="steamedMilk-style" width="100%" height="100%"/>
+      <rect id="cortado-1" x="0" y="250" class="espresso-style" width="100%" height="100%"/>
+    </g>
+    <g id="latté" class="drink" clip-path="url(#cup-2)">
+      <rect id="latté-3" x="0" y="250" class="milkFoam-style" width="100%" height="100%"/>
+      <rect id="latté-2" x="0" y="250" class="steamedMilk-style" width="100%" height="100%"/>
+      <rect id="latté-1" x="0" y="250" class="espresso-style" width="100%" height="100%"/>
+    </g>
+    <g id="mocha" class="drink" clip-path="url(#cup-2)">
+      <rect id="mocha-4" x="0" y="250" class="whippedCream-style" width="100%" height="100%"/>
+      <rect id="mocha-3" x="0" y="250" class="steamedMilk-style" width="100%" height="100%"/>
+      <rect id="mocha-2" x="0" y="250" class="chocolate-style" width="100%" height="100%"/>
+      <rect id="mocha-1" x="0" y="250" class="espresso-style" width="100%" height="100%"/>
+    </g>
+    <g id="breve" class="drink" clip-path="url(#cup-2)">
+      <rect id="breve-3" x="0" y="250" class="milkFoam-style" width="100%" height="100%"/>
+      <rect id="breve-2" x="0" y="250" class="steamedMilk-style" width="100%" height="100%"/>
+      <rect id="breve-1" x="0" y="250" class="espresso-style" width="100%" height="100%"/>
+    </g>
+    <g id="vienna" class="drink" clip-path="url(#cup-2)">
+      <rect id="vienna-2" x="0" y="250" class="whippedCream-style" width="100%" height="100%"/>
+      <rect id="vienna-1" x="0" y="250" class="espresso-style" width="100%" height="100%"/>
+    </g>
+    <g id="irishCoffee" class="drink" clip-path="url(#cup-2)">
+      <rect id="irishCoffee-3" x="0" y="250" class="whippedCream-style" width="100%" height="100%"/>
+      <rect id="irishCoffee-2" x="0" y="250" class="whiskey-style" width="100%" height="100%"/>
+      <rect id="irishCoffee-1" x="0" y="250" class="espresso-style" width="100%" height="100%"/>
+    </g>
+    <g id="affogato" class="drink" clip-path="url(#cup-2)">
+      <rect id="affogato-2" x="0" y="250" class="iceCream-style" width="100%" height="100%"/>
+      <rect id="affogato-1" x="0" y="250" class="espresso-style" width="100%" height="100%"/>
+    </g>
+    <g id="frappé" class="drink" clip-path="url(#cup-2)">
+      <rect id="frappé-3" x="0" y="250" class="iceCream-style" width="100%" height="100%"/>
+      <rect id="frappé-2" x="0" y="250" class="steamedMilk-style" width="100%" height="100%"/>
+      <rect id="frappé-1" x="0" y="250" class="espresso-style" width="100%" height="100%"/>
+    </g>
+    <g id="frappucino" class="drink active" clip-path="url(#cup-2)">
+      <rect id="frappucino-4" x="0" y="250" class="whippedCream-style" width="100%" height="100%"/>
+      <rect id="frappucino-3" x="0" y="250" class="steamedMilk-style" width="100%" height="100%"/>
+      <rect id="frappucino-2" x="0" y="250" class="ice-style" width="100%" height="100%"/>
+      <rect id="frappucino-1" x="0" y="250" class="espresso-style" width="100%" height="100%"/>
+    </g>
+    <use xlink:href="#cup" overflow="visible" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-miterlimit="10"/>
+
+    <path class="cup-reflection"  d="M43.5,89.8c0,43.8,28,80.3,65,88.2H80c-44.2,0-80-40.2-80-89.7V0h43.5V89.8z M210.2,0l-0.1,89 c0,45.5-30.2,83.1-69.4,89h32.7c44.2,0,80-40.2,80-89.7V0H210.2z" opacity="0.05" transform="translate(43,63)"/>
+
+    <path class="plate" d="M6.4,2.5h290.3c4.2,0,5.5,6.5,1.6,8.4l-19.7,9.8c-14.3,7.1-29.8,10.8-45.4,10.8H69c-16.4,0-32.5-4-47.3-11.8 L4.8,10.9C1,8.9,2.2,2.5,6.4,2.5z" stroke="black" fill="none" stroke-width="5" transform="translate(15,238)"/>
+
+    <path class="plate-reflection" d="M295.8,8.4l-12.2,6.1H14L2.3,8.4C-1.5,6.4-0.3,0,3.9,0h290.3C298.5,0,299.7,6.5,295.8,8.4z" opacity="0.05" transform="translate(18,241)"/>
+  </svg>
+  <div class="flex-buttons">
+    <svg class="buttons prev-button" id="prev">
+      <line id="prev-line" class="button-art" x1="40" y1="25" x2="80" y2="25"/>
+      <path id="prev-arrow" class="button-art" d="M50 15 L40 25 L50 35"/>
+      <circle id="prev-circle-1" class="button-circle" cx="85" cy="25" r="1" fill="black"/>
+      <circle id="prev-circle-2" class="button-circle" cx="90" cy="25" r="1" fill="black"/>
+      <circle id="prev-circle-3" class="button-circle" cx="95" cy="25" r="1" fill="black"/>
+    </svg>
+    <svg class="buttons next-button" id="next">
+      <line id="next-line" class="button-art" x1="20" y1="25" x2="60" y2="25"/>
+      <path id="next-arrow" class="button-art" d="M50 15 L60 25 L50 35"/>
+      <circle id="next-circle-1" class="button-circle" cx="15" cy="25" r="1" fill="black"/>
+      <circle id="next-circle-2" class="button-circle" cx="10" cy="25" r="1" fill="black"/>
+      <circle id="next-circle-3" class="button-circle" cx="5" cy="25" r="1" fill="black"/>
+    </svg>
+  </div>
+  <div class="drink-info">
+    <h2 id="drinkName">Espresso</h2>
+    <div class="drink-flex">
+      <div class="drink-flex-tablet">
+        <div id="drinkCup"></div>
+        <div id="drinkRatio"></div>
+      </div>
+      <div id="drinkBlurb"></div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
+  <!-- Scroll Magic -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

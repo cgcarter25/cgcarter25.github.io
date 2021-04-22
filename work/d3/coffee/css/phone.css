@@ -1,0 +1,43 @@
+
+h1 {
+  font-size: 35px;
+  margin-top: 60px;
+  line-height: 1;
+}
+
+.coffee-title-voltage {
+  font-size: 30px;
+}
+
+.top {
+  height: 140px;
+}
+
+#coffee-title-behind {
+  transform: translate(.8px,1.6px);
+}
+
+.coffee-svg {
+  transform: translateY(-0px);
+}
+
+.flex-buttons {
+  transform: translateY(-80px);
+}
+
+.break {
+  display: block;
+}
+
+.drink-flex {
+  display: block;
+}
+
+.drink-flex-tablet {
+  width: 100%;
+}
+
+.drink-info {
+  width: 270px;
+  transform: translateY(-40px);
+}
