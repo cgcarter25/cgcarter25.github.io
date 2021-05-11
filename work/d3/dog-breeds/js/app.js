@@ -56,7 +56,6 @@ var voronoiGroup = mainContainer.append("g")
 	.attr("transform", "translate(" + margin.left + "," +  margin.top + ")")
 	.attr("class", "voronoiGroup");
 
-
 //define focus line
 var line = d3.line()
   .x(function(d) { return x(d.date); })
