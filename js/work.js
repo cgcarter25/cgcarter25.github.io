@@ -44,8 +44,8 @@ function sizeWorkBoxes() {
     textHeadList[i].style.margin = `${textMargin}px 0px 0px`
   }
 
-  document.querySelector('.work-box-empty-1').style.width = `${workBoxWidth}px`
-  document.querySelector('.work-box-empty-1').style.height = `${workBoxHeight}px`
+  // document.querySelector('.work-box-empty-1').style.width = `${workBoxWidth}px`
+  // document.querySelector('.work-box-empty-1').style.height = `${workBoxHeight}px`
   // document.querySelector('.work-box-empty-2').style.width = `${workBoxWidth}px`
   // document.querySelector('.work-box-empty-2').style.height = `${workBoxHeight}px`
 

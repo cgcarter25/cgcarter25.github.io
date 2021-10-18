@@ -56,6 +56,11 @@ a {
   font: 500 20px fairwater-script, serif;
 }
 
+.cursive {
+  font: 500 20px fairwater-script, serif;
+  color: #eee;
+}
+
 .more-here-container {
   height: 100px;
 }
@@ -98,7 +103,7 @@ a {
 
 .this-way {
   position: relative;
-  color: #a3f7bf;
+  color: #eee;
   margin-bottom: 0px;
 }
 
@@ -283,7 +288,13 @@ hr {
 .take-a-look {
   text-align: center;
   font: 500 20px fairwater-script, serif;
-  color: #a3f7bf;
+  color: #eee;
+}
+
+.video {
+  margin: auto;
+  width: 350;
+  display: block;
 }
 
 .see-also-container {
@@ -387,7 +398,7 @@ hr {
 }
 
 .inline-blurb-container {
-  background-color: #a3f7bf;
+  background-color: #eee;
   color: #1C1C1C;
   padding: 20px;
   width: 63%;
