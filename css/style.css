@@ -249,7 +249,7 @@ hr {
   display: block;
   margin: 0px auto 60px;
   border-radius: 20px;
-  border: 1px solid #D89823;
+  border: 1px solid #212121;
 }
 
 .vertical-video {
@@ -303,7 +303,7 @@ hr {
   width: 390px;
   height: auto;
   border-radius: 10px;
-  border: 1px solid #D89823;
+  border: 1px solid #212121;
   object-fit: cover;
 }
 
@@ -311,7 +311,7 @@ hr {
   width: 215px;
   height: auto;
   border-radius: 10px;
-  border: 1px solid #D89823;
+  border: 1px solid #212121;
   object-fit: cover;
 }
 
@@ -319,12 +319,12 @@ hr {
   width: 100%;
   height: auto;
   border-radius: 10px;
-  border: 1px solid #D89823;
+  border: 1px solid #212121;
 }
 
 .blurb-box {
   border-radius: 10px;
-  border: 1px solid #D89823;
+  border: 1px solid #212121;
   background-color: white;
   width: 215px;
   padding: 20px;
