@@ -1,166 +1,213 @@
-body {
-  line-height: 1.4;
-}
-
-.nav-container {
-  margin: 30px 40px 20px;
-}
-
-.nav-link {
-  padding: 10px 5px;
-  font-size: 16px;
-}
-
-.intro-home {
-  width: 300px;
-  right: auto;
-}
-
-.art-image {
-  width: 280px;
-  height: auto;
-}
-
-.intro-blurb {
-  width: 270px;
-  transform: translateY(40px)
-}
-
 .intro-head {
-  font-size: 24px;
+  font-size: 20px;
 }
 
-.intro-home {
-  height: 500px;
+.work-img-static {
+  display: block;
+  position: relative;
 }
 
-.intro-subhead {
-  font-size: 13px;
-  padding-bottom: 10px;
+.work-img-hover {
+  display: none;
 }
 
-.say-more {
+.hover-gradient {
+  display: none;
+}
+
+.work-box {
+  text-align: left;
+}
+
+.box-subhead {
+  position: relative;
+  padding-top: 10px;
+  color: #212121;
   font-size: 16px;
-  padding: 5px 8px;
+}
+
+.box-head {
+  position: relative;
+  color: #212121;
+  font-size: 20px;
+}
+
+.drop-shadow {
+  text-shadow: none;
 }
 
 .see-also-container {
   display: block;
 }
 
-.more-here-container {
-  margin-bottom: 0px;
+.work {
+  padding: 0px 16px;
 }
 
-.flex-between {
-  display: block;
+.about {
+  padding: 0px 16px;
 }
 
-.box-subhead {
+.blurb {
+  width: 90%;
+  padding: 20px 16px 10px;
+  margin:30px 0px;
+}
+
+.blurb-box {
+  width: 80%;
+  padding: 10px;
+}
+
+.blurb-no-background {
+  width: 90%;
+  padding: 20px 16px 10px;
+  margin:30px auto 0px;
+}
+
+.page-image {
+  margin:30px auto;
+  padding: 0;
+}
+
+.page-image-border {
+  margin: 0px auto 30px;
+  padding: 0;
+}
+
+.blurb-head {
+  width: 90%;
+}
+
+.home-name {
   font-size: 16px;
 }
 
-.box-head {
-  font-size: 20px;
+.nav-link {
+  font-size: 36px;
 }
 
-.image-caption {
-  width: 100%;
-  padding: 0;
+.nav-link-box {
+  padding: 30px;
   text-align: center;
 }
 
-.caption-head {
-  font-size: 30px;
-}
-
-.caption-subhead {
-  font-size: 24px;
-}
-
-.margin {
-  margin: 40px 20px;
-}
-
-.inline-container {
-  display:block;
-}
-
-.inline-image {
+.image-header {
   display: none;
 }
 
-.inline-blurb-container {
-  padding: 10px;
-  width: 100%;
+.filler {
+  display: none;
 }
 
-.inline-blurb {
-  margin: 10px 10px 10px;
+.project-title-container {
+  top: auto;
+  position: relative;
+  padding: 0px 16px 10px;
+}
+
+.project-stats-container {
+  color: #212121;
+  font-size: 12px;
+  bottom: auto;
+  position: relative;
+  padding: 0px 16px;
+}
+
+.project-title {
+  font-size: 20px;
+  color: #4056A1;
+}
+
+.project-subtitle {
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 0px;
+  color: #212121;
+}
+
+.stats-header {
+  color: gray;
+}
+
+.nav {
+  display: none;
+}
+
+.nav-hr-page {
+  display: none;
+}
+
+.see-also-description {
+  margin-bottom: 30px;
+}
+
+.hide-phone-box{
+  display: none;
 }
 
 .footer-head {
   font-size: 20px;
 }
 
-.email-link {
-  font-size: 16px;
-}
-
-.social-image {
-  padding: 4px;
-}
-
-.stats {
+.phone-nav {
   display: block;
+  position: absolute;
+  right: 20px;
+  z-index: 2000px;
 }
 
-.blurb {
-  width: 100%;
-  padding: 0;
+.phone-nav:hover {
+  cursor: pointer;
 }
 
-.intro-about {
+.nav-container {
+  padding: 10px 16px 10px;
+  height: 50px;
+  background-color: transparent;
+}
+
+.nav-container-page {
+  padding: 10px 0px 10px;
+  height: 50px;
+  background-color: transparent;
+}
+
+.phone-nav-container {
   display: block;
-  justify-content: center;
-}
-
-.about-head {
-  font-size: 20px;
-}
-
-.about-paragraph-intro {
-  padding: 40px 0px;
-}
-
-.about-image {
+  position: sticky;
+  top: -16;
+  z-index: 1000;
+  height: 100vh;
+  width: 100vw;
+  background-color: #FAFAFA;
   display: none;
 }
 
-.about-head {
-  font-size: 24px;
-  margin-top: 30px;
+.phone-nav-link-container {
+  padding-top: 30vh;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
 }
 
 .contact-form-double {
   display: block;
+  width: 100%;
 }
 
-.image-header {
-
+.contact-input-half {
+  width: 100%;
 }
 
-.nav-logo {
-  width: 40px;
+.contact-input {
+  width: 100%;
 }
 
-
-.cursive-link {
-  font-size: 16px;
-  text-align: center;
+.about-head {
+  font-size: 30px
 }
 
-.more-here {
-  float: none;
-  line-height: 0.9;
+.contact-subhead {
+  font-size: 20px
 }
