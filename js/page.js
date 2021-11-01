@@ -26,24 +26,25 @@ function changeNav() {
       for(let i = 0; i < navLinks.length; i++) {
         navLinks[i].style.color = '#FAFAFA'
       }
-    }  }
-
+    }
+  }
 }
 
 function sizeSeeAlso() {
-
+windowWidth = window.innerWidth
   if (windowWidth <= 480) {
-    seeAlsoBoxWidth = windowWidth-50
+    seeAlsoBoxWidth = windowWidth - 50
   } else if (windowWidth <=990 && windowWidth > 480) {
-    seeAlsoBoxWidth = windowWidth/3
+    seeAlsoBoxWidth = windowWidth/2.3
   } else if (windowWidth >990){
-    seeAlsoBoxWidth = windowWidth/4.5
+    seeAlsoBoxWidth = 280
   }
 
   for (let i = 0; i < seeAlsoBoxes.length; i++) {
     seeAlsoBoxes[i].style.width = `${seeAlsoBoxWidth}px`;
     document.querySelector(`#${seeAlsoBoxes[i].id}-image`).style.width = `${seeAlsoBoxWidth}px`;
     document.querySelector(`#${seeAlsoBoxes[i].id}-image`).style.height = `${seeAlsoBoxWidth}px`;
+    console.log(seeAlsoBoxWidth);
   }
 }
 
