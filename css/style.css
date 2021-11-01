@@ -347,15 +347,8 @@ hr {
 }
 
 .see-also-box {
-  width: 270px;
   padding-right: 10px;
   padding-bottom: 0px;
-}
-
-.see-also-head {
-  font: 500 30px jubilat, serif;
-  color: #212121;
-  padding-bottom: 16px;
 }
 
 .see-also-image {
@@ -365,10 +358,16 @@ hr {
   padding-bottom: 10px;
 }
 
+.see-also-head {
+  font: 500 30px jubilat, serif;
+  color: #212121;
+  padding-bottom: 5px;
+}
+
 .see-also-header {
   font: 500 20px jubilat, serif;
   color: #212121;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
 }
 
 .see-also-description {
