@@ -211,3 +211,7 @@
 .contact-subhead {
   font-size: 20px
 }
+
+.work-box-empty-1 {
+  display: none;
+}
