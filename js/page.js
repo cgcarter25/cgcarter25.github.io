@@ -14,10 +14,10 @@ function changeNav() {
   if (windowWidth > 480) {
     if (imageHeader.getBoundingClientRect().bottom <= navContainer.getBoundingClientRect().bottom) {
       navContainer.style.backgroundColor = '#FAFAFA'
-      hr.style.borderColor = '#212121'
-      homeName.style.color = '#212121'
+      hr.style.borderColor = '#264653'
+      homeName.style.color = '#264653'
       for(let i = 0; i < navLinks.length; i++) {
-        navLinks[i].style.color = '#212121'
+        navLinks[i].style.color = '#264653'
       }
     } else {
       navContainer.style.backgroundColor = ''
